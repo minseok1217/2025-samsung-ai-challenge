@@ -1,0 +1,4208 @@
+{
+    "info": {
+        "description": "VMCBench converted to VQAv2 Annotations for val2014"
+    },
+    "data_type": "mscoco_val2014",
+    "annotations": [
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Building muscle and strength",
+            "answers": [
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                },
+                {
+                    "answer": "Building muscle and strength",
+                    "answer_confidence": "yes",
+                    "question_id": 0,
+                    "image_id": 0
+                }
+            ],
+            "image_id": 0,
+            "answer_type": "other",
+            "question_id": 0,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 1,
+                    "image_id": 1
+                }
+            ],
+            "image_id": 1,
+            "answer_type": "other",
+            "question_id": 1,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Standing",
+            "answers": [
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                },
+                {
+                    "answer": "Standing",
+                    "answer_confidence": "yes",
+                    "question_id": 2,
+                    "image_id": 2
+                }
+            ],
+            "image_id": 2,
+            "answer_type": "other",
+            "question_id": 2,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "A CrossFit gym",
+            "answers": [
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                },
+                {
+                    "answer": "A CrossFit gym",
+                    "answer_confidence": "yes",
+                    "question_id": 3,
+                    "image_id": 3
+                }
+            ],
+            "image_id": 3,
+            "answer_type": "other",
+            "question_id": 3,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Pickled radish",
+            "answers": [
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                },
+                {
+                    "answer": "Pickled radish",
+                    "answer_confidence": "yes",
+                    "question_id": 4,
+                    "image_id": 4
+                }
+            ],
+            "image_id": 4,
+            "answer_type": "other",
+            "question_id": 4,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Pink",
+            "answers": [
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                },
+                {
+                    "answer": "Pink",
+                    "answer_confidence": "yes",
+                    "question_id": 5,
+                    "image_id": 5
+                }
+            ],
+            "image_id": 5,
+            "answer_type": "other",
+            "question_id": 5,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Forest",
+            "answers": [
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                },
+                {
+                    "answer": "Forest",
+                    "answer_confidence": "yes",
+                    "question_id": 6,
+                    "image_id": 6
+                }
+            ],
+            "image_id": 6,
+            "answer_type": "other",
+            "question_id": 6,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "For studying",
+            "answers": [
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 7,
+                    "image_id": 7
+                }
+            ],
+            "image_id": 7,
+            "answer_type": "other",
+            "question_id": 7,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Running shoes",
+            "answers": [
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                },
+                {
+                    "answer": "Running shoes",
+                    "answer_confidence": "yes",
+                    "question_id": 8,
+                    "image_id": 8
+                }
+            ],
+            "image_id": 8,
+            "answer_type": "other",
+            "question_id": 8,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 9,
+                    "image_id": 9
+                }
+            ],
+            "image_id": 9,
+            "answer_type": "other",
+            "question_id": 9,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "A skateboard",
+            "answers": [
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                },
+                {
+                    "answer": "A skateboard",
+                    "answer_confidence": "yes",
+                    "question_id": 10,
+                    "image_id": 10
+                }
+            ],
+            "image_id": 10,
+            "answer_type": "other",
+            "question_id": 10,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Books and study materials",
+            "answers": [
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                },
+                {
+                    "answer": "Books and study materials",
+                    "answer_confidence": "yes",
+                    "question_id": 11,
+                    "image_id": 11
+                }
+            ],
+            "image_id": 11,
+            "answer_type": "other",
+            "question_id": 11,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Red",
+            "answers": [
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                },
+                {
+                    "answer": "Red",
+                    "answer_confidence": "yes",
+                    "question_id": 12,
+                    "image_id": 12
+                }
+            ],
+            "image_id": 12,
+            "answer_type": "other",
+            "question_id": 12,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "The climber is physically fit.",
+            "answers": [
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                },
+                {
+                    "answer": "The climber is physically fit.",
+                    "answer_confidence": "yes",
+                    "question_id": 13,
+                    "image_id": 13
+                }
+            ],
+            "image_id": 13,
+            "answer_type": "other",
+            "question_id": 13,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Afternoon",
+            "answers": [
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 14,
+                    "image_id": 14
+                }
+            ],
+            "image_id": 14,
+            "answer_type": "other",
+            "question_id": 14,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Performing tricks at a skate park",
+            "answers": [
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                },
+                {
+                    "answer": "Performing tricks at a skate park",
+                    "answer_confidence": "yes",
+                    "question_id": 15,
+                    "image_id": 15
+                }
+            ],
+            "image_id": 15,
+            "answer_type": "other",
+            "question_id": 15,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Kimchi",
+            "answers": [
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                },
+                {
+                    "answer": "Kimchi",
+                    "answer_confidence": "yes",
+                    "question_id": 16,
+                    "image_id": 16
+                }
+            ],
+            "image_id": 16,
+            "answer_type": "other",
+            "question_id": 16,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Maple wood",
+            "answers": [
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                },
+                {
+                    "answer": "Maple wood",
+                    "answer_confidence": "yes",
+                    "question_id": 17,
+                    "image_id": 17
+                }
+            ],
+            "image_id": 17,
+            "answer_type": "other",
+            "question_id": 17,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Marine",
+            "answers": [
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                },
+                {
+                    "answer": "Marine",
+                    "answer_confidence": "yes",
+                    "question_id": 18,
+                    "image_id": 18
+                }
+            ],
+            "image_id": 18,
+            "answer_type": "other",
+            "question_id": 18,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "For exercise and relaxation",
+            "answers": [
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                },
+                {
+                    "answer": "For exercise and relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 19,
+                    "image_id": 19
+                }
+            ],
+            "image_id": 19,
+            "answer_type": "other",
+            "question_id": 19,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "A traditional Korean restaurant",
+            "answers": [
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                },
+                {
+                    "answer": "A traditional Korean restaurant",
+                    "answer_confidence": "yes",
+                    "question_id": 20,
+                    "image_id": 20
+                }
+            ],
+            "image_id": 20,
+            "answer_type": "other",
+            "question_id": 20,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Eating",
+            "answers": [
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                },
+                {
+                    "answer": "Eating",
+                    "answer_confidence": "yes",
+                    "question_id": 21,
+                    "image_id": 21
+                }
+            ],
+            "image_id": 21,
+            "answer_type": "other",
+            "question_id": 21,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Evening",
+            "answers": [
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                },
+                {
+                    "answer": "Evening",
+                    "answer_confidence": "yes",
+                    "question_id": 22,
+                    "image_id": 22
+                }
+            ],
+            "image_id": 22,
+            "answer_type": "other",
+            "question_id": 22,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Rock Climbing",
+            "answers": [
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                },
+                {
+                    "answer": "Rock Climbing",
+                    "answer_confidence": "yes",
+                    "question_id": 23,
+                    "image_id": 23
+                }
+            ],
+            "image_id": 23,
+            "answer_type": "other",
+            "question_id": 23,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Four or more people.",
+            "answers": [
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                },
+                {
+                    "answer": "Four or more people.",
+                    "answer_confidence": "yes",
+                    "question_id": 24,
+                    "image_id": 24
+                }
+            ],
+            "image_id": 24,
+            "answer_type": "other",
+            "question_id": 24,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 25,
+                    "image_id": 25
+                }
+            ],
+            "image_id": 25,
+            "answer_type": "other",
+            "question_id": 25,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "A fishing rod",
+            "answers": [
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                },
+                {
+                    "answer": "A fishing rod",
+                    "answer_confidence": "yes",
+                    "question_id": 26,
+                    "image_id": 26
+                }
+            ],
+            "image_id": 26,
+            "answer_type": "other",
+            "question_id": 26,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "1-2 years",
+            "answers": [
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                },
+                {
+                    "answer": "1-2 years",
+                    "answer_confidence": "yes",
+                    "question_id": 27,
+                    "image_id": 27
+                }
+            ],
+            "image_id": 27,
+            "answer_type": "other",
+            "question_id": 27,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Comfortable and breathable outdoor clothing",
+            "answers": [
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                },
+                {
+                    "answer": "Comfortable and breathable outdoor clothing",
+                    "answer_confidence": "yes",
+                    "question_id": 28,
+                    "image_id": 28
+                }
+            ],
+            "image_id": 28,
+            "answer_type": "other",
+            "question_id": 28,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Running",
+            "answers": [
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 29,
+                    "image_id": 29
+                }
+            ],
+            "image_id": 29,
+            "answer_type": "other",
+            "question_id": 29,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 30,
+                    "image_id": 30
+                }
+            ],
+            "image_id": 30,
+            "answer_type": "other",
+            "question_id": 30,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Roasting marshmallows",
+            "answers": [
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                },
+                {
+                    "answer": "Roasting marshmallows",
+                    "answer_confidence": "yes",
+                    "question_id": 31,
+                    "image_id": 31
+                }
+            ],
+            "image_id": 31,
+            "answer_type": "other",
+            "question_id": 31,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Fishing",
+            "answers": [
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                },
+                {
+                    "answer": "Fishing",
+                    "answer_confidence": "yes",
+                    "question_id": 32,
+                    "image_id": 32
+                }
+            ],
+            "image_id": 32,
+            "answer_type": "other",
+            "question_id": 32,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Green",
+            "answers": [
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                },
+                {
+                    "answer": "Green",
+                    "answer_confidence": "yes",
+                    "question_id": 33,
+                    "image_id": 33
+                }
+            ],
+            "image_id": 33,
+            "answer_type": "other",
+            "question_id": 33,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Japan",
+            "answers": [
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                },
+                {
+                    "answer": "Japan",
+                    "answer_confidence": "yes",
+                    "question_id": 34,
+                    "image_id": 34
+                }
+            ],
+            "image_id": 34,
+            "answer_type": "other",
+            "question_id": 34,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Sunbathing and swimming",
+            "answers": [
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                },
+                {
+                    "answer": "Sunbathing and swimming",
+                    "answer_confidence": "yes",
+                    "question_id": 35,
+                    "image_id": 35
+                }
+            ],
+            "image_id": 35,
+            "answer_type": "other",
+            "question_id": 35,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Hiking",
+            "answers": [
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                },
+                {
+                    "answer": "Hiking",
+                    "answer_confidence": "yes",
+                    "question_id": 36,
+                    "image_id": 36
+                }
+            ],
+            "image_id": 36,
+            "answer_type": "other",
+            "question_id": 36,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Christmas",
+            "answers": [
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                },
+                {
+                    "answer": "Christmas",
+                    "answer_confidence": "yes",
+                    "question_id": 37,
+                    "image_id": 37
+                }
+            ],
+            "image_id": 37,
+            "answer_type": "other",
+            "question_id": 37,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Both A and B",
+            "answers": [
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                },
+                {
+                    "answer": "Both A and B",
+                    "answer_confidence": "yes",
+                    "question_id": 38,
+                    "image_id": 38
+                }
+            ],
+            "image_id": 38,
+            "answer_type": "other",
+            "question_id": 38,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Climbing helmet",
+            "answers": [
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                },
+                {
+                    "answer": "Climbing helmet",
+                    "answer_confidence": "yes",
+                    "question_id": 39,
+                    "image_id": 39
+                }
+            ],
+            "image_id": 39,
+            "answer_type": "other",
+            "question_id": 39,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Korean dish",
+            "answers": [
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                },
+                {
+                    "answer": "Korean dish",
+                    "answer_confidence": "yes",
+                    "question_id": 40,
+                    "image_id": 40
+                }
+            ],
+            "image_id": 40,
+            "answer_type": "other",
+            "question_id": 40,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Blue",
+            "answers": [
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 41,
+                    "image_id": 41
+                }
+            ],
+            "image_id": 41,
+            "answer_type": "other",
+            "question_id": 41,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Black",
+            "answers": [
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                },
+                {
+                    "answer": "Black",
+                    "answer_confidence": "yes",
+                    "question_id": 42,
+                    "image_id": 42
+                }
+            ],
+            "image_id": 42,
+            "answer_type": "other",
+            "question_id": 42,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Silence is generally maintained",
+            "answers": [
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                },
+                {
+                    "answer": "Silence is generally maintained",
+                    "answer_confidence": "yes",
+                    "question_id": 43,
+                    "image_id": 43
+                }
+            ],
+            "image_id": 43,
+            "answer_type": "other",
+            "question_id": 43,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Beef",
+            "answers": [
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                },
+                {
+                    "answer": "Beef",
+                    "answer_confidence": "yes",
+                    "question_id": 44,
+                    "image_id": 44
+                }
+            ],
+            "image_id": 44,
+            "answer_type": "other",
+            "question_id": 44,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Blue",
+            "answers": [
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                },
+                {
+                    "answer": "Blue",
+                    "answer_confidence": "yes",
+                    "question_id": 45,
+                    "image_id": 45
+                }
+            ],
+            "image_id": 45,
+            "answer_type": "other",
+            "question_id": 45,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Gimbap (Korean sushi roll)",
+            "answers": [
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                },
+                {
+                    "answer": "Gimbap (Korean sushi roll)",
+                    "answer_confidence": "yes",
+                    "question_id": 46,
+                    "image_id": 46
+                }
+            ],
+            "image_id": 46,
+            "answer_type": "other",
+            "question_id": 46,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Afternoon",
+            "answers": [
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                },
+                {
+                    "answer": "Afternoon",
+                    "answer_confidence": "yes",
+                    "question_id": 47,
+                    "image_id": 47
+                }
+            ],
+            "image_id": 47,
+            "answer_type": "other",
+            "question_id": 47,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "For studying",
+            "answers": [
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                },
+                {
+                    "answer": "For studying",
+                    "answer_confidence": "yes",
+                    "question_id": 48,
+                    "image_id": 48
+                }
+            ],
+            "image_id": 48,
+            "answer_type": "other",
+            "question_id": 48,
+            "answer_label": 1
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "All of the above",
+            "answers": [
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                },
+                {
+                    "answer": "All of the above",
+                    "answer_confidence": "yes",
+                    "question_id": 49,
+                    "image_id": 49
+                }
+            ],
+            "image_id": 49,
+            "answer_type": "other",
+            "question_id": 49,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "To appreciate the beauty of cherry blossoms",
+            "answers": [
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                },
+                {
+                    "answer": "To appreciate the beauty of cherry blossoms",
+                    "answer_confidence": "yes",
+                    "question_id": 50,
+                    "image_id": 50
+                }
+            ],
+            "image_id": 50,
+            "answer_type": "other",
+            "question_id": 50,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 51,
+                    "image_id": 51
+                }
+            ],
+            "image_id": 51,
+            "answer_type": "other",
+            "question_id": 51,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Korea",
+            "answers": [
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                },
+                {
+                    "answer": "Korea",
+                    "answer_confidence": "yes",
+                    "question_id": 52,
+                    "image_id": 52
+                }
+            ],
+            "image_id": 52,
+            "answer_type": "other",
+            "question_id": 52,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Outdoor running track",
+            "answers": [
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                },
+                {
+                    "answer": "Outdoor running track",
+                    "answer_confidence": "yes",
+                    "question_id": 53,
+                    "image_id": 53
+                }
+            ],
+            "image_id": 53,
+            "answer_type": "other",
+            "question_id": 53,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Brown",
+            "answers": [
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                },
+                {
+                    "answer": "Brown",
+                    "answer_confidence": "yes",
+                    "question_id": 54,
+                    "image_id": 54
+                }
+            ],
+            "image_id": 54,
+            "answer_type": "other",
+            "question_id": 54,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Studying",
+            "answers": [
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                },
+                {
+                    "answer": "Studying",
+                    "answer_confidence": "yes",
+                    "question_id": 55,
+                    "image_id": 55
+                }
+            ],
+            "image_id": 55,
+            "answer_type": "other",
+            "question_id": 55,
+            "answer_label": 2
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "For leisure or relaxation",
+            "answers": [
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                },
+                {
+                    "answer": "For leisure or relaxation",
+                    "answer_confidence": "yes",
+                    "question_id": 56,
+                    "image_id": 56
+                }
+            ],
+            "image_id": 56,
+            "answer_type": "other",
+            "question_id": 56,
+            "answer_label": 3
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Running",
+            "answers": [
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                },
+                {
+                    "answer": "Running",
+                    "answer_confidence": "yes",
+                    "question_id": 57,
+                    "image_id": 57
+                }
+            ],
+            "image_id": 57,
+            "answer_type": "other",
+            "question_id": 57,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Germany",
+            "answers": [
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                },
+                {
+                    "answer": "Germany",
+                    "answer_confidence": "yes",
+                    "question_id": 58,
+                    "image_id": 58
+                }
+            ],
+            "image_id": 58,
+            "answer_type": "other",
+            "question_id": 58,
+            "answer_label": 0
+        },
+        {
+            "question_type": "multiple choice",
+            "multiple_choice_answer": "Keep silence",
+            "answers": [
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                },
+                {
+                    "answer": "Keep silence",
+                    "answer_confidence": "yes",
+                    "question_id": 59,
+                    "image_id": 59
+                }
+            ],
+            "image_id": 59,
+            "answer_type": "other",
+            "question_id": 59,
+            "answer_label": 3
+        }
+    ]
+}

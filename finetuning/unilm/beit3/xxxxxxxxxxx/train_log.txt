@@ -1,0 +1,2724 @@
+nohup: ignoring input
+
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+| distributed init (rank 0): env://, gpu 0
+/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+| distributed init (rank 1): env://, gpu 1
+/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user. 
+  warnings.warn(  # warn only once
+[rank0]:[W721 09:23:52.391975649 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 0]  using GPU 0 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+[rank1]:[W721 09:23:53.336615113 ProcessGroupNCCL.cpp:4718] [PG ID 0 PG GUID 0 Rank 1]  using GPU 1 as device used by this process is currently unknown. This can potentially cause a hang if this rank to GPU mapping is incorrect. You can pecify device_id in init_process_group() to force use of a particular device.
+Namespace(model='beit3_large_patch16_224_language_model_multichoice_prefix', task='language_model_multichoice_prefix', input_size=224, drop_path=0.1, checkpoint_activations=None, sentencepiece_model='/data/2_data_server/cv-07/dice/2025_samsung_challenge/beit3_finetuning/beit3/beit3.spm', vocab_size=64010, num_max_bpe_tokens=64, model_ema=False, model_ema_decay=0.9999, model_ema_force_cpu=False, opt='adamw', opt_eps=1e-08, opt_betas=[0.9, 0.999], clip_grad=1.0, momentum=0.9, weight_decay=0.05, lr=4e-05, layer_decay=0.9, task_head_lr_weight=0, warmup_lr=1e-06, min_lr=1e-06, warmup_epochs=2, warmup_steps=-1, batch_size=16, eval_batch_size=None, epochs=10, update_freq=1, save_ckpt_freq=1, randaug=False, train_interpolation='bicubic', finetune='/data/2_data_server/cv-07/dice/2025_samsung_challenge/unilm/beit3/beit3_large_patch16_224.pth', model_key='model|module', model_prefix='', data_path='/data/2_data_server/cv-07/dice/2025_samsung_challenge/dataset/visual7w/', output_dir='/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/output_language_model_multichoice_prefix_random_choice/', log_dir='/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/output_language_model_multichoice_prefix_random_choice/log/', device='cuda', seed=42, resume='', auto_resume=True, save_ckpt=True, start_epoch=0, eval=False, dist_eval=True, num_workers=10, pin_mem=True, world_size=2, dist_on_itp=False, dist_url='env://', task_cache_path='/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/output_language_model_multichoice_prefix_random_choice/', nb_classes=1000, mixup=0, cutmix=0, cutmix_minmax=None, mixup_prob=1.0, mixup_switch_prob=0.5, mixup_mode='batch', color_jitter=0.4, aa='rand-m9-mstd0.5-inc1', smoothing=0.1, crop_pct=None, reprob=0.25, remode='pixel', recount=1, resplit=False, captioning_mask_prob=0.6, drop_worst_ratio=0.2, drop_worst_after=12000, num_beams=3, length_penalty=0.6, label_smoothing=0.1, enable_deepspeed=False, initial_scale_power=16, zero_stage=0, rank=0, gpu=0, distributed=True, dist_backend='nccl')
+Load 139867 image-text pairs from /data/2_data_server/cv-07/dice/2025_samsung_challenge/dataset/visual7w/language_model_multichoice_prefix.train.jsonl. 
+Load 60 image-text pairs from /data/2_data_server/cv-07/dice/2025_samsung_challenge/dataset/visual7w/language_model_multichoice_prefix.val.jsonl. 
+Number of training samples: 139867
+Number of validation samples: 60
+model_config = beit3_large_patch16_224_language_model_multichoice_prefix
+model_config = beit3_large_patch16_224_language_model_multichoice_prefix
+Load ckpt from /data/2_data_server/cv-07/dice/2025_samsung_challenge/unilm/beit3/beit3_large_patch16_224.pth
+Load state_dict by model_key = model
+Weights from pretrained model not used in BEiT3ForNextTokenPrediction: ['mim_head.weight', 'mim_head.bias']
+Model = BEiT3ForNextTokenPrediction(
+  (beit3): BEiT3(
+    (text_embed): TextEmbedding(64010, 1024)
+    (vision_embed): VisionEmbedding(
+      (proj): Conv2d(3, 1024, kernel_size=(16, 16), stride=(16, 16))
+    )
+    (encoder): Encoder(
+      (dropout_module): Dropout(p=0.0, inplace=False)
+      (embed_positions): MutliwayEmbedding(
+        (A): PositionalEmbedding(199, 1024)
+        (B): PositionalEmbedding(1024, 1024)
+      )
+      (layers): ModuleList(
+        (0): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.0)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (1): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.004347826086956522)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (2): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.008695652173913044)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (3): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.013043478260869566)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (4): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.017391304347826087)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (5): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.021739130434782608)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (6): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.026086956521739132)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (7): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.030434782608695653)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (8): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.034782608695652174)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (9): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.0391304347826087)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (10): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.043478260869565216)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (11): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.04782608695652174)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (12): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.052173913043478265)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (13): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.05652173913043478)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (14): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.06086956521739131)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (15): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.06521739130434782)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (16): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.06956521739130435)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (17): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.07391304347826087)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (18): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.0782608695652174)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (19): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.08260869565217391)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (20): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.08695652173913043)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (21): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.09130434782608696)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (22): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.09565217391304348)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+        (23): EncoderLayer(
+          (self_attn): MultiheadAttention(
+            (k_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (v_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (q_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (out_proj): MultiwayNetwork(
+              (A): Linear(in_features=1024, out_features=1024, bias=True)
+              (B): Linear(in_features=1024, out_features=1024, bias=True)
+            )
+            (inner_attn_ln): MultiwayNetwork(
+              (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+              (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            )
+            (dropout_module): Dropout(p=0.0, inplace=False)
+          )
+          (self_attn_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+          (dropout_module): Dropout(p=0.0, inplace=False)
+          (drop_path): DropPath(p=0.1)
+          (ffn): MultiwayNetwork(
+            (A): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+            (B): FeedForwardNetwork(
+              (activation_dropout_module): Dropout(p=0.0, inplace=False)
+              (dropout_module): Dropout(p=0.0, inplace=False)
+              (fc1): Linear(in_features=1024, out_features=4096, bias=True)
+              (fc2): Linear(in_features=4096, out_features=1024, bias=True)
+              (ffn_layernorm): LayerNorm((4096,), eps=1e-05, elementwise_affine=True)
+            )
+          )
+          (final_layer_norm): MultiwayNetwork(
+            (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+            (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+          )
+        )
+      )
+      (layer_norm): MultiwayNetwork(
+        (A): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+        (B): LayerNorm((1024,), eps=1e-05, elementwise_affine=True)
+      )
+    )
+  )
+  (mlm_head): Linear(in_features=1024, out_features=64010, bias=True)
+)
+number of params: 738312714
+LR = 0.00004000
+Batch size = 32
+Update frequent = 1
+Number of training examples = 139867
+Number of training training per epoch = 4370
+Assigned values = [0.0717897987691853, 0.07976644307687256, 0.08862938119652507, 0.09847709021836118, 0.10941898913151242, 0.12157665459056935, 0.13508517176729928, 0.15009463529699918, 0.16677181699666577, 0.18530201888518416, 0.20589113209464907, 0.2287679245496101, 0.2541865828329001, 0.2824295364810001, 0.31381059609000006, 0.3486784401000001, 0.3874204890000001, 0.4304672100000001, 0.4782969000000001, 0.531441, 0.5904900000000001, 0.6561, 0.7290000000000001, 0.81, 0.9, 1.0]
+Param groups = {
+  "layer_0_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.text_embed.weight",
+      "beit3.vision_embed.mask_token",
+      "beit3.vision_embed.proj.weight",
+      "beit3.encoder.embed_positions.B.weight"
+    ],
+    "lr_scale": 0.0717897987691853
+  },
+  "layer_0_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.vision_embed.cls_token",
+      "beit3.vision_embed.proj.bias",
+      "beit3.encoder.embed_positions.A.weight"
+    ],
+    "lr_scale": 0.0717897987691853
+  },
+  "layer_1_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.0.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.0.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.0.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.0.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.0.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.0.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.0.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.0.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.0.ffn.A.fc1.weight",
+      "beit3.encoder.layers.0.ffn.A.fc2.weight",
+      "beit3.encoder.layers.0.ffn.B.fc1.weight",
+      "beit3.encoder.layers.0.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.07976644307687256
+  },
+  "layer_1_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.0.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.0.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.0.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.0.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.0.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.0.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.0.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.0.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.0.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.0.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.0.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.0.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.0.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.0.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.0.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.0.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.0.ffn.A.fc1.bias",
+      "beit3.encoder.layers.0.ffn.A.fc2.bias",
+      "beit3.encoder.layers.0.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.0.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.0.ffn.B.fc1.bias",
+      "beit3.encoder.layers.0.ffn.B.fc2.bias",
+      "beit3.encoder.layers.0.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.0.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.0.final_layer_norm.A.weight",
+      "beit3.encoder.layers.0.final_layer_norm.A.bias",
+      "beit3.encoder.layers.0.final_layer_norm.B.weight",
+      "beit3.encoder.layers.0.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.07976644307687256
+  },
+  "layer_2_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.1.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.1.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.1.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.1.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.1.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.1.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.1.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.1.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.1.ffn.A.fc1.weight",
+      "beit3.encoder.layers.1.ffn.A.fc2.weight",
+      "beit3.encoder.layers.1.ffn.B.fc1.weight",
+      "beit3.encoder.layers.1.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.08862938119652507
+  },
+  "layer_2_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.1.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.1.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.1.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.1.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.1.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.1.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.1.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.1.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.1.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.1.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.1.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.1.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.1.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.1.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.1.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.1.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.1.ffn.A.fc1.bias",
+      "beit3.encoder.layers.1.ffn.A.fc2.bias",
+      "beit3.encoder.layers.1.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.1.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.1.ffn.B.fc1.bias",
+      "beit3.encoder.layers.1.ffn.B.fc2.bias",
+      "beit3.encoder.layers.1.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.1.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.1.final_layer_norm.A.weight",
+      "beit3.encoder.layers.1.final_layer_norm.A.bias",
+      "beit3.encoder.layers.1.final_layer_norm.B.weight",
+      "beit3.encoder.layers.1.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.08862938119652507
+  },
+  "layer_3_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.2.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.2.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.2.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.2.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.2.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.2.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.2.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.2.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.2.ffn.A.fc1.weight",
+      "beit3.encoder.layers.2.ffn.A.fc2.weight",
+      "beit3.encoder.layers.2.ffn.B.fc1.weight",
+      "beit3.encoder.layers.2.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.09847709021836118
+  },
+  "layer_3_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.2.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.2.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.2.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.2.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.2.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.2.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.2.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.2.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.2.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.2.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.2.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.2.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.2.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.2.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.2.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.2.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.2.ffn.A.fc1.bias",
+      "beit3.encoder.layers.2.ffn.A.fc2.bias",
+      "beit3.encoder.layers.2.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.2.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.2.ffn.B.fc1.bias",
+      "beit3.encoder.layers.2.ffn.B.fc2.bias",
+      "beit3.encoder.layers.2.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.2.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.2.final_layer_norm.A.weight",
+      "beit3.encoder.layers.2.final_layer_norm.A.bias",
+      "beit3.encoder.layers.2.final_layer_norm.B.weight",
+      "beit3.encoder.layers.2.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.09847709021836118
+  },
+  "layer_4_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.3.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.3.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.3.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.3.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.3.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.3.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.3.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.3.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.3.ffn.A.fc1.weight",
+      "beit3.encoder.layers.3.ffn.A.fc2.weight",
+      "beit3.encoder.layers.3.ffn.B.fc1.weight",
+      "beit3.encoder.layers.3.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.10941898913151242
+  },
+  "layer_4_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.3.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.3.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.3.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.3.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.3.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.3.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.3.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.3.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.3.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.3.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.3.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.3.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.3.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.3.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.3.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.3.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.3.ffn.A.fc1.bias",
+      "beit3.encoder.layers.3.ffn.A.fc2.bias",
+      "beit3.encoder.layers.3.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.3.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.3.ffn.B.fc1.bias",
+      "beit3.encoder.layers.3.ffn.B.fc2.bias",
+      "beit3.encoder.layers.3.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.3.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.3.final_layer_norm.A.weight",
+      "beit3.encoder.layers.3.final_layer_norm.A.bias",
+      "beit3.encoder.layers.3.final_layer_norm.B.weight",
+      "beit3.encoder.layers.3.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.10941898913151242
+  },
+  "layer_5_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.4.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.4.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.4.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.4.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.4.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.4.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.4.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.4.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.4.ffn.A.fc1.weight",
+      "beit3.encoder.layers.4.ffn.A.fc2.weight",
+      "beit3.encoder.layers.4.ffn.B.fc1.weight",
+      "beit3.encoder.layers.4.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.12157665459056935
+  },
+  "layer_5_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.4.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.4.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.4.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.4.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.4.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.4.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.4.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.4.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.4.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.4.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.4.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.4.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.4.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.4.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.4.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.4.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.4.ffn.A.fc1.bias",
+      "beit3.encoder.layers.4.ffn.A.fc2.bias",
+      "beit3.encoder.layers.4.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.4.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.4.ffn.B.fc1.bias",
+      "beit3.encoder.layers.4.ffn.B.fc2.bias",
+      "beit3.encoder.layers.4.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.4.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.4.final_layer_norm.A.weight",
+      "beit3.encoder.layers.4.final_layer_norm.A.bias",
+      "beit3.encoder.layers.4.final_layer_norm.B.weight",
+      "beit3.encoder.layers.4.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.12157665459056935
+  },
+  "layer_6_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.5.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.5.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.5.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.5.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.5.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.5.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.5.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.5.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.5.ffn.A.fc1.weight",
+      "beit3.encoder.layers.5.ffn.A.fc2.weight",
+      "beit3.encoder.layers.5.ffn.B.fc1.weight",
+      "beit3.encoder.layers.5.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.13508517176729928
+  },
+  "layer_6_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.5.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.5.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.5.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.5.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.5.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.5.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.5.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.5.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.5.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.5.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.5.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.5.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.5.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.5.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.5.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.5.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.5.ffn.A.fc1.bias",
+      "beit3.encoder.layers.5.ffn.A.fc2.bias",
+      "beit3.encoder.layers.5.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.5.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.5.ffn.B.fc1.bias",
+      "beit3.encoder.layers.5.ffn.B.fc2.bias",
+      "beit3.encoder.layers.5.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.5.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.5.final_layer_norm.A.weight",
+      "beit3.encoder.layers.5.final_layer_norm.A.bias",
+      "beit3.encoder.layers.5.final_layer_norm.B.weight",
+      "beit3.encoder.layers.5.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.13508517176729928
+  },
+  "layer_7_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.6.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.6.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.6.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.6.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.6.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.6.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.6.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.6.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.6.ffn.A.fc1.weight",
+      "beit3.encoder.layers.6.ffn.A.fc2.weight",
+      "beit3.encoder.layers.6.ffn.B.fc1.weight",
+      "beit3.encoder.layers.6.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.15009463529699918
+  },
+  "layer_7_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.6.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.6.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.6.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.6.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.6.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.6.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.6.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.6.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.6.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.6.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.6.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.6.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.6.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.6.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.6.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.6.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.6.ffn.A.fc1.bias",
+      "beit3.encoder.layers.6.ffn.A.fc2.bias",
+      "beit3.encoder.layers.6.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.6.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.6.ffn.B.fc1.bias",
+      "beit3.encoder.layers.6.ffn.B.fc2.bias",
+      "beit3.encoder.layers.6.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.6.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.6.final_layer_norm.A.weight",
+      "beit3.encoder.layers.6.final_layer_norm.A.bias",
+      "beit3.encoder.layers.6.final_layer_norm.B.weight",
+      "beit3.encoder.layers.6.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.15009463529699918
+  },
+  "layer_8_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.7.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.7.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.7.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.7.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.7.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.7.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.7.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.7.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.7.ffn.A.fc1.weight",
+      "beit3.encoder.layers.7.ffn.A.fc2.weight",
+      "beit3.encoder.layers.7.ffn.B.fc1.weight",
+      "beit3.encoder.layers.7.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.16677181699666577
+  },
+  "layer_8_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.7.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.7.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.7.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.7.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.7.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.7.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.7.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.7.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.7.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.7.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.7.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.7.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.7.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.7.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.7.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.7.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.7.ffn.A.fc1.bias",
+      "beit3.encoder.layers.7.ffn.A.fc2.bias",
+      "beit3.encoder.layers.7.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.7.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.7.ffn.B.fc1.bias",
+      "beit3.encoder.layers.7.ffn.B.fc2.bias",
+      "beit3.encoder.layers.7.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.7.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.7.final_layer_norm.A.weight",
+      "beit3.encoder.layers.7.final_layer_norm.A.bias",
+      "beit3.encoder.layers.7.final_layer_norm.B.weight",
+      "beit3.encoder.layers.7.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.16677181699666577
+  },
+  "layer_9_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.8.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.8.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.8.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.8.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.8.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.8.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.8.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.8.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.8.ffn.A.fc1.weight",
+      "beit3.encoder.layers.8.ffn.A.fc2.weight",
+      "beit3.encoder.layers.8.ffn.B.fc1.weight",
+      "beit3.encoder.layers.8.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.18530201888518416
+  },
+  "layer_9_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.8.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.8.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.8.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.8.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.8.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.8.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.8.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.8.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.8.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.8.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.8.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.8.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.8.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.8.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.8.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.8.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.8.ffn.A.fc1.bias",
+      "beit3.encoder.layers.8.ffn.A.fc2.bias",
+      "beit3.encoder.layers.8.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.8.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.8.ffn.B.fc1.bias",
+      "beit3.encoder.layers.8.ffn.B.fc2.bias",
+      "beit3.encoder.layers.8.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.8.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.8.final_layer_norm.A.weight",
+      "beit3.encoder.layers.8.final_layer_norm.A.bias",
+      "beit3.encoder.layers.8.final_layer_norm.B.weight",
+      "beit3.encoder.layers.8.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.18530201888518416
+  },
+  "layer_10_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.9.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.9.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.9.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.9.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.9.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.9.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.9.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.9.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.9.ffn.A.fc1.weight",
+      "beit3.encoder.layers.9.ffn.A.fc2.weight",
+      "beit3.encoder.layers.9.ffn.B.fc1.weight",
+      "beit3.encoder.layers.9.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.20589113209464907
+  },
+  "layer_10_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.9.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.9.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.9.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.9.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.9.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.9.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.9.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.9.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.9.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.9.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.9.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.9.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.9.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.9.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.9.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.9.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.9.ffn.A.fc1.bias",
+      "beit3.encoder.layers.9.ffn.A.fc2.bias",
+      "beit3.encoder.layers.9.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.9.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.9.ffn.B.fc1.bias",
+      "beit3.encoder.layers.9.ffn.B.fc2.bias",
+      "beit3.encoder.layers.9.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.9.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.9.final_layer_norm.A.weight",
+      "beit3.encoder.layers.9.final_layer_norm.A.bias",
+      "beit3.encoder.layers.9.final_layer_norm.B.weight",
+      "beit3.encoder.layers.9.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.20589113209464907
+  },
+  "layer_11_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.10.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.10.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.10.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.10.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.10.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.10.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.10.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.10.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.10.ffn.A.fc1.weight",
+      "beit3.encoder.layers.10.ffn.A.fc2.weight",
+      "beit3.encoder.layers.10.ffn.B.fc1.weight",
+      "beit3.encoder.layers.10.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.2287679245496101
+  },
+  "layer_11_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.10.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.10.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.10.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.10.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.10.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.10.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.10.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.10.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.10.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.10.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.10.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.10.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.10.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.10.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.10.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.10.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.10.ffn.A.fc1.bias",
+      "beit3.encoder.layers.10.ffn.A.fc2.bias",
+      "beit3.encoder.layers.10.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.10.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.10.ffn.B.fc1.bias",
+      "beit3.encoder.layers.10.ffn.B.fc2.bias",
+      "beit3.encoder.layers.10.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.10.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.10.final_layer_norm.A.weight",
+      "beit3.encoder.layers.10.final_layer_norm.A.bias",
+      "beit3.encoder.layers.10.final_layer_norm.B.weight",
+      "beit3.encoder.layers.10.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.2287679245496101
+  },
+  "layer_12_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.11.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.11.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.11.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.11.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.11.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.11.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.11.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.11.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.11.ffn.A.fc1.weight",
+      "beit3.encoder.layers.11.ffn.A.fc2.weight",
+      "beit3.encoder.layers.11.ffn.B.fc1.weight",
+      "beit3.encoder.layers.11.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.2541865828329001
+  },
+  "layer_12_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.11.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.11.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.11.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.11.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.11.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.11.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.11.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.11.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.11.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.11.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.11.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.11.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.11.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.11.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.11.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.11.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.11.ffn.A.fc1.bias",
+      "beit3.encoder.layers.11.ffn.A.fc2.bias",
+      "beit3.encoder.layers.11.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.11.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.11.ffn.B.fc1.bias",
+      "beit3.encoder.layers.11.ffn.B.fc2.bias",
+      "beit3.encoder.layers.11.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.11.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.11.final_layer_norm.A.weight",
+      "beit3.encoder.layers.11.final_layer_norm.A.bias",
+      "beit3.encoder.layers.11.final_layer_norm.B.weight",
+      "beit3.encoder.layers.11.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.2541865828329001
+  },
+  "layer_13_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.12.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.12.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.12.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.12.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.12.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.12.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.12.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.12.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.12.ffn.A.fc1.weight",
+      "beit3.encoder.layers.12.ffn.A.fc2.weight",
+      "beit3.encoder.layers.12.ffn.B.fc1.weight",
+      "beit3.encoder.layers.12.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.2824295364810001
+  },
+  "layer_13_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.12.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.12.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.12.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.12.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.12.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.12.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.12.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.12.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.12.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.12.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.12.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.12.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.12.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.12.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.12.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.12.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.12.ffn.A.fc1.bias",
+      "beit3.encoder.layers.12.ffn.A.fc2.bias",
+      "beit3.encoder.layers.12.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.12.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.12.ffn.B.fc1.bias",
+      "beit3.encoder.layers.12.ffn.B.fc2.bias",
+      "beit3.encoder.layers.12.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.12.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.12.final_layer_norm.A.weight",
+      "beit3.encoder.layers.12.final_layer_norm.A.bias",
+      "beit3.encoder.layers.12.final_layer_norm.B.weight",
+      "beit3.encoder.layers.12.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.2824295364810001
+  },
+  "layer_14_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.13.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.13.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.13.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.13.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.13.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.13.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.13.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.13.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.13.ffn.A.fc1.weight",
+      "beit3.encoder.layers.13.ffn.A.fc2.weight",
+      "beit3.encoder.layers.13.ffn.B.fc1.weight",
+      "beit3.encoder.layers.13.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.31381059609000006
+  },
+  "layer_14_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.13.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.13.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.13.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.13.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.13.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.13.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.13.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.13.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.13.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.13.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.13.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.13.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.13.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.13.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.13.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.13.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.13.ffn.A.fc1.bias",
+      "beit3.encoder.layers.13.ffn.A.fc2.bias",
+      "beit3.encoder.layers.13.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.13.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.13.ffn.B.fc1.bias",
+      "beit3.encoder.layers.13.ffn.B.fc2.bias",
+      "beit3.encoder.layers.13.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.13.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.13.final_layer_norm.A.weight",
+      "beit3.encoder.layers.13.final_layer_norm.A.bias",
+      "beit3.encoder.layers.13.final_layer_norm.B.weight",
+      "beit3.encoder.layers.13.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.31381059609000006
+  },
+  "layer_15_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.14.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.14.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.14.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.14.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.14.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.14.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.14.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.14.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.14.ffn.A.fc1.weight",
+      "beit3.encoder.layers.14.ffn.A.fc2.weight",
+      "beit3.encoder.layers.14.ffn.B.fc1.weight",
+      "beit3.encoder.layers.14.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.3486784401000001
+  },
+  "layer_15_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.14.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.14.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.14.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.14.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.14.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.14.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.14.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.14.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.14.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.14.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.14.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.14.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.14.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.14.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.14.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.14.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.14.ffn.A.fc1.bias",
+      "beit3.encoder.layers.14.ffn.A.fc2.bias",
+      "beit3.encoder.layers.14.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.14.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.14.ffn.B.fc1.bias",
+      "beit3.encoder.layers.14.ffn.B.fc2.bias",
+      "beit3.encoder.layers.14.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.14.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.14.final_layer_norm.A.weight",
+      "beit3.encoder.layers.14.final_layer_norm.A.bias",
+      "beit3.encoder.layers.14.final_layer_norm.B.weight",
+      "beit3.encoder.layers.14.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.3486784401000001
+  },
+  "layer_16_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.15.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.15.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.15.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.15.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.15.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.15.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.15.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.15.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.15.ffn.A.fc1.weight",
+      "beit3.encoder.layers.15.ffn.A.fc2.weight",
+      "beit3.encoder.layers.15.ffn.B.fc1.weight",
+      "beit3.encoder.layers.15.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.3874204890000001
+  },
+  "layer_16_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.15.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.15.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.15.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.15.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.15.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.15.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.15.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.15.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.15.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.15.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.15.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.15.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.15.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.15.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.15.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.15.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.15.ffn.A.fc1.bias",
+      "beit3.encoder.layers.15.ffn.A.fc2.bias",
+      "beit3.encoder.layers.15.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.15.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.15.ffn.B.fc1.bias",
+      "beit3.encoder.layers.15.ffn.B.fc2.bias",
+      "beit3.encoder.layers.15.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.15.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.15.final_layer_norm.A.weight",
+      "beit3.encoder.layers.15.final_layer_norm.A.bias",
+      "beit3.encoder.layers.15.final_layer_norm.B.weight",
+      "beit3.encoder.layers.15.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.3874204890000001
+  },
+  "layer_17_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.16.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.16.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.16.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.16.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.16.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.16.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.16.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.16.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.16.ffn.A.fc1.weight",
+      "beit3.encoder.layers.16.ffn.A.fc2.weight",
+      "beit3.encoder.layers.16.ffn.B.fc1.weight",
+      "beit3.encoder.layers.16.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.4304672100000001
+  },
+  "layer_17_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.16.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.16.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.16.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.16.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.16.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.16.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.16.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.16.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.16.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.16.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.16.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.16.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.16.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.16.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.16.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.16.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.16.ffn.A.fc1.bias",
+      "beit3.encoder.layers.16.ffn.A.fc2.bias",
+      "beit3.encoder.layers.16.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.16.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.16.ffn.B.fc1.bias",
+      "beit3.encoder.layers.16.ffn.B.fc2.bias",
+      "beit3.encoder.layers.16.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.16.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.16.final_layer_norm.A.weight",
+      "beit3.encoder.layers.16.final_layer_norm.A.bias",
+      "beit3.encoder.layers.16.final_layer_norm.B.weight",
+      "beit3.encoder.layers.16.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.4304672100000001
+  },
+  "layer_18_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.17.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.17.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.17.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.17.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.17.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.17.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.17.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.17.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.17.ffn.A.fc1.weight",
+      "beit3.encoder.layers.17.ffn.A.fc2.weight",
+      "beit3.encoder.layers.17.ffn.B.fc1.weight",
+      "beit3.encoder.layers.17.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.4782969000000001
+  },
+  "layer_18_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.17.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.17.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.17.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.17.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.17.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.17.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.17.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.17.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.17.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.17.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.17.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.17.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.17.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.17.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.17.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.17.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.17.ffn.A.fc1.bias",
+      "beit3.encoder.layers.17.ffn.A.fc2.bias",
+      "beit3.encoder.layers.17.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.17.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.17.ffn.B.fc1.bias",
+      "beit3.encoder.layers.17.ffn.B.fc2.bias",
+      "beit3.encoder.layers.17.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.17.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.17.final_layer_norm.A.weight",
+      "beit3.encoder.layers.17.final_layer_norm.A.bias",
+      "beit3.encoder.layers.17.final_layer_norm.B.weight",
+      "beit3.encoder.layers.17.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.4782969000000001
+  },
+  "layer_19_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.18.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.18.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.18.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.18.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.18.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.18.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.18.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.18.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.18.ffn.A.fc1.weight",
+      "beit3.encoder.layers.18.ffn.A.fc2.weight",
+      "beit3.encoder.layers.18.ffn.B.fc1.weight",
+      "beit3.encoder.layers.18.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.531441
+  },
+  "layer_19_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.18.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.18.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.18.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.18.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.18.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.18.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.18.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.18.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.18.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.18.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.18.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.18.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.18.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.18.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.18.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.18.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.18.ffn.A.fc1.bias",
+      "beit3.encoder.layers.18.ffn.A.fc2.bias",
+      "beit3.encoder.layers.18.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.18.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.18.ffn.B.fc1.bias",
+      "beit3.encoder.layers.18.ffn.B.fc2.bias",
+      "beit3.encoder.layers.18.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.18.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.18.final_layer_norm.A.weight",
+      "beit3.encoder.layers.18.final_layer_norm.A.bias",
+      "beit3.encoder.layers.18.final_layer_norm.B.weight",
+      "beit3.encoder.layers.18.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.531441
+  },
+  "layer_20_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.19.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.19.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.19.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.19.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.19.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.19.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.19.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.19.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.19.ffn.A.fc1.weight",
+      "beit3.encoder.layers.19.ffn.A.fc2.weight",
+      "beit3.encoder.layers.19.ffn.B.fc1.weight",
+      "beit3.encoder.layers.19.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.5904900000000001
+  },
+  "layer_20_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.19.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.19.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.19.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.19.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.19.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.19.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.19.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.19.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.19.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.19.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.19.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.19.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.19.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.19.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.19.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.19.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.19.ffn.A.fc1.bias",
+      "beit3.encoder.layers.19.ffn.A.fc2.bias",
+      "beit3.encoder.layers.19.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.19.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.19.ffn.B.fc1.bias",
+      "beit3.encoder.layers.19.ffn.B.fc2.bias",
+      "beit3.encoder.layers.19.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.19.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.19.final_layer_norm.A.weight",
+      "beit3.encoder.layers.19.final_layer_norm.A.bias",
+      "beit3.encoder.layers.19.final_layer_norm.B.weight",
+      "beit3.encoder.layers.19.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.5904900000000001
+  },
+  "layer_21_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.20.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.20.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.20.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.20.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.20.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.20.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.20.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.20.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.20.ffn.A.fc1.weight",
+      "beit3.encoder.layers.20.ffn.A.fc2.weight",
+      "beit3.encoder.layers.20.ffn.B.fc1.weight",
+      "beit3.encoder.layers.20.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.6561
+  },
+  "layer_21_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.20.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.20.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.20.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.20.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.20.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.20.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.20.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.20.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.20.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.20.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.20.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.20.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.20.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.20.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.20.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.20.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.20.ffn.A.fc1.bias",
+      "beit3.encoder.layers.20.ffn.A.fc2.bias",
+      "beit3.encoder.layers.20.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.20.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.20.ffn.B.fc1.bias",
+      "beit3.encoder.layers.20.ffn.B.fc2.bias",
+      "beit3.encoder.layers.20.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.20.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.20.final_layer_norm.A.weight",
+      "beit3.encoder.layers.20.final_layer_norm.A.bias",
+      "beit3.encoder.layers.20.final_layer_norm.B.weight",
+      "beit3.encoder.layers.20.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.6561
+  },
+  "layer_22_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.21.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.21.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.21.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.21.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.21.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.21.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.21.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.21.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.21.ffn.A.fc1.weight",
+      "beit3.encoder.layers.21.ffn.A.fc2.weight",
+      "beit3.encoder.layers.21.ffn.B.fc1.weight",
+      "beit3.encoder.layers.21.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.7290000000000001
+  },
+  "layer_22_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.21.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.21.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.21.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.21.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.21.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.21.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.21.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.21.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.21.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.21.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.21.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.21.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.21.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.21.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.21.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.21.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.21.ffn.A.fc1.bias",
+      "beit3.encoder.layers.21.ffn.A.fc2.bias",
+      "beit3.encoder.layers.21.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.21.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.21.ffn.B.fc1.bias",
+      "beit3.encoder.layers.21.ffn.B.fc2.bias",
+      "beit3.encoder.layers.21.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.21.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.21.final_layer_norm.A.weight",
+      "beit3.encoder.layers.21.final_layer_norm.A.bias",
+      "beit3.encoder.layers.21.final_layer_norm.B.weight",
+      "beit3.encoder.layers.21.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.7290000000000001
+  },
+  "layer_23_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.22.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.22.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.22.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.22.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.22.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.22.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.22.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.22.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.22.ffn.A.fc1.weight",
+      "beit3.encoder.layers.22.ffn.A.fc2.weight",
+      "beit3.encoder.layers.22.ffn.B.fc1.weight",
+      "beit3.encoder.layers.22.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.81
+  },
+  "layer_23_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.22.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.22.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.22.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.22.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.22.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.22.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.22.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.22.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.22.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.22.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.22.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.22.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.22.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.22.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.22.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.22.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.22.ffn.A.fc1.bias",
+      "beit3.encoder.layers.22.ffn.A.fc2.bias",
+      "beit3.encoder.layers.22.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.22.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.22.ffn.B.fc1.bias",
+      "beit3.encoder.layers.22.ffn.B.fc2.bias",
+      "beit3.encoder.layers.22.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.22.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.22.final_layer_norm.A.weight",
+      "beit3.encoder.layers.22.final_layer_norm.A.bias",
+      "beit3.encoder.layers.22.final_layer_norm.B.weight",
+      "beit3.encoder.layers.22.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.81
+  },
+  "layer_24_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "beit3.encoder.layers.23.self_attn.k_proj.A.weight",
+      "beit3.encoder.layers.23.self_attn.k_proj.B.weight",
+      "beit3.encoder.layers.23.self_attn.v_proj.A.weight",
+      "beit3.encoder.layers.23.self_attn.v_proj.B.weight",
+      "beit3.encoder.layers.23.self_attn.q_proj.A.weight",
+      "beit3.encoder.layers.23.self_attn.q_proj.B.weight",
+      "beit3.encoder.layers.23.self_attn.out_proj.A.weight",
+      "beit3.encoder.layers.23.self_attn.out_proj.B.weight",
+      "beit3.encoder.layers.23.ffn.A.fc1.weight",
+      "beit3.encoder.layers.23.ffn.A.fc2.weight",
+      "beit3.encoder.layers.23.ffn.B.fc1.weight",
+      "beit3.encoder.layers.23.ffn.B.fc2.weight"
+    ],
+    "lr_scale": 0.9
+  },
+  "layer_24_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layers.23.self_attn.k_proj.A.bias",
+      "beit3.encoder.layers.23.self_attn.k_proj.B.bias",
+      "beit3.encoder.layers.23.self_attn.v_proj.A.bias",
+      "beit3.encoder.layers.23.self_attn.v_proj.B.bias",
+      "beit3.encoder.layers.23.self_attn.q_proj.A.bias",
+      "beit3.encoder.layers.23.self_attn.q_proj.B.bias",
+      "beit3.encoder.layers.23.self_attn.out_proj.A.bias",
+      "beit3.encoder.layers.23.self_attn.out_proj.B.bias",
+      "beit3.encoder.layers.23.self_attn.inner_attn_ln.A.weight",
+      "beit3.encoder.layers.23.self_attn.inner_attn_ln.A.bias",
+      "beit3.encoder.layers.23.self_attn.inner_attn_ln.B.weight",
+      "beit3.encoder.layers.23.self_attn.inner_attn_ln.B.bias",
+      "beit3.encoder.layers.23.self_attn_layer_norm.A.weight",
+      "beit3.encoder.layers.23.self_attn_layer_norm.A.bias",
+      "beit3.encoder.layers.23.self_attn_layer_norm.B.weight",
+      "beit3.encoder.layers.23.self_attn_layer_norm.B.bias",
+      "beit3.encoder.layers.23.ffn.A.fc1.bias",
+      "beit3.encoder.layers.23.ffn.A.fc2.bias",
+      "beit3.encoder.layers.23.ffn.A.ffn_layernorm.weight",
+      "beit3.encoder.layers.23.ffn.A.ffn_layernorm.bias",
+      "beit3.encoder.layers.23.ffn.B.fc1.bias",
+      "beit3.encoder.layers.23.ffn.B.fc2.bias",
+      "beit3.encoder.layers.23.ffn.B.ffn_layernorm.weight",
+      "beit3.encoder.layers.23.ffn.B.ffn_layernorm.bias",
+      "beit3.encoder.layers.23.final_layer_norm.A.weight",
+      "beit3.encoder.layers.23.final_layer_norm.A.bias",
+      "beit3.encoder.layers.23.final_layer_norm.B.weight",
+      "beit3.encoder.layers.23.final_layer_norm.B.bias"
+    ],
+    "lr_scale": 0.9
+  },
+  "layer_25_no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "beit3.encoder.layer_norm.A.weight",
+      "beit3.encoder.layer_norm.A.bias",
+      "beit3.encoder.layer_norm.B.weight",
+      "beit3.encoder.layer_norm.B.bias",
+      "mlm_head.bias"
+    ],
+    "lr_scale": 1.0
+  },
+  "layer_25_decay": {
+    "weight_decay": 0.05,
+    "params": [
+      "mlm_head.weight"
+    ],
+    "lr_scale": 1.0
+  }
+}
+Set warmup steps = 8740
+Auto resume checkpoint: /data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/output_language_model_multichoice_prefix_random_choice/checkpoint-1.pth
+Resume checkpoint /data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/output_language_model_multichoice_prefix_random_choice/checkpoint-1.pth
+With optim & sched!
+Start training for 10 epochs
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/run_beit3_finetuning_2.py", line 504, in <module>
+[rank0]:     main(opts, ds_init)
+[rank0]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/run_beit3_finetuning_2.py", line 422, in main
+[rank0]:     train_stats = train_one_epoch(
+[rank0]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/engine_for_finetuning.py", line 834, in train_one_epoch
+[rank0]:     results = handler.train_batch(model, **data)
+[rank0]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/engine_for_finetuning.py", line 667, in train_batch
+[rank0]:     all_vocab_logits = model(
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1637, in forward
+[rank0]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1464, in _run_ddp_forward
+[rank0]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/modeling_finetune.py", line 381, in forward
+[rank0]:     outputs = self.beit3(
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/model/BEiT3.py", line 85, in forward
+[rank0]:     encoder_out = self.encoder(
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/architecture/encoder.py", line 374, in forward
+[rank0]:     x, l_aux_i = layer(
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/architecture/encoder.py", line 127, in forward
+[rank0]:     x, _ = self.self_attn(
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/component/multihead_attention.py", line 87, in forward
+[rank0]:     v = self.v_proj(value)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/component/multiway_network.py", line 44, in forward
+[rank0]:     y1, y2 = self.A(x1, **kwargs), self.B(x2, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 125, in forward
+[rank0]:     return F.linear(input, self.weight, self.bias)
+[rank0]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 47.54 GiB of which 20.06 MiB is free. Process 1069916 has 25.18 GiB memory in use. Including non-PyTorch memory, this process has 22.32 GiB memory in use. Of the allocated memory 21.17 GiB is allocated by PyTorch, and 652.10 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/run_beit3_finetuning_2.py", line 504, in <module>
+[rank1]:     main(opts, ds_init)
+[rank1]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/run_beit3_finetuning_2.py", line 422, in main
+[rank1]:     train_stats = train_one_epoch(
+[rank1]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/engine_for_finetuning.py", line 834, in train_one_epoch
+[rank1]:     results = handler.train_batch(model, **data)
+[rank1]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/engine_for_finetuning.py", line 667, in train_batch
+[rank1]:     all_vocab_logits = model(
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1637, in forward
+[rank1]:     else self._run_ddp_forward(*inputs, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/parallel/distributed.py", line 1464, in _run_ddp_forward
+[rank1]:     return self.module(*inputs, **kwargs)  # type: ignore[index]
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/modeling_finetune.py", line 381, in forward
+[rank1]:     outputs = self.beit3(
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/model/BEiT3.py", line 85, in forward
+[rank1]:     encoder_out = self.encoder(
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/architecture/encoder.py", line 374, in forward
+[rank1]:     x, l_aux_i = layer(
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/architecture/encoder.py", line 127, in forward
+[rank1]:     x, _ = self.self_attn(
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/component/multihead_attention.py", line 87, in forward
+[rank1]:     v = self.v_proj(value)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torchscale/component/multiway_network.py", line 44, in forward
+[rank1]:     y1, y2 = self.A(x1, **kwargs), self.B(x2, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 125, in forward
+[rank1]:     return F.linear(input, self.weight, self.bias)
+[rank1]: torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 1 has a total capacity of 47.54 GiB of which 20.06 MiB is free. Process 1069920 has 25.18 GiB memory in use. Including non-PyTorch memory, this process has 22.32 GiB memory in use. Of the allocated memory 21.17 GiB is allocated by PyTorch, and 651.91 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[rank0]:[W721 09:24:21.664243460 ProcessGroupNCCL.cpp:1479] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+W0721 09:24:24.239839 1766864 site-packages/torch/distributed/elastic/multiprocessing/api.py:900] Sending process 1766938 closing signal SIGTERM
+E0721 09:24:24.354861 1766864 site-packages/torch/distributed/elastic/multiprocessing/api.py:874] failed (exitcode: 1) local_rank: 0 (pid: 1766937) of binary: /data/2_data_server/cv-07/anaconda3/envs/beit3_new/bin/python
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/run.py", line 896, in <module>
+    main()
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/run.py", line 892, in main
+    run(args)
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/run.py", line 883, in run
+    elastic_launch(
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 139, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/2_data_server/cv-07/anaconda3/envs/beit3_new/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 270, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+run_beit3_finetuning_2.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-07-21_09:24:24
+  host      : DICE-56
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 1766937)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,2 @@
+{"answer": "yes", "label": 0}
+{"answer": "no", "label": 1}

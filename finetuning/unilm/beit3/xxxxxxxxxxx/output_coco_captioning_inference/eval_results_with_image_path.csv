@@ -1,0 +1,853 @@
+image_id,caption,image_path
+0,A group of people standing around a table in a museum.,./test_input_images/TEST_245.jpg
+1,A young man dives for a volleyball on a court.,./test_input_images/TEST_018.jpg
+2,A large jetliner flying through the sky above clouds.,./test_input_images/TEST_726.jpg
+3,A man standing on a balcony overlooking a pool.,./test_input_images/TEST_266.jpg
+4,A view of a city skyline from a park.,./test_input_images/TEST_841.jpg
+5,A little girl in a pink bathing suit playing in a pool.,./test_input_images/TEST_259.jpg
+6,A group of children dressed in costumes walking down a street.,./test_input_images/TEST_419.jpg
+7,A woman in a black dress is fixing a mannequin's dress.,./test_input_images/TEST_045.jpg
+8,A pot full of dumplings being cooked on a stove.,./test_input_images/TEST_528.jpg
+9,A ski lift on a snowy mountain with a ski lift in the background.,./test_input_images/TEST_250.jpg
+10,Three different colored mugs sitting on top of a wooden table.,./test_input_images/TEST_691.jpg
+11,A little girl in a yellow dress on a red slide.,./test_input_images/TEST_198.jpg
+12,A man standing under an umbrella in the rain.,./test_input_images/TEST_588.jpg
+13,A woman in a black dress is fixing a mannequin's dress.,./test_input_images/TEST_189.jpg
+14,A couple of people standing next to each other on a blue mat.,./test_input_images/TEST_251.jpg
+15,A man sitting at a bar with a man pouring a drink.,./test_input_images/TEST_302.jpg
+16,A group of people riding in a hot air balloon.,./test_input_images/TEST_133.jpg
+17,A group of people standing on top of a mountain.,./test_input_images/TEST_790.jpg
+18,A turtle swimming in the ocean near a coral reef.,./test_input_images/TEST_099.jpg
+19,A woman sitting on a yoga mat in a room.,./test_input_images/TEST_794.jpg
+20,A large yellow tree in the middle of a park.,./test_input_images/TEST_655.jpg
+21,A couple of men playing basketball on a court.,./test_input_images/TEST_538.jpg
+22,A dog sitting in the snow with trees in the background.,./test_input_images/TEST_056.jpg
+23,A group of children playing a game of tug of war.,./test_input_images/TEST_140.jpg
+24,A couple of people standing next to each other on a blue mat.,./test_input_images/TEST_600.jpg
+25,"A table with a clock, candles and a bird on it.",./test_input_images/TEST_214.jpg
+26,A young boy is eating a piece of food.,./test_input_images/TEST_400.jpg
+27,Cars are parked on the side of the street in front of the houses.,./test_input_images/TEST_089.jpg
+28,A woman sitting on top of a mountain drinking water.,./test_input_images/TEST_832.jpg
+29,A man riding a wave on top of a surfboard.,./test_input_images/TEST_126.jpg
+30,A group of children playing in a water park.,./test_input_images/TEST_746.jpg
+31,A large group of people shopping in a store.,./test_input_images/TEST_759.jpg
+32,A man riding a wave on top of a surfboard.,./test_input_images/TEST_027.jpg
+33,A group of people riding in a hot air balloon.,./test_input_images/TEST_765.jpg
+34,A large fire is burning in a forest.,./test_input_images/TEST_567.jpg
+35,A large group of people walking along a walkway next to the ocean.,./test_input_images/TEST_616.jpg
+36,A large pool filled with people and water slides.,./test_input_images/TEST_648.jpg
+37,A couple of cats laying on top of a lush green field.,./test_input_images/TEST_554.jpg
+38,A tray of breads and croissants on a table.,./test_input_images/TEST_809.jpg
+39,A river that has a bunch of buildings on it.,./test_input_images/TEST_430.jpg
+40,A group of children dressed in costumes walking down a street.,./test_input_images/TEST_553.jpg
+41,A spider is hanging from a tree in the fog.,./test_input_images/TEST_753.jpg
+42,A ski lift on a snowy mountain with a ski lift in the background.,./test_input_images/TEST_630.jpg
+43,A person pouring milk into a cup of coffee.,./test_input_images/TEST_357.jpg
+44,A group of people sitting on a bench on a sunny day.,./test_input_images/TEST_425.jpg
+45,A small town with many buildings and trees.,./test_input_images/TEST_131.jpg
+46,A group of people rowing in a boat on a lake.,./test_input_images/TEST_469.jpg
+47,A man driving a forklift through a warehouse filled with boxes.,./test_input_images/TEST_519.jpg
+48,A group of people standing around a construction site.,./test_input_images/TEST_434.jpg
+49,A couple of people standing next to each other on a blue mat.,./test_input_images/TEST_231.jpg
+50,A group of people standing around a man playing a guitar.,./test_input_images/TEST_658.jpg
+51,A couple of kids that are standing in front of some fish.,./test_input_images/TEST_475.jpg
+52,A waterfall in the middle of a lush green forest.,./test_input_images/TEST_185.jpg
+53,A group of children playing in a water park.,./test_input_images/TEST_265.jpg
+54,A family of four sitting around a table eating dinner.,./test_input_images/TEST_680.jpg
+55,Two women are looking at a shirt in a store.,./test_input_images/TEST_556.jpg
+56,Two people standing in front of an ice castle.,./test_input_images/TEST_757.jpg
+57,A woman is writing in a notebook while sitting at a table.,./test_input_images/TEST_041.jpg
+58,A helicopter with a bag of water hanging from it's side flying over a field.,./test_input_images/TEST_771.jpg
+59,A path that is in the middle of a forest.,./test_input_images/TEST_318.jpg
+60,A man in a warehouse working on a plane.,./test_input_images/TEST_235.jpg
+61,A snowy city street with cars driving down it.,./test_input_images/TEST_750.jpg
+62,A man sitting at a desk using a laptop computer.,./test_input_images/TEST_113.jpg
+63,A bowl of soup with chicken and green onions.,./test_input_images/TEST_504.jpg
+64,A view of a forest with a sky filled with stars.,./test_input_images/TEST_826.jpg
+65,A dolphin jumping out of the water on a sunny day.,./test_input_images/TEST_810.jpg
+66,A white bathroom with a toilet and a bathtub.,./test_input_images/TEST_831.jpg
+67,A toy train with lots of toys in it.,./test_input_images/TEST_533.jpg
+68,A couple of kids that are standing in front of some fish.,./test_input_images/TEST_489.jpg
+69,A path that is in the middle of a forest.,./test_input_images/TEST_745.jpg
+70,A train traveling through a lush green countryside.,./test_input_images/TEST_698.jpg
+71,A flamingo standing in the middle of a body of water.,./test_input_images/TEST_062.jpg
+72,A view of a snowy mountain range from the top of a mountain.,./test_input_images/TEST_537.jpg
+73,A woman in a pink gym outfit holding a pair of dumbbells.,./test_input_images/TEST_649.jpg
+74,A cat sitting on a window sill looking out the window.,./test_input_images/TEST_656.jpg
+75,A wooden bench sitting in the middle of a street.,./test_input_images/TEST_386.jpg
+76,A group of people walking along a path next to a body of water.,./test_input_images/TEST_772.jpg
+77,A steak being grilled on top of a grill.,./test_input_images/TEST_777.jpg
+78,A group of hockey players holding up their sticks in the air.,./test_input_images/TEST_438.jpg
+79,A group of people sitting on a bench on a sunny day.,./test_input_images/TEST_093.jpg
+80,A group of people dressed in traditional costumes perform in front of a crowd.,./test_input_images/TEST_562.jpg
+81,A man dunking a basketball on a basketball court.,./test_input_images/TEST_823.jpg
+82,A pot full of dumplings being cooked on a stove.,./test_input_images/TEST_784.jpg
+83,A white table topped with bowls of food.,./test_input_images/TEST_297.jpg
+84,A group of dolphins swimming in the ocean near a coral reef.,./test_input_images/TEST_420.jpg
+85,A large fountain with a tall building in the background.,./test_input_images/TEST_224.jpg
+86,A man driving a forklift through a warehouse filled with boxes.,./test_input_images/TEST_747.jpg
+87,A man standing in front of a chalkboard in a classroom.,./test_input_images/TEST_282.jpg
+88,A man standing on a balcony overlooking a pool.,./test_input_images/TEST_067.jpg
+89,A group of people on a beach at sunset.,./test_input_images/TEST_511.jpg
+90,A man in a black shirt and black shorts is lifting a barbell in front of a crowd of people.,./test_input_images/TEST_316.jpg
+91,A woman sitting at a table in front of a laptop.,./test_input_images/TEST_455.jpg
+92,A woman is tying her shoes on a couch.,./test_input_images/TEST_329.jpg
+93,A group of people dressed in traditional costumes perform in front of a crowd.,./test_input_images/TEST_641.jpg
+94,A person running down a street with headphones on.,./test_input_images/TEST_280.jpg
+95,A white refrigerator sitting in a kitchen next to a sink.,./test_input_images/TEST_542.jpg
+96,A flock of birds flying over a large green field.,./test_input_images/TEST_622.jpg
+97,A man and a woman looking at pictures on a table.,./test_input_images/TEST_557.jpg
+98,A man sitting at a desk using a laptop computer.,./test_input_images/TEST_264.jpg
+99,A man in a wheelchair playing basketball on a court.,./test_input_images/TEST_724.jpg
+100,A woman cooking in a kitchen with a wooden spoon.,./test_input_images/TEST_692.jpg
+101,A plate of food that is sitting on a table.,./test_input_images/TEST_208.jpg
+102,A helicopter with a bag of water hanging from it's side flying over a field.,./test_input_images/TEST_424.jpg
+103,A group of people standing around a car dealership.,./test_input_images/TEST_308.jpg
+104,A group of people getting their hair cut in a salon.,./test_input_images/TEST_363.jpg
+105,A coffee machine sitting on top of a wooden table.,./test_input_images/TEST_038.jpg
+106,A group of young people sitting on steps laughing.,./test_input_images/TEST_436.jpg
+107,A white refrigerator sitting in a kitchen next to a sink.,./test_input_images/TEST_617.jpg
+108,A man pouring a cup of coffee into a cup.,./test_input_images/TEST_385.jpg
+109,A movie theater with red seats and a screen.,./test_input_images/TEST_596.jpg
+110,Cars are parked on the side of the street in front of the houses.,./test_input_images/TEST_764.jpg
+111,A group of people riding in a hot air balloon.,./test_input_images/TEST_678.jpg
+112,A turtle swimming in the ocean near a coral reef.,./test_input_images/TEST_319.jpg
+113,A path leading up a hill with a trail in the middle of it.,./test_input_images/TEST_234.jpg
+114,A group of people standing around a man playing a guitar.,./test_input_images/TEST_415.jpg
+115,A blue and white train traveling down train tracks.,./test_input_images/TEST_032.jpg
+116,A group of sailboats with colorful sails in the ocean.,./test_input_images/TEST_005.jpg
+117,A cup of coffee sitting on top of a wooden table.,./test_input_images/TEST_022.jpg
+118,A man is kneeling down inside of a metal structure.,./test_input_images/TEST_060.jpg
+119,"A table with a clock, candles and a bird on it.",./test_input_images/TEST_713.jpg
+120,"A bedroom with a bed, a lamp and a window.",./test_input_images/TEST_110.jpg
+121,A woman cooking in a kitchen with a wooden spoon.,./test_input_images/TEST_129.jpg
+122,A zebra running across a dry grass field.,./test_input_images/TEST_462.jpg
+123,A person pouring milk into a cup of coffee.,./test_input_images/TEST_226.jpg
+124,A man leading a donkey down a dirt road.,./test_input_images/TEST_723.jpg
+125,A group of people standing around a car dealership.,./test_input_images/TEST_639.jpg
+126,A table topped with plates of food and bowls of food.,./test_input_images/TEST_773.jpg
+127,A group of people standing on top of a mountain.,./test_input_images/TEST_313.jpg
+128,A man riding a wave on top of a surfboard.,./test_input_images/TEST_578.jpg
+129,A woman licking a cone of ice cream in a park.,./test_input_images/TEST_009.jpg
+130,A train traveling through a lush green countryside.,./test_input_images/TEST_523.jpg
+131,A turtle swimming in the ocean near a coral reef.,./test_input_images/TEST_391.jpg
+132,A path leading up a hill with a trail in the middle of it.,./test_input_images/TEST_406.jpg
+133,A man handing a woman keys to a woman in a parking lot.,./test_input_images/TEST_700.jpg
+134,A sink filled with dishes next to a window.,./test_input_images/TEST_493.jpg
+135,A waterfall in the middle of a lush green forest.,./test_input_images/TEST_182.jpg
+136,A group of young people playing a game of soccer.,./test_input_images/TEST_738.jpg
+137,A wall covered in graffiti next to a building.,./test_input_images/TEST_825.jpg
+138,A sailboat in the middle of a body of water at sunset.,./test_input_images/TEST_043.jpg
+139,A woman sitting at a table eating spaghetti.,./test_input_images/TEST_283.jpg
+140,A group of people that are standing in a room.,./test_input_images/TEST_827.jpg
+141,A woman cooking in a kitchen with a wooden spoon.,./test_input_images/TEST_334.jpg
+142,A man and woman standing in front of a birthday cake.,./test_input_images/TEST_180.jpg
+143,A group of people sitting at a table with food.,./test_input_images/TEST_712.jpg
+144,A woman is writing in a notebook while sitting at a table.,./test_input_images/TEST_779.jpg
+145,"Apples, oranges, and other fruits are on display in a store.",./test_input_images/TEST_389.jpg
+146,A group of people standing around a car dealership.,./test_input_images/TEST_497.jpg
+147,A group of people riding on the backs of camels.,./test_input_images/TEST_689.jpg
+148,A man standing on a path overlooking a lake.,./test_input_images/TEST_301.jpg
+149,"A vanity table with a mirror, a brush, a bowl and a bowl of lotion on it.",./test_input_images/TEST_107.jpg
+150,A large group of people walking along a walkway next to the ocean.,./test_input_images/TEST_521.jpg
+151,A man leading a donkey down a dirt road.,./test_input_images/TEST_366.jpg
+152,A large group of people shopping in a store.,./test_input_images/TEST_815.jpg
+153,A young boy in a clown costume high fives a little boy in a clown outfit.,./test_input_images/TEST_155.jpg
+154,A tray of breads and croissants on a table.,./test_input_images/TEST_206.jpg
+155,A close up of two ice cream cones in a shop.,./test_input_images/TEST_014.jpg
+156,A group of sailboats with colorful sails in the ocean.,./test_input_images/TEST_820.jpg
+157,A turtle swimming in the water near some seaweed.,./test_input_images/TEST_575.jpg
+158,A jockey riding a horse on a track with a crowd watching.,./test_input_images/TEST_337.jpg
+159,A man standing next to a bowling ball in a bowling alley.,./test_input_images/TEST_331.jpg
+160,A group of people sitting around a table drinking coffee.,./test_input_images/TEST_589.jpg
+161,A bowl of soup with chicken and green onions.,./test_input_images/TEST_341.jpg
+162,A red and white helicopter flying over a lush green hillside.,./test_input_images/TEST_453.jpg
+163,A large fire is burning in a forest.,./test_input_images/TEST_236.jpg
+164,A hot air balloon flying over a lush green field.,./test_input_images/TEST_156.jpg
+165,A group of children playing a game of tug of war.,./test_input_images/TEST_243.jpg
+166,A group of people sitting around a table in an office.,./test_input_images/TEST_117.jpg
+167,A wooden bench sitting in the middle of a street.,./test_input_images/TEST_846.jpg
+168,A woman laying in bed looking at her cell phone.,./test_input_images/TEST_228.jpg
+169,A group of wine glasses sitting on top of a wooden cutting board.,./test_input_images/TEST_480.jpg
+170,A little girl sitting in the sand next to a sand castle.,./test_input_images/TEST_577.jpg
+171,A cat sitting on a window sill looking out the window.,./test_input_images/TEST_708.jpg
+172,A woman laying in bed looking at her cell phone.,./test_input_images/TEST_174.jpg
+173,A group of people standing around a construction site.,./test_input_images/TEST_610.jpg
+174,A woman is writing in a notebook while sitting at a table.,./test_input_images/TEST_036.jpg
+175,A man in a black and white outfit skating on a rink.,./test_input_images/TEST_333.jpg
+176,A group of people riding horses in a field.,./test_input_images/TEST_811.jpg
+177,A woman with a backpack standing on top of a mountain.,./test_input_images/TEST_195.jpg
+178,A man standing under an umbrella in the rain.,./test_input_images/TEST_824.jpg
+179,A view of a snowy mountain range from the top of a mountain.,./test_input_images/TEST_705.jpg
+180,A pizza sitting on top of a wooden cutting board in front of a brick oven.,./test_input_images/TEST_260.jpg
+181,A large pool filled with people and water slides.,./test_input_images/TEST_125.jpg
+182,A man standing in front of a display case filled with jewelry.,./test_input_images/TEST_804.jpg
+183,A small town with many buildings and trees.,./test_input_images/TEST_015.jpg
+184,A young man in a white kimono is practicing karate.,./test_input_images/TEST_275.jpg
+185,A man riding a wave on top of a surfboard.,./test_input_images/TEST_229.jpg
+186,A white refrigerator sitting in a kitchen next to a sink.,./test_input_images/TEST_328.jpg
+187,A woman riding a bike down a path in a park.,./test_input_images/TEST_381.jpg
+188,A group of young people sitting on steps laughing.,./test_input_images/TEST_530.jpg
+189,A man climbing up a wall in a gym.,./test_input_images/TEST_354.jpg
+190,A large group of people walking down a sidewalk.,./test_input_images/TEST_576.jpg
+191,A woman in a pink dress standing in front of a building.,./test_input_images/TEST_344.jpg
+192,A picture of a family hanging above a couch.,./test_input_images/TEST_491.jpg
+193,A woman in a pink gym outfit holding a pair of dumbbells.,./test_input_images/TEST_326.jpg
+194,A group of people walking down a street with umbrellas.,./test_input_images/TEST_802.jpg
+195,A jockey riding a horse on a track with a crowd watching.,./test_input_images/TEST_160.jpg
+196,A man and two women taking a selfie together.,./test_input_images/TEST_695.jpg
+197,A woman sitting at a table in front of a laptop.,./test_input_images/TEST_398.jpg
+198,A woman licking a cone of ice cream in a park.,./test_input_images/TEST_620.jpg
+199,A picture of a family hanging above a couch.,./test_input_images/TEST_818.jpg
+200,A man dunking a basketball on a basketball court.,./test_input_images/TEST_255.jpg
+201,A woman in a pink dress is jumping on a rink.,./test_input_images/TEST_057.jpg
+202,A man in a kayak paddling through a river.,./test_input_images/TEST_401.jpg
+203,A person in a red snowsuit skiing down a hill.,./test_input_images/TEST_248.jpg
+204,A woman standing on a street corner talking on a cell phone.,./test_input_images/TEST_707.jpg
+205,A group of people standing around a table holding wine glasses.,./test_input_images/TEST_136.jpg
+206,A group of people working on a race car.,./test_input_images/TEST_286.jpg
+207,A large pool filled with people and water slides.,./test_input_images/TEST_157.jpg
+208,A woman in a purple outfit is doing a yoga pose.,./test_input_images/TEST_642.jpg
+209,A group of children dressed in costumes walking down a street.,./test_input_images/TEST_040.jpg
+210,A person sitting at a table looking out a window.,./test_input_images/TEST_321.jpg
+211,A young boy holding a cone of ice cream in his hand.,./test_input_images/TEST_277.jpg
+212,A spider is hanging from a tree in the fog.,./test_input_images/TEST_647.jpg
+213,A table topped with plates of food and bowls of food.,./test_input_images/TEST_033.jpg
+214,A family of four sitting around a table eating dinner.,./test_input_images/TEST_013.jpg
+215,A view of a city with a blue and white domes.,./test_input_images/TEST_668.jpg
+216,A bowl of food with an egg on top.,./test_input_images/TEST_314.jpg
+217,A large pool filled with people and water slides.,./test_input_images/TEST_384.jpg
+218,A dog running in the snow with a frisbee in its mouth.,./test_input_images/TEST_683.jpg
+219,A large group of people walking down a sidewalk.,./test_input_images/TEST_682.jpg
+220,A young child riding a scooter down a path in a garden.,./test_input_images/TEST_070.jpg
+221,A view of the Eiffel Tower at sunset.,./test_input_images/TEST_076.jpg
+222,A dog running in the snow with a frisbee in its mouth.,./test_input_images/TEST_606.jpg
+223,A man in a black and white outfit skating on a rink.,./test_input_images/TEST_142.jpg
+224,A woman in a pink dress standing in front of a building.,./test_input_images/TEST_320.jpg
+225,A woman licking a cone of ice cream in a park.,./test_input_images/TEST_740.jpg
+226,A toy train with lots of toys in it.,./test_input_images/TEST_793.jpg
+227,A pair of scissors sitting on top of a wooden table.,./test_input_images/TEST_534.jpg
+228,A group of people sitting in a theater watching a movie.,./test_input_images/TEST_219.jpg
+229,A man in a kayak paddling through a river.,./test_input_images/TEST_080.jpg
+230,A row of flower pots sitting outside of a house.,./test_input_images/TEST_595.jpg
+231,A woman sitting on a yoga mat in a room.,./test_input_images/TEST_342.jpg
+232,A woman sitting at a table eating spaghetti.,./test_input_images/TEST_247.jpg
+233,A group of young people sitting on steps laughing.,./test_input_images/TEST_414.jpg
+234,A young boy holding a cone of ice cream in his hand.,./test_input_images/TEST_798.jpg
+235,A pair of scissors sitting on top of a wooden table.,./test_input_images/TEST_477.jpg
+236,A deer standing in the middle of a forest.,./test_input_images/TEST_233.jpg
+237,A bowl of soup with meat and vegetables in it.,./test_input_images/TEST_017.jpg
+238,A group of children playing a game of tug of war.,./test_input_images/TEST_752.jpg
+239,A man driving a tractor down a dirt road.,./test_input_images/TEST_262.jpg
+240,A cutting board with tomatoes and basil on it.,./test_input_images/TEST_643.jpg
+241,A man and a woman taking pictures of a city with their cell phones.,./test_input_images/TEST_072.jpg
+242,A group of young people playing a game of soccer.,./test_input_images/TEST_274.jpg
+243,A polar bear standing in the middle of a snow covered field.,./test_input_images/TEST_426.jpg
+244,A person running down a street with headphones on.,./test_input_images/TEST_715.jpg
+245,A flamingo standing in the middle of a body of water.,./test_input_images/TEST_778.jpg
+246,A group of people rowing in a boat on a lake.,./test_input_images/TEST_020.jpg
+247,A group of people sitting around a table in an office.,./test_input_images/TEST_304.jpg
+248,A crowd of people taking pictures of a military parade.,./test_input_images/TEST_496.jpg
+249,A person standing on top of a hill at sunset.,./test_input_images/TEST_666.jpg
+250,A woman sitting at a table eating spaghetti.,./test_input_images/TEST_173.jpg
+251,A path that is in the middle of a forest.,./test_input_images/TEST_844.jpg
+252,A toy train with lots of toys in it.,./test_input_images/TEST_835.jpg
+253,A row of flower pots sitting outside of a house.,./test_input_images/TEST_741.jpg
+254,A white refrigerator sitting in a kitchen next to a sink.,./test_input_images/TEST_701.jpg
+255,A woman with a backpack standing on top of a mountain.,./test_input_images/TEST_618.jpg
+256,A baseball player holding a bat on a field.,./test_input_images/TEST_278.jpg
+257,A man is kneeling down inside of a metal structure.,./test_input_images/TEST_007.jpg
+258,A man sitting at a bar with a man pouring a drink.,./test_input_images/TEST_551.jpg
+259,A couple of cats laying on top of a lush green field.,./test_input_images/TEST_077.jpg
+260,A man in a white shirt standing next to a group of workers.,./test_input_images/TEST_114.jpg
+261,A group of wine glasses sitting on top of a wooden cutting board.,./test_input_images/TEST_598.jpg
+262,A man standing on a balcony overlooking a pool.,./test_input_images/TEST_312.jpg
+263,A large group of people shopping in a store.,./test_input_images/TEST_311.jpg
+264,A flock of birds flying over a large green field.,./test_input_images/TEST_074.jpg
+265,A steak being grilled on top of a grill.,./test_input_images/TEST_101.jpg
+266,A woman in a black dress is fixing a mannequin's dress.,./test_input_images/TEST_130.jpg
+267,A little girl holding a pink cotton candy in her hand.,./test_input_images/TEST_500.jpg
+268,A movie theater with red seats and a screen.,./test_input_images/TEST_466.jpg
+269,A man in a white shirt standing next to a group of workers.,./test_input_images/TEST_633.jpg
+270,A group of children playing in a water park.,./test_input_images/TEST_760.jpg
+271,A pair of scissors sitting on top of a wooden table.,./test_input_images/TEST_665.jpg
+272,A view of a snowy mountain range from the top of a mountain.,./test_input_images/TEST_517.jpg
+273,A group of people standing around a construction site.,./test_input_images/TEST_349.jpg
+274,A family playing with a beach ball on the beach.,./test_input_images/TEST_451.jpg
+275,A woman in a pink gym outfit holding a pair of dumbbells.,./test_input_images/TEST_836.jpg
+276,A woman sitting on a subway reading a book.,./test_input_images/TEST_239.jpg
+277,A view of a forest with a sky filled with stars.,./test_input_images/TEST_471.jpg
+278,A group of people standing around a table in a museum.,./test_input_images/TEST_536.jpg
+279,A group of dolphins swimming in the ocean near a coral reef.,./test_input_images/TEST_663.jpg
+280,A picture of a family hanging above a couch.,./test_input_images/TEST_084.jpg
+281,A man in a red shirt is on a track.,./test_input_images/TEST_570.jpg
+282,A group of people that are standing in a room.,./test_input_images/TEST_340.jpg
+283,A man riding a wave on top of a surfboard.,./test_input_images/TEST_222.jpg
+284,A woman in an apron is cleaning a counter.,./test_input_images/TEST_735.jpg
+285,A man and woman standing in front of a birthday cake.,./test_input_images/TEST_058.jpg
+286,Two men running on a track with a crowd watching.,./test_input_images/TEST_803.jpg
+287,A deer standing in the middle of a forest.,./test_input_images/TEST_800.jpg
+288,A woman in a pink dress is jumping on a rink.,./test_input_images/TEST_162.jpg
+289,A group of people standing around a table in a museum.,./test_input_images/TEST_091.jpg
+290,A man sitting at a desk using a laptop computer.,./test_input_images/TEST_132.jpg
+291,A group of people riding horses in a field.,./test_input_images/TEST_806.jpg
+292,A blue and white train traveling down train tracks.,./test_input_images/TEST_367.jpg
+293,Two women are looking at a shirt in a store.,./test_input_images/TEST_636.jpg
+294,A group of people rowing in a boat on a lake.,./test_input_images/TEST_525.jpg
+295,A group of people walking through an airport terminal.,./test_input_images/TEST_271.jpg
+296,A large fountain with a tall building in the background.,./test_input_images/TEST_687.jpg
+297,A wine cellar filled with lots of bottles of wine.,./test_input_images/TEST_044.jpg
+298,A red and blue parrot sitting on a branch in the middle of a jungle.,./test_input_images/TEST_048.jpg
+299,A large fire is burning in a forest.,./test_input_images/TEST_789.jpg
+300,"Apples, oranges, and other fruits are on display in a store.",./test_input_images/TEST_000.jpg
+301,A table topped with plates of food and bowls of food.,./test_input_images/TEST_217.jpg
+302,A person running down a street with headphones on.,./test_input_images/TEST_640.jpg
+303,A man in a wheelchair playing basketball on a court.,./test_input_images/TEST_050.jpg
+304,A close up of two ice cream cones in a shop.,./test_input_images/TEST_249.jpg
+305,A group of people sitting at a table with food.,./test_input_images/TEST_681.jpg
+306,A movie theater with red seats and a screen.,./test_input_images/TEST_192.jpg
+307,A woman licking a cone of ice cream in a park.,./test_input_images/TEST_605.jpg
+308,A man driving a tractor down a dirt road.,./test_input_images/TEST_474.jpg
+309,A close up of two ice cream cones in a shop.,./test_input_images/TEST_407.jpg
+310,A large yellow tree in the middle of a park.,./test_input_images/TEST_543.jpg
+311,A man and a woman looking at pictures on a table.,./test_input_images/TEST_613.jpg
+312,A woman riding a bike down a path in a park.,./test_input_images/TEST_510.jpg
+313,A person in a red snowsuit skiing down a hill.,./test_input_images/TEST_177.jpg
+314,A toy train with lots of toys in it.,./test_input_images/TEST_833.jpg
+315,A woman cooking in a kitchen with a wooden spoon.,./test_input_images/TEST_187.jpg
+316,A wallet and a car keychain sitting on a wooden table.,./test_input_images/TEST_461.jpg
+317,A man and a woman sitting at a table in a restaurant.,./test_input_images/TEST_470.jpg
+318,A man standing in a boat with a bunch of fishing nets.,./test_input_images/TEST_071.jpg
+319,A view of a forest with a sky filled with stars.,./test_input_images/TEST_629.jpg
+320,A man leading a donkey down a dirt road.,./test_input_images/TEST_748.jpg
+321,A cutting board with tomatoes and basil on it.,./test_input_images/TEST_151.jpg
+322,A man and a woman sitting at a table in a restaurant.,./test_input_images/TEST_781.jpg
+323,A snowy city street with cars driving down it.,./test_input_images/TEST_492.jpg
+324,A young man dives for a volleyball on a court.,./test_input_images/TEST_287.jpg
+325,A woman is tying her shoes on a couch.,./test_input_images/TEST_335.jpg
+326,A tray of breads and croissants on a table.,./test_input_images/TEST_377.jpg
+327,A man in a warehouse working on a plane.,./test_input_images/TEST_547.jpg
+328,Cars driving down a snow covered road in the snow.,./test_input_images/TEST_175.jpg
+329,Two men running on a track with a crowd watching.,./test_input_images/TEST_291.jpg
+330,A turtle swimming in the water near some seaweed.,./test_input_images/TEST_370.jpg
+331,A little girl holding a pink cotton candy in her hand.,./test_input_images/TEST_163.jpg
+332,An older couple and two young children plant flowers.,./test_input_images/TEST_122.jpg
+333,A group of people riding on the backs of camels.,./test_input_images/TEST_028.jpg
+334,A group of wine glasses sitting on top of a wooden cutting board.,./test_input_images/TEST_066.jpg
+335,A small child looking out the window of a car.,./test_input_images/TEST_485.jpg
+336,A man handing a woman keys to a woman in a parking lot.,./test_input_images/TEST_392.jpg
+337,A woman sitting at a table in front of a laptop.,./test_input_images/TEST_725.jpg
+338,A dog sitting in the snow with trees in the background.,./test_input_images/TEST_729.jpg
+339,A pair of scissors sitting on top of a wooden table.,./test_input_images/TEST_653.jpg
+340,A group of people getting their hair cut in a salon.,./test_input_images/TEST_290.jpg
+341,A man and a woman taking pictures of a city with their cell phones.,./test_input_images/TEST_428.jpg
+342,A young man in a white kimono is practicing karate.,./test_input_images/TEST_134.jpg
+343,A man riding a gondola down a canal in a city.,./test_input_images/TEST_850.jpg
+344,A woman in a pink dress is jumping on a rink.,./test_input_images/TEST_088.jpg
+345,A group of people sitting at a table with food.,./test_input_images/TEST_743.jpg
+346,A woman standing on a street corner talking on a cell phone.,./test_input_images/TEST_774.jpg
+347,A polar bear standing in the middle of a snow covered field.,./test_input_images/TEST_025.jpg
+348,A cup of coffee sitting on top of a wooden table.,./test_input_images/TEST_218.jpg
+349,A woman sitting on a subway reading a book.,./test_input_images/TEST_604.jpg
+350,A path leading up a hill with a trail in the middle of it.,./test_input_images/TEST_807.jpg
+351,A large fountain with a tall building in the background.,./test_input_images/TEST_305.jpg
+352,A small town with many buildings and trees.,./test_input_images/TEST_822.jpg
+353,A woman in a pink gym outfit holding a pair of dumbbells.,./test_input_images/TEST_382.jpg
+354,A group of people standing on top of a sandy beach.,./test_input_images/TEST_373.jpg
+355,A man and a woman taking pictures of a city with their cell phones.,./test_input_images/TEST_442.jpg
+356,Three different colored mugs sitting on top of a wooden table.,./test_input_images/TEST_393.jpg
+357,A man standing next to a rack of clothes on a balcony.,./test_input_images/TEST_801.jpg
+358,A man in a warehouse working on a plane.,./test_input_images/TEST_478.jpg
+359,A bride and groom are walking down the aisle.,./test_input_images/TEST_339.jpg
+360,A man pouring a cup of coffee into a cup.,./test_input_images/TEST_104.jpg
+361,A pizza sitting on top of a wooden cutting board in front of a brick oven.,./test_input_images/TEST_209.jpg
+362,A dog sitting in the snow with trees in the background.,./test_input_images/TEST_186.jpg
+363,A cutting board with tomatoes and basil on it.,./test_input_images/TEST_191.jpg
+364,A blue and white train traveling down train tracks.,./test_input_images/TEST_770.jpg
+365,A man sitting on a rock overlooking a city.,./test_input_images/TEST_360.jpg
+366,A group of people standing in front of a building.,./test_input_images/TEST_512.jpg
+367,A group of people standing on top of a mountain.,./test_input_images/TEST_303.jpg
+368,A group of people that are standing in a room.,./test_input_images/TEST_559.jpg
+369,A group of people that are standing in a room.,./test_input_images/TEST_410.jpg
+370,A man standing in front of a display case filled with jewelry.,./test_input_images/TEST_744.jpg
+371,"A bedroom with a bed, a lamp and a window.",./test_input_images/TEST_295.jpg
+372,A dolphin jumping out of the water on a sunny day.,./test_input_images/TEST_144.jpg
+373,A man and two women taking a selfie together.,./test_input_images/TEST_522.jpg
+374,A young boy is eating a piece of food.,./test_input_images/TEST_565.jpg
+375,A man pouring a cup of coffee into a cup.,./test_input_images/TEST_677.jpg
+376,A steak being grilled on top of a grill.,./test_input_images/TEST_119.jpg
+377,A camel walking across a desert with a blue sky in the background.,./test_input_images/TEST_684.jpg
+378,Two men running on a track with a crowd watching.,./test_input_images/TEST_674.jpg
+379,A group of people getting their hair cut in a salon.,./test_input_images/TEST_362.jpg
+380,A large group of people walking down a sidewalk.,./test_input_images/TEST_139.jpg
+381,A couple of men playing basketball on a court.,./test_input_images/TEST_403.jpg
+382,A coffee machine sitting on top of a wooden table.,./test_input_images/TEST_365.jpg
+383,A view of a city with a blue and white domes.,./test_input_images/TEST_178.jpg
+384,A train station with a clock tower in the background.,./test_input_images/TEST_731.jpg
+385,A crowd of people taking pictures of a military parade.,./test_input_images/TEST_138.jpg
+386,A young child riding a red tricycle in a park.,./test_input_images/TEST_608.jpg
+387,A family playing with a beach ball on the beach.,./test_input_images/TEST_498.jpg
+388,A bowl of soup with chicken and green onions.,./test_input_images/TEST_059.jpg
+389,A woman climbing up a wall in a gym.,./test_input_images/TEST_555.jpg
+390,A dog running in the snow with a frisbee in its mouth.,./test_input_images/TEST_390.jpg
+391,A man and two women taking a selfie together.,./test_input_images/TEST_830.jpg
+392,A view of the Eiffel Tower at sunset.,./test_input_images/TEST_574.jpg
+393,A plate of food that is sitting on a table.,./test_input_images/TEST_829.jpg
+394,A man sitting on a rock overlooking a city.,./test_input_images/TEST_446.jpg
+395,A little girl holding a pink cotton candy in her hand.,./test_input_images/TEST_423.jpg
+396,A person running down a street with headphones on.,./test_input_images/TEST_310.jpg
+397,A bowl of soup with meat and vegetables in it.,./test_input_images/TEST_581.jpg
+398,A woman in a purple outfit is doing a yoga pose.,./test_input_images/TEST_343.jpg
+399,A woman sitting on top of a mountain drinking water.,./test_input_images/TEST_623.jpg
+400,A person in a red snowsuit skiing down a hill.,./test_input_images/TEST_413.jpg
+401,A flamingo standing in the middle of a body of water.,./test_input_images/TEST_207.jpg
+402,A young child riding a scooter down a path in a garden.,./test_input_images/TEST_796.jpg
+403,A woman in a purple outfit is doing a yoga pose.,./test_input_images/TEST_361.jpg
+404,A baseball player diving to catch a baseball during a game.,./test_input_images/TEST_037.jpg
+405,A person is parasailing in the air over a valley.,./test_input_images/TEST_717.jpg
+406,An older couple and two young children plant flowers.,./test_input_images/TEST_737.jpg
+407,A group of people dressed in traditional costumes perform in front of a crowd.,./test_input_images/TEST_212.jpg
+408,A small child looking out the window of a car.,./test_input_images/TEST_456.jpg
+409,A group of people standing in front of a building.,./test_input_images/TEST_170.jpg
+410,A sheep grazing in a field of green grass.,./test_input_images/TEST_358.jpg
+411,A large yellow tree in the middle of a park.,./test_input_images/TEST_838.jpg
+412,A train traveling through a lush green countryside.,./test_input_images/TEST_252.jpg
+413,A wall covered in graffiti next to a building.,./test_input_images/TEST_766.jpg
+414,A man standing in front of a chalkboard in a classroom.,./test_input_images/TEST_808.jpg
+415,A man in a wheelchair playing basketball on a court.,./test_input_images/TEST_788.jpg
+416,A man standing next to a bowling ball in a bowling alley.,./test_input_images/TEST_285.jpg
+417,A group of people riding horses in a field.,./test_input_images/TEST_106.jpg
+418,A woman in a pink dress standing in front of a building.,./test_input_images/TEST_380.jpg
+419,A large fountain with a tall building in the background.,./test_input_images/TEST_167.jpg
+420,A man driving a tractor down a dirt road.,./test_input_images/TEST_016.jpg
+421,A group of people standing next to each other at a carnival.,./test_input_images/TEST_624.jpg
+422,A group of people walking along a path next to a river.,./test_input_images/TEST_387.jpg
+423,A white table topped with bowls of food.,./test_input_images/TEST_317.jpg
+424,A man riding a gondola down a canal in a city.,./test_input_images/TEST_261.jpg
+425,A young man dives for a volleyball on a court.,./test_input_images/TEST_506.jpg
+426,"A table with a clock, candles and a bird on it.",./test_input_images/TEST_494.jpg
+427,A woman riding a bike down a path in a park.,./test_input_images/TEST_368.jpg
+428,A helicopter with a bag of water hanging from it's side flying over a field.,./test_input_images/TEST_075.jpg
+429,A man dunking a basketball on a basketball court.,./test_input_images/TEST_433.jpg
+430,A waterfall in the middle of a lush green forest.,./test_input_images/TEST_514.jpg
+431,A man in a black and white outfit skating on a rink.,./test_input_images/TEST_105.jpg
+432,A pizza sitting on top of a wooden cutting board in front of a brick oven.,./test_input_images/TEST_632.jpg
+433,A woman with a backpack standing on top of a mountain.,./test_input_images/TEST_348.jpg
+434,A man driving a tractor down a dirt road.,./test_input_images/TEST_309.jpg
+435,A group of people standing on top of a sandy beach.,./test_input_images/TEST_257.jpg
+436,A man and a woman walking through a market.,./test_input_images/TEST_476.jpg
+437,A wooden bench sitting in the middle of a street.,./test_input_images/TEST_166.jpg
+438,A young man in a white kimono is practicing karate.,./test_input_images/TEST_654.jpg
+439,A snowy city street with cars driving down it.,./test_input_images/TEST_529.jpg
+440,A group of people standing around a table holding wine glasses.,./test_input_images/TEST_412.jpg
+441,A group of young people playing a game of soccer.,./test_input_images/TEST_205.jpg
+442,A little girl running with a kite in a field.,./test_input_images/TEST_730.jpg
+443,A couple of men playing basketball on a court.,./test_input_images/TEST_742.jpg
+444,A man in a white shirt standing next to a group of workers.,./test_input_images/TEST_711.jpg
+445,A group of people standing around a car dealership.,./test_input_images/TEST_458.jpg
+446,A young child riding a red tricycle in a park.,./test_input_images/TEST_664.jpg
+447,A cup of coffee sitting on top of a wooden table.,./test_input_images/TEST_593.jpg
+448,A large yellow tree in the middle of a park.,./test_input_images/TEST_254.jpg
+449,A family of four sitting around a table eating dinner.,./test_input_images/TEST_202.jpg
+450,A zebra running across a dry grass field.,./test_input_images/TEST_188.jpg
+451,A dog sitting in the snow with trees in the background.,./test_input_images/TEST_848.jpg
+452,A cat sitting on a window sill looking out the window.,./test_input_images/TEST_064.jpg
+453,A group of people standing in front of a building.,./test_input_images/TEST_549.jpg
+454,A plate of food that is sitting on a table.,./test_input_images/TEST_102.jpg
+455,A snowy city street with cars driving down it.,./test_input_images/TEST_330.jpg
+456,A young child riding a scooter down a path in a garden.,./test_input_images/TEST_696.jpg
+457,A man sitting at a bar with a man pouring a drink.,./test_input_images/TEST_452.jpg
+458,A steak being grilled on top of a grill.,./test_input_images/TEST_614.jpg
+459,A wallet and a car keychain sitting on a wooden table.,./test_input_images/TEST_719.jpg
+460,A group of people on a beach at sunset.,./test_input_images/TEST_660.jpg
+461,A man riding a wave on top of a surfboard.,./test_input_images/TEST_322.jpg
+462,A row of flower pots sitting outside of a house.,./test_input_images/TEST_431.jpg
+463,A group of people walking along a path next to a river.,./test_input_images/TEST_599.jpg
+464,A man leading a donkey down a dirt road.,./test_input_images/TEST_378.jpg
+465,A couple of kids that are standing in front of some fish.,./test_input_images/TEST_490.jpg
+466,A little girl in a yellow dress on a red slide.,./test_input_images/TEST_486.jpg
+467,A baseball player holding a bat on a field.,./test_input_images/TEST_508.jpg
+468,A young man dives for a volleyball on a court.,./test_input_images/TEST_544.jpg
+469,A man and a woman taking pictures of a city with their cell phones.,./test_input_images/TEST_697.jpg
+470,A little girl running with a kite in a field.,./test_input_images/TEST_355.jpg
+471,A man and a woman walking through a market.,./test_input_images/TEST_785.jpg
+472,A camel walking across a desert with a blue sky in the background.,./test_input_images/TEST_507.jpg
+473,A family playing with a beach ball on the beach.,./test_input_images/TEST_094.jpg
+474,A view of a city skyline from a park.,./test_input_images/TEST_427.jpg
+475,A person pouring milk into a cup of coffee.,./test_input_images/TEST_296.jpg
+476,A woman sitting on a yoga mat in a room.,./test_input_images/TEST_560.jpg
+477,A young child riding a red tricycle in a park.,./test_input_images/TEST_673.jpg
+478,A man in a black shirt and black shorts is lifting a barbell in front of a crowd of people.,./test_input_images/TEST_210.jpg
+479,A man standing in front of a chalkboard in a classroom.,./test_input_images/TEST_095.jpg
+480,A woman sitting on top of a mountain drinking water.,./test_input_images/TEST_002.jpg
+481,A woman and a child making cookies in a kitchen.,./test_input_images/TEST_651.jpg
+482,A little girl sitting in the sand next to a sand castle.,./test_input_images/TEST_120.jpg
+483,A man in a wheelchair playing basketball on a court.,./test_input_images/TEST_325.jpg
+484,A sheep grazing in a field of green grass.,./test_input_images/TEST_704.jpg
+485,A group of people standing around a man playing a guitar.,./test_input_images/TEST_223.jpg
+486,A dolphin jumping out of the water on a sunny day.,./test_input_images/TEST_006.jpg
+487,A group of people riding horses in a field.,./test_input_images/TEST_727.jpg
+488,"A vanity table with a mirror, a brush, a bowl and a bowl of lotion on it.",./test_input_images/TEST_159.jpg
+489,A young boy in a clown costume high fives a little boy in a clown outfit.,./test_input_images/TEST_839.jpg
+490,A view of a forest with a sky filled with stars.,./test_input_images/TEST_086.jpg
+491,A wine cellar filled with lots of bottles of wine.,./test_input_images/TEST_739.jpg
+492,"Apples, oranges, and other fruits are on display in a store.",./test_input_images/TEST_397.jpg
+493,A man standing under an umbrella in the rain.,./test_input_images/TEST_258.jpg
+494,A woman standing on a street corner talking on a cell phone.,./test_input_images/TEST_685.jpg
+495,A red and blue parrot sitting on a branch in the middle of a jungle.,./test_input_images/TEST_842.jpg
+496,A sailboat in the middle of a body of water at sunset.,./test_input_images/TEST_657.jpg
+497,A view of a city with a blue and white domes.,./test_input_images/TEST_141.jpg
+498,A cat sitting on a window sill looking out the window.,./test_input_images/TEST_090.jpg
+499,A man in a black shirt and black shorts is lifting a barbell in front of a crowd of people.,./test_input_images/TEST_121.jpg
+500,A view of a city skyline from a park.,./test_input_images/TEST_782.jpg
+501,A white table topped with bowls of food.,./test_input_images/TEST_472.jpg
+502,A camel walking across a desert with a blue sky in the background.,./test_input_images/TEST_299.jpg
+503,A view of a city with a blue and white domes.,./test_input_images/TEST_046.jpg
+504,A sailboat in the middle of a body of water at sunset.,./test_input_images/TEST_734.jpg
+505,A man driving a forklift through a warehouse filled with boxes.,./test_input_images/TEST_148.jpg
+506,A man standing next to a rack of clothes on a balcony.,./test_input_images/TEST_603.jpg
+507,Two people standing in front of an ice castle.,./test_input_images/TEST_374.jpg
+508,A woman is writing in a notebook while sitting at a table.,./test_input_images/TEST_591.jpg
+509,A man standing on a log in the middle of a race course.,./test_input_images/TEST_096.jpg
+510,A man in a kayak paddling through a river.,./test_input_images/TEST_197.jpg
+511,Two women are looking at a shirt in a store.,./test_input_images/TEST_720.jpg
+512,A bowl of soup with meat and vegetables in it.,./test_input_images/TEST_602.jpg
+513,A man standing in front of a display case filled with jewelry.,./test_input_images/TEST_124.jpg
+514,A path leading up a hill with a trail in the middle of it.,./test_input_images/TEST_063.jpg
+515,A group of people walking down a street with umbrellas.,./test_input_images/TEST_042.jpg
+516,A large group of people boarding a cruise ship.,./test_input_images/TEST_003.jpg
+517,A zebra running across a dry grass field.,./test_input_images/TEST_545.jpg
+518,A red and blue parrot sitting on a branch in the middle of a jungle.,./test_input_images/TEST_213.jpg
+519,A sheep grazing in a field of green grass.,./test_input_images/TEST_465.jpg
+520,A person standing on top of a hill at sunset.,./test_input_images/TEST_590.jpg
+521,A woman is tying her shoes on a couch.,./test_input_images/TEST_372.jpg
+522,Two people standing in front of an ice castle.,./test_input_images/TEST_520.jpg
+523,A path that is in the middle of a forest.,./test_input_images/TEST_279.jpg
+524,A group of people sitting around a table in an office.,./test_input_images/TEST_584.jpg
+525,A group of people walking through an airport terminal.,./test_input_images/TEST_561.jpg
+526,A baseball player diving to catch a baseball during a game.,./test_input_images/TEST_572.jpg
+527,A coffee machine sitting on top of a wooden table.,./test_input_images/TEST_609.jpg
+528,Two women are looking at a shirt in a store.,./test_input_images/TEST_051.jpg
+529,A man and a woman looking at pictures on a table.,./test_input_images/TEST_792.jpg
+530,A plate of food that is sitting on a table.,./test_input_images/TEST_573.jpg
+531,A little girl sitting in the sand next to a sand castle.,./test_input_images/TEST_851.jpg
+532,A large group of people boarding a cruise ship.,./test_input_images/TEST_242.jpg
+533,A balcony with a view of a city at night.,./test_input_images/TEST_679.jpg
+534,A red and white helicopter flying over a lush green hillside.,./test_input_images/TEST_268.jpg
+535,A young boy in a clown costume high fives a little boy in a clown outfit.,./test_input_images/TEST_123.jpg
+536,A man standing in front of a chalkboard in a classroom.,./test_input_images/TEST_670.jpg
+537,A woman sitting at a table eating spaghetti.,./test_input_images/TEST_379.jpg
+538,A ski lift on a snowy mountain with a ski lift in the background.,./test_input_images/TEST_153.jpg
+539,A group of hockey players holding up their sticks in the air.,./test_input_images/TEST_703.jpg
+540,A group of people walking along a path next to a body of water.,./test_input_images/TEST_671.jpg
+541,A group of people sitting around a table in a room.,./test_input_images/TEST_531.jpg
+542,A train station with a clock tower in the background.,./test_input_images/TEST_816.jpg
+543,A pot full of dumplings being cooked on a stove.,./test_input_images/TEST_240.jpg
+544,Two men running on a track with a crowd watching.,./test_input_images/TEST_127.jpg
+545,A group of people standing next to each other at a carnival.,./test_input_images/TEST_227.jpg
+546,A family playing with a beach ball on the beach.,./test_input_images/TEST_479.jpg
+547,A man standing on a path overlooking a lake.,./test_input_images/TEST_190.jpg
+548,A group of young people sitting on steps laughing.,./test_input_images/TEST_813.jpg
+549,A young boy is eating a piece of food.,./test_input_images/TEST_196.jpg
+550,A man sitting at a desk using a laptop computer.,./test_input_images/TEST_276.jpg
+551,A jockey riding a horse on a track with a crowd watching.,./test_input_images/TEST_098.jpg
+552,A man standing next to a rack of clothes on a balcony.,./test_input_images/TEST_307.jpg
+553,A bowl of food with an egg on top.,./test_input_images/TEST_535.jpg
+554,A woman and a child making cookies in a kitchen.,./test_input_images/TEST_702.jpg
+555,A crowd of people taking pictures of a military parade.,./test_input_images/TEST_068.jpg
+556,A large group of people riding bikes down a street.,./test_input_images/TEST_383.jpg
+557,A small town with many buildings and trees.,./test_input_images/TEST_115.jpg
+558,A turtle swimming in the water near some seaweed.,./test_input_images/TEST_021.jpg
+559,A woman in an apron is cleaning a counter.,./test_input_images/TEST_445.jpg
+560,A person sitting at a table looking out a window.,./test_input_images/TEST_109.jpg
+561,A wine cellar filled with lots of bottles of wine.,./test_input_images/TEST_468.jpg
+562,A man sitting on a rock overlooking a city.,./test_input_images/TEST_411.jpg
+563,A group of people walking along a path next to a body of water.,./test_input_images/TEST_085.jpg
+564,A river that has a bunch of buildings on it.,./test_input_images/TEST_447.jpg
+565,A white bathroom with a toilet and a bathtub.,./test_input_images/TEST_488.jpg
+566,A man sitting on a couch holding a bowl of chips.,./test_input_images/TEST_509.jpg
+567,A man standing on a balcony overlooking a pool.,./test_input_images/TEST_484.jpg
+568,A wall covered in graffiti next to a building.,./test_input_images/TEST_315.jpg
+569,A group of people on a beach at sunset.,./test_input_images/TEST_716.jpg
+570,A group of people standing on top of a sandy beach.,./test_input_images/TEST_597.jpg
+571,A view of a city skyline from a park.,./test_input_images/TEST_244.jpg
+572,A group of people riding bikes in a gym.,./test_input_images/TEST_495.jpg
+573,Three different colored mugs sitting on top of a wooden table.,./test_input_images/TEST_722.jpg
+574,A man riding a wave on top of a surfboard.,./test_input_images/TEST_352.jpg
+575,A group of people riding on the backs of camels.,./test_input_images/TEST_396.jpg
+576,A view of a snowy mountain range from the top of a mountain.,./test_input_images/TEST_164.jpg
+577,A flock of birds flying over a large green field.,./test_input_images/TEST_201.jpg
+578,A young boy holding a cone of ice cream in his hand.,./test_input_images/TEST_184.jpg
+579,A pot full of dumplings being cooked on a stove.,./test_input_images/TEST_001.jpg
+580,Three different colored mugs sitting on top of a wooden table.,./test_input_images/TEST_418.jpg
+581,A group of people riding bikes in a gym.,./test_input_images/TEST_550.jpg
+582,A woman in a black dress is fixing a mannequin's dress.,./test_input_images/TEST_053.jpg
+583,A man driving a forklift through a warehouse filled with boxes.,./test_input_images/TEST_241.jpg
+584,A woman sitting on top of a mountain drinking water.,./test_input_images/TEST_669.jpg
+585,A man and a woman sitting at a table in a restaurant.,./test_input_images/TEST_039.jpg
+586,A couple of men playing basketball on a court.,./test_input_images/TEST_819.jpg
+587,A man riding a wave on top of a surfboard.,./test_input_images/TEST_439.jpg
+588,A man standing in front of a display case filled with jewelry.,./test_input_images/TEST_422.jpg
+589,A man riding a gondola down a canal in a city.,./test_input_images/TEST_805.jpg
+590,A large group of people walking along a walkway next to the ocean.,./test_input_images/TEST_769.jpg
+591,A sink filled with dishes next to a window.,./test_input_images/TEST_672.jpg
+592,A man sitting on a couch holding a bowl of chips.,./test_input_images/TEST_607.jpg
+593,A zebra running across a dry grass field.,./test_input_images/TEST_817.jpg
+594,A large jetliner flying through the sky above clouds.,./test_input_images/TEST_675.jpg
+595,A hot air balloon flying over a lush green field.,./test_input_images/TEST_732.jpg
+596,A group of people sitting in a theater watching a movie.,./test_input_images/TEST_416.jpg
+597,A group of penguins standing on top of a snow covered beach.,./test_input_images/TEST_812.jpg
+598,A cup of coffee sitting on top of a wooden table.,./test_input_images/TEST_154.jpg
+599,A wallet and a car keychain sitting on a wooden table.,./test_input_images/TEST_437.jpg
+600,A sink filled with dishes next to a window.,./test_input_images/TEST_541.jpg
+601,A group of people walking through an airport terminal.,./test_input_images/TEST_795.jpg
+602,A movie theater with red seats and a screen.,./test_input_images/TEST_263.jpg
+603,A woman in a pink dress standing in front of a building.,./test_input_images/TEST_828.jpg
+604,A large group of people boarding a cruise ship.,./test_input_images/TEST_253.jpg
+605,A man and woman standing in front of a birthday cake.,./test_input_images/TEST_552.jpg
+606,A little girl jumping on a trampoline in the air.,./test_input_images/TEST_499.jpg
+607,A cutting board with tomatoes and basil on it.,./test_input_images/TEST_350.jpg
+608,A large fire is burning in a forest.,./test_input_images/TEST_582.jpg
+609,A group of people standing around a table in a museum.,./test_input_images/TEST_449.jpg
+610,A woman sitting on a subway reading a book.,./test_input_images/TEST_503.jpg
+611,A group of people getting their hair cut in a salon.,./test_input_images/TEST_011.jpg
+612,A young boy in a clown costume high fives a little boy in a clown outfit.,./test_input_images/TEST_626.jpg
+613,A crowd of people taking pictures of a military parade.,./test_input_images/TEST_457.jpg
+614,A person is parasailing in the air over a valley.,./test_input_images/TEST_087.jpg
+615,A little girl jumping on a trampoline in the air.,./test_input_images/TEST_012.jpg
+616,A couple of cats laying on top of a lush green field.,./test_input_images/TEST_776.jpg
+617,A group of people standing around a table holding wine glasses.,./test_input_images/TEST_149.jpg
+618,A young boy holding a cone of ice cream in his hand.,./test_input_images/TEST_345.jpg
+619,A white bathroom with a toilet and a bathtub.,./test_input_images/TEST_216.jpg
+620,A waterfall in the middle of a lush green forest.,./test_input_images/TEST_448.jpg
+621,A young child riding a scooter down a path in a garden.,./test_input_images/TEST_034.jpg
+622,A group of penguins standing on top of a snow covered beach.,./test_input_images/TEST_369.jpg
+623,A young child riding a red tricycle in a park.,./test_input_images/TEST_193.jpg
+624,A woman laying in bed looking at her cell phone.,./test_input_images/TEST_564.jpg
+625,"A vanity table with a mirror, a brush, a bowl and a bowl of lotion on it.",./test_input_images/TEST_267.jpg
+626,A little girl sitting in the sand next to a sand castle.,./test_input_images/TEST_579.jpg
+627,A group of people working on a race car.,./test_input_images/TEST_300.jpg
+628,A group of people walking along a path next to a river.,./test_input_images/TEST_586.jpg
+629,A group of sailboats with colorful sails in the ocean.,./test_input_images/TEST_569.jpg
+630,A group of people standing on top of a sandy beach.,./test_input_images/TEST_460.jpg
+631,A black laptop computer sitting on top of a white desk.,./test_input_images/TEST_238.jpg
+632,A group of people walking along a path next to a body of water.,./test_input_images/TEST_204.jpg
+633,A group of children playing in a water park.,./test_input_images/TEST_558.jpg
+634,A baseball player diving to catch a baseball during a game.,./test_input_images/TEST_147.jpg
+635,A little girl in a pink bathing suit playing in a pool.,./test_input_images/TEST_092.jpg
+636,A red and blue parrot sitting on a branch in the middle of a jungle.,./test_input_images/TEST_135.jpg
+637,A jockey riding a horse on a track with a crowd watching.,./test_input_images/TEST_417.jpg
+638,A man and a woman looking at pictures on a table.,./test_input_images/TEST_052.jpg
+639,A person is parasailing in the air over a valley.,./test_input_images/TEST_467.jpg
+640,An older couple and two young children plant flowers.,./test_input_images/TEST_532.jpg
+641,A turtle swimming in the water near some seaweed.,./test_input_images/TEST_294.jpg
+642,A flamingo standing in the middle of a body of water.,./test_input_images/TEST_592.jpg
+643,A man and two women taking a selfie together.,./test_input_images/TEST_298.jpg
+644,A group of penguins standing on top of a snow covered beach.,./test_input_images/TEST_645.jpg
+645,A man handing a woman keys to a woman in a parking lot.,./test_input_images/TEST_768.jpg
+646,A group of people standing next to each other at a carnival.,./test_input_images/TEST_371.jpg
+647,A group of people sitting in a theater watching a movie.,./test_input_images/TEST_181.jpg
+648,A group of wine glasses sitting on top of a wooden cutting board.,./test_input_images/TEST_797.jpg
+649,A table topped with plates of food and bowls of food.,./test_input_images/TEST_786.jpg
+650,A person sitting at a table looking out a window.,./test_input_images/TEST_171.jpg
+651,A man riding a wave on top of a surfboard.,./test_input_images/TEST_644.jpg
+652,A balcony with a view of a city at night.,./test_input_images/TEST_270.jpg
+653,A black laptop computer sitting on top of a white desk.,./test_input_images/TEST_108.jpg
+654,A woman sitting on a yoga mat in a room.,./test_input_images/TEST_736.jpg
+655,A river that has a bunch of buildings on it.,./test_input_images/TEST_652.jpg
+656,A man riding a gondola down a canal in a city.,./test_input_images/TEST_165.jpg
+657,A group of people riding in a hot air balloon.,./test_input_images/TEST_450.jpg
+658,A woman climbing up a wall in a gym.,./test_input_images/TEST_459.jpg
+659,A family of four sitting around a table eating dinner.,./test_input_images/TEST_580.jpg
+660,A train traveling through a lush green countryside.,./test_input_images/TEST_721.jpg
+661,A wallet and a car keychain sitting on a wooden table.,./test_input_images/TEST_024.jpg
+662,A helicopter with a bag of water hanging from it's side flying over a field.,./test_input_images/TEST_814.jpg
+663,A black laptop computer sitting on top of a white desk.,./test_input_images/TEST_035.jpg
+664,A polar bear standing in the middle of a snow covered field.,./test_input_images/TEST_699.jpg
+665,A dog running in the snow with a frisbee in its mouth.,./test_input_images/TEST_404.jpg
+666,A woman in an apron is cleaning a counter.,./test_input_images/TEST_030.jpg
+667,A hot air balloon flying over a lush green field.,./test_input_images/TEST_775.jpg
+668,A man and a woman sitting at a table in a restaurant.,./test_input_images/TEST_709.jpg
+669,A group of hockey players holding up their sticks in the air.,./test_input_images/TEST_540.jpg
+670,A large group of people riding bikes down a street.,./test_input_images/TEST_571.jpg
+671,A large group of people riding bikes down a street.,./test_input_images/TEST_008.jpg
+672,A man sitting on a couch holding a bowl of chips.,./test_input_images/TEST_755.jpg
+673,A person in a red snowsuit skiing down a hill.,./test_input_images/TEST_256.jpg
+674,A group of people sitting around a table drinking coffee.,./test_input_images/TEST_628.jpg
+675,A man climbing up a wall in a gym.,./test_input_images/TEST_638.jpg
+676,"A bedroom with a bed, a lamp and a window.",./test_input_images/TEST_611.jpg
+677,A woman laying in bed looking at her cell phone.,./test_input_images/TEST_637.jpg
+678,A man standing in a boat with a bunch of fishing nets.,./test_input_images/TEST_281.jpg
+679,A group of people standing on top of a sandy beach.,./test_input_images/TEST_502.jpg
+680,A man standing under an umbrella in the rain.,./test_input_images/TEST_463.jpg
+681,A group of people walking through an airport terminal.,./test_input_images/TEST_662.jpg
+682,A man in a red shirt is on a track.,./test_input_images/TEST_215.jpg
+683,A bride and groom are walking down the aisle.,./test_input_images/TEST_158.jpg
+684,A group of people riding bikes in a gym.,./test_input_images/TEST_019.jpg
+685,A woman in a purple outfit is doing a yoga pose.,./test_input_images/TEST_594.jpg
+686,A large group of people boarding a cruise ship.,./test_input_images/TEST_402.jpg
+687,An older couple and two young children plant flowers.,./test_input_images/TEST_621.jpg
+688,A woman and a child making cookies in a kitchen.,./test_input_images/TEST_023.jpg
+689,A group of people working on a race car.,./test_input_images/TEST_346.jpg
+690,A woman and a child making cookies in a kitchen.,./test_input_images/TEST_079.jpg
+691,A group of people standing around a man playing a guitar.,./test_input_images/TEST_837.jpg
+692,A man is kneeling down inside of a metal structure.,./test_input_images/TEST_432.jpg
+693,A sink filled with dishes next to a window.,./test_input_images/TEST_676.jpg
+694,A group of people sitting around a table in a room.,./test_input_images/TEST_111.jpg
+695,A group of people sitting at a table with food.,./test_input_images/TEST_749.jpg
+696,A balcony with a view of a city at night.,./test_input_images/TEST_625.jpg
+697,A person is parasailing in the air over a valley.,./test_input_images/TEST_840.jpg
+698,A man standing on a log in the middle of a race course.,./test_input_images/TEST_527.jpg
+699,A man standing in a boat with a bunch of fishing nets.,./test_input_images/TEST_405.jpg
+700,A group of dolphins swimming in the ocean near a coral reef.,./test_input_images/TEST_103.jpg
+701,Cars driving down a snow covered road in the snow.,./test_input_images/TEST_232.jpg
+702,A man sitting at a bar with a man pouring a drink.,./test_input_images/TEST_324.jpg
+703,A person pouring milk into a cup of coffee.,./test_input_images/TEST_026.jpg
+704,A man standing next to a bowling ball in a bowling alley.,./test_input_images/TEST_821.jpg
+705,A man and a woman walking through a market.,./test_input_images/TEST_754.jpg
+706,Two people standing in front of an ice castle.,./test_input_images/TEST_146.jpg
+707,Cars are parked on the side of the street in front of the houses.,./test_input_images/TEST_761.jpg
+708,A man is kneeling down inside of a metal structure.,./test_input_images/TEST_273.jpg
+709,Cars are parked on the side of the street in front of the houses.,./test_input_images/TEST_756.jpg
+710,A man and woman standing in front of a birthday cake.,./test_input_images/TEST_518.jpg
+711,A man in a kayak paddling through a river.,./test_input_images/TEST_376.jpg
+712,A baseball player holding a bat on a field.,./test_input_images/TEST_524.jpg
+713,A river that has a bunch of buildings on it.,./test_input_images/TEST_429.jpg
+714,A little girl in a pink bathing suit playing in a pool.,./test_input_images/TEST_454.jpg
+715,A tray of breads and croissants on a table.,./test_input_images/TEST_061.jpg
+716,A group of people standing on top of a sandy beach.,./test_input_images/TEST_612.jpg
+717,A group of people sitting around a table drinking coffee.,./test_input_images/TEST_421.jpg
+718,A large group of people walking along a walkway next to the ocean.,./test_input_images/TEST_336.jpg
+719,A woman riding a bike down a path in a park.,./test_input_images/TEST_516.jpg
+720,A man in a black shirt and black shorts is lifting a barbell in front of a crowd of people.,./test_input_images/TEST_515.jpg
+721,A man riding a wave on top of a surfboard.,./test_input_images/TEST_787.jpg
+722,A bride and groom are walking down the aisle.,./test_input_images/TEST_055.jpg
+723,A man standing on a log in the middle of a race course.,./test_input_images/TEST_116.jpg
+724,A person standing on top of a hill at sunset.,./test_input_images/TEST_690.jpg
+725,A red and white helicopter flying over a lush green hillside.,./test_input_images/TEST_646.jpg
+726,A little girl jumping on a trampoline in the air.,./test_input_images/TEST_082.jpg
+727,A woman standing on a street corner talking on a cell phone.,./test_input_images/TEST_767.jpg
+728,A woman in an apron is cleaning a counter.,./test_input_images/TEST_849.jpg
+729,A group of sailboats with colorful sails in the ocean.,./test_input_images/TEST_150.jpg
+730,A pizza sitting on top of a wooden cutting board in front of a brick oven.,./test_input_images/TEST_394.jpg
+731,A coffee machine sitting on top of a wooden table.,./test_input_images/TEST_667.jpg
+732,A little girl in a yellow dress on a red slide.,./test_input_images/TEST_225.jpg
+733,A bowl of soup with chicken and green onions.,./test_input_images/TEST_791.jpg
+734,A group of people on a beach at sunset.,./test_input_images/TEST_441.jpg
+735,A group of people rowing in a boat on a lake.,./test_input_images/TEST_435.jpg
+736,A bowl of food with an egg on top.,./test_input_images/TEST_179.jpg
+737,A man in a red shirt is on a track.,./test_input_images/TEST_073.jpg
+738,A group of people standing in front of a building.,./test_input_images/TEST_513.jpg
+739,A small child looking out the window of a car.,./test_input_images/TEST_176.jpg
+740,A balcony with a view of a city at night.,./test_input_images/TEST_306.jpg
+741,A man standing on a path overlooking a lake.,./test_input_images/TEST_482.jpg
+742,A group of people sitting around a table in a room.,./test_input_images/TEST_327.jpg
+743,A group of people walking down a street with umbrellas.,./test_input_images/TEST_601.jpg
+744,A woman climbing up a wall in a gym.,./test_input_images/TEST_081.jpg
+745,Cars driving down a snow covered road in the snow.,./test_input_images/TEST_487.jpg
+746,A man standing on a path overlooking a lake.,./test_input_images/TEST_284.jpg
+747,A man pouring a cup of coffee into a cup.,./test_input_images/TEST_650.jpg
+748,A group of young people playing a game of soccer.,./test_input_images/TEST_568.jpg
+749,A large group of people walking down a sidewalk.,./test_input_images/TEST_338.jpg
+750,A person standing on top of a hill at sunset.,./test_input_images/TEST_505.jpg
+751,A deer standing in the middle of a forest.,./test_input_images/TEST_097.jpg
+752,A wooden bench sitting in the middle of a street.,./test_input_images/TEST_634.jpg
+753,A close up of two ice cream cones in a shop.,./test_input_images/TEST_100.jpg
+754,A little girl running with a kite in a field.,./test_input_images/TEST_118.jpg
+755,A group of hockey players holding up their sticks in the air.,./test_input_images/TEST_289.jpg
+756,A camel walking across a desert with a blue sky in the background.,./test_input_images/TEST_619.jpg
+757,A bowl of food with an egg on top.,./test_input_images/TEST_183.jpg
+758,A man in a white shirt standing next to a group of workers.,./test_input_images/TEST_359.jpg
+759,"A vanity table with a mirror, a brush, a bowl and a bowl of lotion on it.",./test_input_images/TEST_548.jpg
+760,A man standing next to a rack of clothes on a balcony.,./test_input_images/TEST_356.jpg
+761,A white bathroom with a toilet and a bathtub.,./test_input_images/TEST_031.jpg
+762,A woman sitting at a table in front of a laptop.,./test_input_images/TEST_395.jpg
+763,A large jetliner flying through the sky above clouds.,./test_input_images/TEST_332.jpg
+764,A small child looking out the window of a car.,./test_input_images/TEST_758.jpg
+765,A man climbing up a wall in a gym.,./test_input_images/TEST_172.jpg
+766,A group of children playing a game of tug of war.,./test_input_images/TEST_501.jpg
+767,A polar bear standing in the middle of a snow covered field.,./test_input_images/TEST_408.jpg
+768,A group of children dressed in costumes walking down a street.,./test_input_images/TEST_353.jpg
+769,A man standing next to a bowling ball in a bowling alley.,./test_input_images/TEST_843.jpg
+770,A bowl of soup with meat and vegetables in it.,./test_input_images/TEST_143.jpg
+771,A group of dolphins swimming in the ocean near a coral reef.,./test_input_images/TEST_661.jpg
+772,A large group of people riding bikes down a street.,./test_input_images/TEST_169.jpg
+773,A group of penguins standing on top of a snow covered beach.,./test_input_images/TEST_563.jpg
+774,A little girl in a pink bathing suit playing in a pool.,./test_input_images/TEST_834.jpg
+775,A woman with a backpack standing on top of a mountain.,./test_input_images/TEST_221.jpg
+776,A flock of birds flying over a large green field.,./test_input_images/TEST_083.jpg
+777,"A bedroom with a bed, a lamp and a window.",./test_input_images/TEST_762.jpg
+778,A group of people walking along a path next to a river.,./test_input_images/TEST_481.jpg
+779,A baseball player diving to catch a baseball during a game.,./test_input_images/TEST_566.jpg
+780,A baseball player holding a bat on a field.,./test_input_images/TEST_546.jpg
+781,A group of people sitting on a bench on a sunny day.,./test_input_images/TEST_237.jpg
+782,A man handing a woman keys to a woman in a parking lot.,./test_input_images/TEST_220.jpg
+783,A little girl running with a kite in a field.,./test_input_images/TEST_323.jpg
+784,A spider is hanging from a tree in the fog.,./test_input_images/TEST_847.jpg
+785,A woman in a pink dress is jumping on a rink.,./test_input_images/TEST_004.jpg
+786,A group of people standing around a construction site.,./test_input_images/TEST_444.jpg
+787,"A table with a clock, candles and a bird on it.",./test_input_images/TEST_635.jpg
+788,A group of people standing around a table holding wine glasses.,./test_input_images/TEST_710.jpg
+789,A white table topped with bowls of food.,./test_input_images/TEST_112.jpg
+790,A wine cellar filled with lots of bottles of wine.,./test_input_images/TEST_399.jpg
+791,A picture of a family hanging above a couch.,./test_input_images/TEST_269.jpg
+792,A large jetliner flying through the sky above clouds.,./test_input_images/TEST_078.jpg
+793,A group of people working on a race car.,./test_input_images/TEST_029.jpg
+794,A young boy is eating a piece of food.,./test_input_images/TEST_780.jpg
+795,A couple of people standing next to each other on a blue mat.,./test_input_images/TEST_631.jpg
+796,A sheep grazing in a field of green grass.,./test_input_images/TEST_627.jpg
+797,A man and a woman walking through a market.,./test_input_images/TEST_728.jpg
+798,A group of people standing next to each other at a carnival.,./test_input_images/TEST_168.jpg
+799,A little girl jumping on a trampoline in the air.,./test_input_images/TEST_615.jpg
+800,A woman is tying her shoes on a couch.,./test_input_images/TEST_199.jpg
+801,A woman climbing up a wall in a gym.,./test_input_images/TEST_733.jpg
+802,A view of the Eiffel Tower at sunset.,./test_input_images/TEST_203.jpg
+803,A man in a warehouse working on a plane.,./test_input_images/TEST_137.jpg
+804,A wall covered in graffiti next to a building.,./test_input_images/TEST_211.jpg
+805,A group of people sitting on a bench on a sunny day.,./test_input_images/TEST_069.jpg
+806,A man riding a wave on top of a surfboard.,./test_input_images/TEST_845.jpg
+807,A man in a red shirt is on a track.,./test_input_images/TEST_706.jpg
+808,A view of the Eiffel Tower at sunset.,./test_input_images/TEST_194.jpg
+809,A little girl holding a pink cotton candy in her hand.,./test_input_images/TEST_145.jpg
+810,A blue and white train traveling down train tracks.,./test_input_images/TEST_152.jpg
+811,A couple of kids that are standing in front of some fish.,./test_input_images/TEST_751.jpg
+812,A man riding a wave on top of a surfboard.,./test_input_images/TEST_587.jpg
+813,A group of people standing on top of a sandy beach.,./test_input_images/TEST_054.jpg
+814,"Apples, oranges, and other fruits are on display in a store.",./test_input_images/TEST_585.jpg
+815,A group of people sitting around a table in an office.,./test_input_images/TEST_230.jpg
+816,A couple of cats laying on top of a lush green field.,./test_input_images/TEST_047.jpg
+817,A red and white helicopter flying over a lush green hillside.,./test_input_images/TEST_292.jpg
+818,A young man in a white kimono is practicing karate.,./test_input_images/TEST_443.jpg
+819,A man standing in a boat with a bunch of fishing nets.,./test_input_images/TEST_293.jpg
+820,A group of people riding bikes in a gym.,./test_input_images/TEST_464.jpg
+821,A group of people dressed in traditional costumes perform in front of a crowd.,./test_input_images/TEST_409.jpg
+822,A group of people standing on top of a sandy beach.,./test_input_images/TEST_347.jpg
+823,A black laptop computer sitting on top of a white desk.,./test_input_images/TEST_483.jpg
+824,A man climbing up a wall in a gym.,./test_input_images/TEST_364.jpg
+825,A deer standing in the middle of a forest.,./test_input_images/TEST_688.jpg
+826,A group of people sitting around a table drinking coffee.,./test_input_images/TEST_200.jpg
+827,A ski lift on a snowy mountain with a ski lift in the background.,./test_input_images/TEST_375.jpg
+828,A group of people sitting in a theater watching a movie.,./test_input_images/TEST_718.jpg
+829,A man in a black and white outfit skating on a rink.,./test_input_images/TEST_659.jpg
+830,A group of people walking down a street with umbrellas.,./test_input_images/TEST_065.jpg
+831,A man sitting on a rock overlooking a city.,./test_input_images/TEST_799.jpg
+832,A man standing on a log in the middle of a race course.,./test_input_images/TEST_049.jpg
+833,A group of people sitting around a table in a room.,./test_input_images/TEST_351.jpg
+834,A hot air balloon flying over a lush green field.,./test_input_images/TEST_288.jpg
+835,A woman sitting on a subway reading a book.,./test_input_images/TEST_686.jpg
+836,A spider is hanging from a tree in the fog.,./test_input_images/TEST_161.jpg
+837,Cars driving down a snow covered road in the snow.,./test_input_images/TEST_693.jpg
+838,A little girl in a yellow dress on a red slide.,./test_input_images/TEST_526.jpg
+839,A group of people standing on top of a mountain.,./test_input_images/TEST_473.jpg
+840,A man dunking a basketball on a basketball court.,./test_input_images/TEST_128.jpg
+841,A train station with a clock tower in the background.,./test_input_images/TEST_539.jpg
+842,A group of people riding on the backs of camels.,./test_input_images/TEST_583.jpg
+843,A bride and groom are walking down the aisle.,./test_input_images/TEST_694.jpg
+844,A dolphin jumping out of the water on a sunny day.,./test_input_images/TEST_783.jpg
+845,A turtle swimming in the ocean near a coral reef.,./test_input_images/TEST_714.jpg
+846,A person sitting at a table looking out a window.,./test_input_images/TEST_010.jpg
+847,A sailboat in the middle of a body of water at sunset.,./test_input_images/TEST_246.jpg
+848,A man sitting on a couch holding a bowl of chips.,./test_input_images/TEST_388.jpg
+849,A train station with a clock tower in the background.,./test_input_images/TEST_763.jpg
+850,A large group of people shopping in a store.,./test_input_images/TEST_272.jpg
+851,A row of flower pots sitting outside of a house.,./test_input_images/TEST_440.jpg

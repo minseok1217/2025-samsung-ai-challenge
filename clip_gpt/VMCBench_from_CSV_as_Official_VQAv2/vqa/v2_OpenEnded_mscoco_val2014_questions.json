@@ -1,0 +1,309 @@
+{
+    "info": {
+        "description": "VMCBench converted to VQAv2 Questions for val2014"
+    },
+    "task_type": "Open-Ended",
+    "data_type": "mscoco_val2014",
+    "questions": [
+        {
+            "image_id": 0,
+            "question": "What might be the purpose of the person's workout in the image?\nA. Building muscle and strength\nB. Practicing for a marathon\nC. Training for a cycling race\nD. Preparing for a swimming competition",
+            "question_id": 0
+        },
+        {
+            "image_id": 1,
+            "question": "What color is the shoe rack in the image?\nA. Black\nB. Brown\nC. White\nD. Blue",
+            "question_id": 1
+        },
+        {
+            "image_id": 2,
+            "question": "What might be the deer's behavior in the image?\nA. Eating\nB. Sleeping\nC. Standing\nD. Running",
+            "question_id": 2
+        },
+        {
+            "image_id": 3,
+            "question": "Considering the equipment used in the image, what type of gym might this likely be?\nA. A Pilates studio\nB. A yoga studio\nC. A CrossFit gym\nD. A boxing gym",
+            "question_id": 3
+        },
+        {
+            "image_id": 4,
+            "question": "What is a common ingredient in Gimbap (Korean sushi roll)?\nA. Cheese\nB. Pickled radish\nC. Tomato\nD. Bacon",
+            "question_id": 4
+        },
+        {
+            "image_id": 5,
+            "question": "What is the main color of the flowers in the image?\nA. Yellow\nB. Pink\nC. White\nD. Blue",
+            "question_id": 5
+        },
+        {
+            "image_id": 6,
+            "question": "What is the typical habitat of the type of deer in the image?\nA. Rainforest\nB. Desert\nC. Forest\nD. Ocean",
+            "question_id": 6
+        },
+        {
+            "image_id": 7,
+            "question": "What is the likely purpose of the room in the image?\nA. For exercising\nB. For studying\nC. For sleeping\nD. For dining",
+            "question_id": 7
+        },
+        {
+            "image_id": 8,
+            "question": "Based on the image, which type of athletic footwear is most suitable for the activity depicted?\nA. Swim fins\nB. Running shoes\nC. Basketball shoes\nD. Snow boots",
+            "question_id": 8
+        },
+        {
+            "image_id": 9,
+            "question": "What is the main color of the squirrel in the image?\nA. Black\nB. White\nC. Brown\nD. Gray",
+            "question_id": 9
+        },
+        {
+            "image_id": 10,
+            "question": "What is the primary object in the image?\nA. A pair of shoes\nB. A bicycle\nC. A car\nD. A skateboard",
+            "question_id": 10
+        },
+        {
+            "image_id": 11,
+            "question": "What would you typically find in a library like the one in the image?\nA. Books and study materials\nB. Cooking utensils\nC. Beds and wardrobes\nD. Exercise equipment",
+            "question_id": 11
+        },
+        {
+            "image_id": 12,
+            "question": "What is the main color of the decorations in the image?\nA. Green\nB. Yellow\nC. Red\nD. Blue",
+            "question_id": 12
+        },
+        {
+            "image_id": 13,
+            "question": "Based on the image, what can be inferred about the climber's physical condition?\nA. The climber is physically fit.\nB. The climber is unfit.\nC. The climber is injured.\nD. The climber is elderly.",
+            "question_id": 13
+        },
+        {
+            "image_id": 14,
+            "question": "What time of the day was the photo likely taken?\nA. Afternoon\nB. Morning\nC. Night\nD. Evening",
+            "question_id": 14
+        },
+        {
+            "image_id": 15,
+            "question": "What is the likely activity the skateboard is being used for?\nA. Participating in a race\nB. Performing tricks at a skate park\nC. Casual ride in the neighborhood\nD. Commuting to work",
+            "question_id": 15
+        },
+        {
+            "image_id": 16,
+            "question": "According to Korean cuisine, which side dish often accompanies this kind of main dish?\nA. Salad\nB. Miso soup\nC. French fries\nD. Kimchi",
+            "question_id": 16
+        },
+        {
+            "image_id": 17,
+            "question": "What is the usual material used to construct the surface of a skateboard like the one in the image?\nA. Plastic\nB. Maple wood\nC. Bamboo\nD. Metal",
+            "question_id": 17
+        },
+        {
+            "image_id": 18,
+            "question": "What type of ecosystem is typically found at a beach?\nA. Forest\nB. Desert\nC. Marine\nD. Grassland",
+            "question_id": 18
+        },
+        {
+            "image_id": 19,
+            "question": "Why might the people in the image be hiking?\nA. For a school field trip\nB. For exercise and relaxation\nC. To have a picnic\nD. To get to work",
+            "question_id": 19
+        },
+        {
+            "image_id": 20,
+            "question": "What is the likely setting based on the image?\nA. A traditional Korean restaurant\nB. A sushi bar\nC. A home kitchen\nD. A fast food restaurant",
+            "question_id": 20
+        },
+        {
+            "image_id": 21,
+            "question": "What might be the squirrel's activity in the image?\nA. Sleeping\nB. Eating\nC. Climbing\nD. Running",
+            "question_id": 21
+        },
+        {
+            "image_id": 22,
+            "question": "What time of the day is it likely to be in the image?\nA. Night\nB. Morning\nC. Evening\nD. Noon",
+            "question_id": 22
+        },
+        {
+            "image_id": 23,
+            "question": "What is the main activity shown in the image?\nA. Hiking\nB. Jogging\nC. Rock Climbing\nD. Swimming",
+            "question_id": 23
+        },
+        {
+            "image_id": 24,
+            "question": "Considering the number and variety of shoes, what can be inferred about the number of people living in this household?\nA. Three people.\nB. Four or more people.\nC. One person.\nD. Two people.",
+            "question_id": 24
+        },
+        {
+            "image_id": 25,
+            "question": "What color are the bookshelves in the image?\nA. Blue\nB. Brown\nC. Green\nD. Red",
+            "question_id": 25
+        },
+        {
+            "image_id": 26,
+            "question": "Which type of fishing equipment is commonly used in the activity shown in the image?\nA. A fishing trap\nB. A fishing spear\nC. A fishing net\nD. A fishing rod",
+            "question_id": 26
+        },
+        {
+            "image_id": 27,
+            "question": "What is the average lifespan of a squirrel in the wild?\nA. 1-2 years\nB. 10-15 years\nC. 5-10 years\nD. 20-25 years",
+            "question_id": 27
+        },
+        {
+            "image_id": 28,
+            "question": "What type of clothing is most suitable for the activity shown in the image?\nA. Chef's uniform\nB. Formal attire\nC. Swimwear\nD. Comfortable and breathable outdoor clothing",
+            "question_id": 28
+        },
+        {
+            "image_id": 29,
+            "question": "What is the primary activity being performed in the image?\nA. Running\nB. Swimming\nC. Weight lifting\nD. Cycling",
+            "question_id": 29
+        },
+        {
+            "image_id": 30,
+            "question": "What is the color of the bookshelves in the image?\nA. Brown\nB. Black\nC. Blue\nD. White",
+            "question_id": 30
+        },
+        {
+            "image_id": 31,
+            "question": "What is a common activity people do when camping?\nA. Shopping\nB. Roasting marshmallows\nC. Swimming\nD. Skiing",
+            "question_id": 31
+        },
+        {
+            "image_id": 32,
+            "question": "What is the main activity being performed in the image?\nA. Running\nB. Swimming\nC. Fishing\nD. Hiking",
+            "question_id": 32
+        },
+        {
+            "image_id": 33,
+            "question": "What is the main color of the tent in the image?\nA. Red\nB. Green\nC. Yellow\nD. Blue",
+            "question_id": 33
+        },
+        {
+            "image_id": 34,
+            "question": "In which country is cherry blossom viewing highly celebrated?\nA. Canada\nB. Brazil\nC. Egypt\nD. Japan",
+            "question_id": 34
+        },
+        {
+            "image_id": 35,
+            "question": "What kind of activities are popular at the beach?\nA. Ice skating\nB. Skiing\nC. Sunbathing and swimming\nD. Mountain climbing",
+            "question_id": 35
+        },
+        {
+            "image_id": 36,
+            "question": "What is the main activity taking place in the image?\nA. Swimming\nB. Reading\nC. Cooking\nD. Hiking",
+            "question_id": 36
+        },
+        {
+            "image_id": 37,
+            "question": "What is the likely occasion for the decorations depicted in the image?\nA. Halloween\nB. Valentine's Day\nC. Christmas\nD. Easter",
+            "question_id": 37
+        },
+        {
+            "image_id": 38,
+            "question": "In some cultures, why is it important to remove shoes before entering a home?\nA. To show respect to the host\nB. Both A and B\nC. No specific reason\nD. To avoid bringing dirt and germs into the house",
+            "question_id": 38
+        },
+        {
+            "image_id": 39,
+            "question": "What is a crucial piece of equipment for rock climbing, visible in the image?\nA. Ski poles\nB. Scuba gear\nC. Bicycle\nD. Climbing helmet",
+            "question_id": 39
+        },
+        {
+            "image_id": 40,
+            "question": "What kind of food is presented in the image?\nA. Korean dish\nB. Pasta\nC. Pizza\nD. Sushi",
+            "question_id": 40
+        },
+        {
+            "image_id": 41,
+            "question": "What color is the sky in the image?\nA. Black\nB. Blue\nC. Green\nD. Red",
+            "question_id": 41
+        },
+        {
+            "image_id": 42,
+            "question": "What color is the majority of the shoes in the shoe rack?\nA. Black\nB. Brown\nC. Red\nD. White",
+            "question_id": 42
+        },
+        {
+            "image_id": 43,
+            "question": "Considering the books and the study environment, what might be a common etiquette rule in this place?\nA. Food and drinks are allowed everywhere\nB. Silence is generally maintained\nC. Yelling is encouraged\nD. Running around is permitted",
+            "question_id": 43
+        },
+        {
+            "image_id": 44,
+            "question": "Considering the category of the image, what might be the main ingredient of the dish?\nA. Pork\nB. Fish\nC. Chicken\nD. Beef",
+            "question_id": 44
+        },
+        {
+            "image_id": 45,
+            "question": "What is the predominant color in the image?\nA. Yellow\nB. Green\nC. Blue\nD. Red",
+            "question_id": 45
+        },
+        {
+            "image_id": 46,
+            "question": "What is the main dish in the image?\nA. Pizza\nB. Pasta\nC. Burger\nD. Gimbap (Korean sushi roll)",
+            "question_id": 46
+        },
+        {
+            "image_id": 47,
+            "question": "What time of day is it likely in the image?\nA. Night\nB. Afternoon\nC. Evening\nD. Morning",
+            "question_id": 47
+        },
+        {
+            "image_id": 48,
+            "question": "What is the most likely purpose of this room?\nA. For exercising\nB. For studying\nC. For sleeping\nD. For cooking",
+            "question_id": 48
+        },
+        {
+            "image_id": 49,
+            "question": "What type of shoes are likely to be stored in this shoe rack?\nA. Running shoes\nB. High heels\nC. All of the above\nD. Slippers",
+            "question_id": 49
+        },
+        {
+            "image_id": 50,
+            "question": "What might be the reason this image was taken?\nA. To capture a rare animal in the wild\nB. To document a natural disaster\nC. To appreciate the beauty of cherry blossoms\nD. To highlight the beauty of the night sky",
+            "question_id": 50
+        },
+        {
+            "image_id": 51,
+            "question": "What is the color of the deer in the image?\nA. Gray\nB. Black\nC. Brown\nD. White",
+            "question_id": 51
+        },
+        {
+            "image_id": 52,
+            "question": "Considering the shoe rack style, which country is this shoe rack commonly found in?\nA. USA\nB. Brazil\nC. Korea\nD. France",
+            "question_id": 52
+        },
+        {
+            "image_id": 53,
+            "question": "What is the likely setting of the photo?\nA. Forest trail\nB. City street\nC. Outdoor running track\nD. Indoor gym",
+            "question_id": 53
+        },
+        {
+            "image_id": 54,
+            "question": "What is the primary color of the bookshelves in the image?\nA. Green\nB. White\nC. Brown\nD. Blue",
+            "question_id": 54
+        },
+        {
+            "image_id": 55,
+            "question": "What could be a possible purpose of the room in the image?\nA. Cooking\nB. Dining\nC. Studying\nD. Exercising",
+            "question_id": 55
+        },
+        {
+            "image_id": 56,
+            "question": "What might be the purpose of the person in the image doing the activity?\nA. For exercise or health\nB. For competition\nC. For professional work\nD. For leisure or relaxation",
+            "question_id": 56
+        },
+        {
+            "image_id": 57,
+            "question": "What type of exercise is the person in the image doing?\nA. Running\nB. Weightlifting\nC. Cycling\nD. Swimming",
+            "question_id": 57
+        },
+        {
+            "image_id": 58,
+            "question": "Which country is known for popularizing the tradition of decorating Christmas trees?\nA. Germany\nB. United States\nC. France\nD. Russia",
+            "question_id": 58
+        },
+        {
+            "image_id": 59,
+            "question": "Which of the following rules is usually applied in libraries?\nA. Play music\nB. Eat snacks\nC. Speak loudly\nD. Keep silence",
+            "question_id": 59
+        }
+    ]
+}

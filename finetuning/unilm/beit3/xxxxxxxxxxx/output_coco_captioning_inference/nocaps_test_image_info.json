@@ -1,0 +1,4262 @@
+[
+    {
+        "image_path": "./test_input_images/TEST_245.jpg",
+        "text_segment": null,
+        "image_id": 60
+    },
+    {
+        "image_path": "./test_input_images/TEST_018.jpg",
+        "text_segment": null,
+        "image_id": 61
+    },
+    {
+        "image_path": "./test_input_images/TEST_726.jpg",
+        "text_segment": null,
+        "image_id": 62
+    },
+    {
+        "image_path": "./test_input_images/TEST_266.jpg",
+        "text_segment": null,
+        "image_id": 63
+    },
+    {
+        "image_path": "./test_input_images/TEST_841.jpg",
+        "text_segment": null,
+        "image_id": 64
+    },
+    {
+        "image_path": "./test_input_images/TEST_259.jpg",
+        "text_segment": null,
+        "image_id": 65
+    },
+    {
+        "image_path": "./test_input_images/TEST_419.jpg",
+        "text_segment": null,
+        "image_id": 66
+    },
+    {
+        "image_path": "./test_input_images/TEST_045.jpg",
+        "text_segment": null,
+        "image_id": 67
+    },
+    {
+        "image_path": "./test_input_images/TEST_528.jpg",
+        "text_segment": null,
+        "image_id": 68
+    },
+    {
+        "image_path": "./test_input_images/TEST_250.jpg",
+        "text_segment": null,
+        "image_id": 69
+    },
+    {
+        "image_path": "./test_input_images/TEST_691.jpg",
+        "text_segment": null,
+        "image_id": 70
+    },
+    {
+        "image_path": "./test_input_images/TEST_198.jpg",
+        "text_segment": null,
+        "image_id": 71
+    },
+    {
+        "image_path": "./test_input_images/TEST_588.jpg",
+        "text_segment": null,
+        "image_id": 72
+    },
+    {
+        "image_path": "./test_input_images/TEST_189.jpg",
+        "text_segment": null,
+        "image_id": 73
+    },
+    {
+        "image_path": "./test_input_images/TEST_251.jpg",
+        "text_segment": null,
+        "image_id": 74
+    },
+    {
+        "image_path": "./test_input_images/TEST_302.jpg",
+        "text_segment": null,
+        "image_id": 75
+    },
+    {
+        "image_path": "./test_input_images/TEST_133.jpg",
+        "text_segment": null,
+        "image_id": 76
+    },
+    {
+        "image_path": "./test_input_images/TEST_790.jpg",
+        "text_segment": null,
+        "image_id": 77
+    },
+    {
+        "image_path": "./test_input_images/TEST_099.jpg",
+        "text_segment": null,
+        "image_id": 78
+    },
+    {
+        "image_path": "./test_input_images/TEST_794.jpg",
+        "text_segment": null,
+        "image_id": 79
+    },
+    {
+        "image_path": "./test_input_images/TEST_655.jpg",
+        "text_segment": null,
+        "image_id": 80
+    },
+    {
+        "image_path": "./test_input_images/TEST_538.jpg",
+        "text_segment": null,
+        "image_id": 81
+    },
+    {
+        "image_path": "./test_input_images/TEST_056.jpg",
+        "text_segment": null,
+        "image_id": 82
+    },
+    {
+        "image_path": "./test_input_images/TEST_140.jpg",
+        "text_segment": null,
+        "image_id": 83
+    },
+    {
+        "image_path": "./test_input_images/TEST_600.jpg",
+        "text_segment": null,
+        "image_id": 84
+    },
+    {
+        "image_path": "./test_input_images/TEST_214.jpg",
+        "text_segment": null,
+        "image_id": 85
+    },
+    {
+        "image_path": "./test_input_images/TEST_400.jpg",
+        "text_segment": null,
+        "image_id": 86
+    },
+    {
+        "image_path": "./test_input_images/TEST_089.jpg",
+        "text_segment": null,
+        "image_id": 87
+    },
+    {
+        "image_path": "./test_input_images/TEST_832.jpg",
+        "text_segment": null,
+        "image_id": 88
+    },
+    {
+        "image_path": "./test_input_images/TEST_126.jpg",
+        "text_segment": null,
+        "image_id": 89
+    },
+    {
+        "image_path": "./test_input_images/TEST_746.jpg",
+        "text_segment": null,
+        "image_id": 90
+    },
+    {
+        "image_path": "./test_input_images/TEST_759.jpg",
+        "text_segment": null,
+        "image_id": 91
+    },
+    {
+        "image_path": "./test_input_images/TEST_027.jpg",
+        "text_segment": null,
+        "image_id": 92
+    },
+    {
+        "image_path": "./test_input_images/TEST_765.jpg",
+        "text_segment": null,
+        "image_id": 93
+    },
+    {
+        "image_path": "./test_input_images/TEST_567.jpg",
+        "text_segment": null,
+        "image_id": 94
+    },
+    {
+        "image_path": "./test_input_images/TEST_616.jpg",
+        "text_segment": null,
+        "image_id": 95
+    },
+    {
+        "image_path": "./test_input_images/TEST_648.jpg",
+        "text_segment": null,
+        "image_id": 96
+    },
+    {
+        "image_path": "./test_input_images/TEST_554.jpg",
+        "text_segment": null,
+        "image_id": 97
+    },
+    {
+        "image_path": "./test_input_images/TEST_809.jpg",
+        "text_segment": null,
+        "image_id": 98
+    },
+    {
+        "image_path": "./test_input_images/TEST_430.jpg",
+        "text_segment": null,
+        "image_id": 99
+    },
+    {
+        "image_path": "./test_input_images/TEST_553.jpg",
+        "text_segment": null,
+        "image_id": 100
+    },
+    {
+        "image_path": "./test_input_images/TEST_753.jpg",
+        "text_segment": null,
+        "image_id": 101
+    },
+    {
+        "image_path": "./test_input_images/TEST_630.jpg",
+        "text_segment": null,
+        "image_id": 102
+    },
+    {
+        "image_path": "./test_input_images/TEST_357.jpg",
+        "text_segment": null,
+        "image_id": 103
+    },
+    {
+        "image_path": "./test_input_images/TEST_425.jpg",
+        "text_segment": null,
+        "image_id": 104
+    },
+    {
+        "image_path": "./test_input_images/TEST_131.jpg",
+        "text_segment": null,
+        "image_id": 105
+    },
+    {
+        "image_path": "./test_input_images/TEST_469.jpg",
+        "text_segment": null,
+        "image_id": 106
+    },
+    {
+        "image_path": "./test_input_images/TEST_519.jpg",
+        "text_segment": null,
+        "image_id": 107
+    },
+    {
+        "image_path": "./test_input_images/TEST_434.jpg",
+        "text_segment": null,
+        "image_id": 108
+    },
+    {
+        "image_path": "./test_input_images/TEST_231.jpg",
+        "text_segment": null,
+        "image_id": 109
+    },
+    {
+        "image_path": "./test_input_images/TEST_658.jpg",
+        "text_segment": null,
+        "image_id": 110
+    },
+    {
+        "image_path": "./test_input_images/TEST_475.jpg",
+        "text_segment": null,
+        "image_id": 111
+    },
+    {
+        "image_path": "./test_input_images/TEST_185.jpg",
+        "text_segment": null,
+        "image_id": 112
+    },
+    {
+        "image_path": "./test_input_images/TEST_265.jpg",
+        "text_segment": null,
+        "image_id": 113
+    },
+    {
+        "image_path": "./test_input_images/TEST_680.jpg",
+        "text_segment": null,
+        "image_id": 114
+    },
+    {
+        "image_path": "./test_input_images/TEST_556.jpg",
+        "text_segment": null,
+        "image_id": 115
+    },
+    {
+        "image_path": "./test_input_images/TEST_757.jpg",
+        "text_segment": null,
+        "image_id": 116
+    },
+    {
+        "image_path": "./test_input_images/TEST_041.jpg",
+        "text_segment": null,
+        "image_id": 117
+    },
+    {
+        "image_path": "./test_input_images/TEST_771.jpg",
+        "text_segment": null,
+        "image_id": 118
+    },
+    {
+        "image_path": "./test_input_images/TEST_318.jpg",
+        "text_segment": null,
+        "image_id": 119
+    },
+    {
+        "image_path": "./test_input_images/TEST_235.jpg",
+        "text_segment": null,
+        "image_id": 120
+    },
+    {
+        "image_path": "./test_input_images/TEST_750.jpg",
+        "text_segment": null,
+        "image_id": 121
+    },
+    {
+        "image_path": "./test_input_images/TEST_113.jpg",
+        "text_segment": null,
+        "image_id": 122
+    },
+    {
+        "image_path": "./test_input_images/TEST_504.jpg",
+        "text_segment": null,
+        "image_id": 123
+    },
+    {
+        "image_path": "./test_input_images/TEST_826.jpg",
+        "text_segment": null,
+        "image_id": 124
+    },
+    {
+        "image_path": "./test_input_images/TEST_810.jpg",
+        "text_segment": null,
+        "image_id": 125
+    },
+    {
+        "image_path": "./test_input_images/TEST_831.jpg",
+        "text_segment": null,
+        "image_id": 126
+    },
+    {
+        "image_path": "./test_input_images/TEST_533.jpg",
+        "text_segment": null,
+        "image_id": 127
+    },
+    {
+        "image_path": "./test_input_images/TEST_489.jpg",
+        "text_segment": null,
+        "image_id": 128
+    },
+    {
+        "image_path": "./test_input_images/TEST_745.jpg",
+        "text_segment": null,
+        "image_id": 129
+    },
+    {
+        "image_path": "./test_input_images/TEST_698.jpg",
+        "text_segment": null,
+        "image_id": 130
+    },
+    {
+        "image_path": "./test_input_images/TEST_062.jpg",
+        "text_segment": null,
+        "image_id": 131
+    },
+    {
+        "image_path": "./test_input_images/TEST_537.jpg",
+        "text_segment": null,
+        "image_id": 132
+    },
+    {
+        "image_path": "./test_input_images/TEST_649.jpg",
+        "text_segment": null,
+        "image_id": 133
+    },
+    {
+        "image_path": "./test_input_images/TEST_656.jpg",
+        "text_segment": null,
+        "image_id": 134
+    },
+    {
+        "image_path": "./test_input_images/TEST_386.jpg",
+        "text_segment": null,
+        "image_id": 135
+    },
+    {
+        "image_path": "./test_input_images/TEST_772.jpg",
+        "text_segment": null,
+        "image_id": 136
+    },
+    {
+        "image_path": "./test_input_images/TEST_777.jpg",
+        "text_segment": null,
+        "image_id": 137
+    },
+    {
+        "image_path": "./test_input_images/TEST_438.jpg",
+        "text_segment": null,
+        "image_id": 138
+    },
+    {
+        "image_path": "./test_input_images/TEST_093.jpg",
+        "text_segment": null,
+        "image_id": 139
+    },
+    {
+        "image_path": "./test_input_images/TEST_562.jpg",
+        "text_segment": null,
+        "image_id": 140
+    },
+    {
+        "image_path": "./test_input_images/TEST_823.jpg",
+        "text_segment": null,
+        "image_id": 141
+    },
+    {
+        "image_path": "./test_input_images/TEST_784.jpg",
+        "text_segment": null,
+        "image_id": 142
+    },
+    {
+        "image_path": "./test_input_images/TEST_297.jpg",
+        "text_segment": null,
+        "image_id": 143
+    },
+    {
+        "image_path": "./test_input_images/TEST_420.jpg",
+        "text_segment": null,
+        "image_id": 144
+    },
+    {
+        "image_path": "./test_input_images/TEST_224.jpg",
+        "text_segment": null,
+        "image_id": 145
+    },
+    {
+        "image_path": "./test_input_images/TEST_747.jpg",
+        "text_segment": null,
+        "image_id": 146
+    },
+    {
+        "image_path": "./test_input_images/TEST_282.jpg",
+        "text_segment": null,
+        "image_id": 147
+    },
+    {
+        "image_path": "./test_input_images/TEST_067.jpg",
+        "text_segment": null,
+        "image_id": 148
+    },
+    {
+        "image_path": "./test_input_images/TEST_511.jpg",
+        "text_segment": null,
+        "image_id": 149
+    },
+    {
+        "image_path": "./test_input_images/TEST_316.jpg",
+        "text_segment": null,
+        "image_id": 150
+    },
+    {
+        "image_path": "./test_input_images/TEST_455.jpg",
+        "text_segment": null,
+        "image_id": 151
+    },
+    {
+        "image_path": "./test_input_images/TEST_329.jpg",
+        "text_segment": null,
+        "image_id": 152
+    },
+    {
+        "image_path": "./test_input_images/TEST_641.jpg",
+        "text_segment": null,
+        "image_id": 153
+    },
+    {
+        "image_path": "./test_input_images/TEST_280.jpg",
+        "text_segment": null,
+        "image_id": 154
+    },
+    {
+        "image_path": "./test_input_images/TEST_542.jpg",
+        "text_segment": null,
+        "image_id": 155
+    },
+    {
+        "image_path": "./test_input_images/TEST_622.jpg",
+        "text_segment": null,
+        "image_id": 156
+    },
+    {
+        "image_path": "./test_input_images/TEST_557.jpg",
+        "text_segment": null,
+        "image_id": 157
+    },
+    {
+        "image_path": "./test_input_images/TEST_264.jpg",
+        "text_segment": null,
+        "image_id": 158
+    },
+    {
+        "image_path": "./test_input_images/TEST_724.jpg",
+        "text_segment": null,
+        "image_id": 159
+    },
+    {
+        "image_path": "./test_input_images/TEST_692.jpg",
+        "text_segment": null,
+        "image_id": 160
+    },
+    {
+        "image_path": "./test_input_images/TEST_208.jpg",
+        "text_segment": null,
+        "image_id": 161
+    },
+    {
+        "image_path": "./test_input_images/TEST_424.jpg",
+        "text_segment": null,
+        "image_id": 162
+    },
+    {
+        "image_path": "./test_input_images/TEST_308.jpg",
+        "text_segment": null,
+        "image_id": 163
+    },
+    {
+        "image_path": "./test_input_images/TEST_363.jpg",
+        "text_segment": null,
+        "image_id": 164
+    },
+    {
+        "image_path": "./test_input_images/TEST_038.jpg",
+        "text_segment": null,
+        "image_id": 165
+    },
+    {
+        "image_path": "./test_input_images/TEST_436.jpg",
+        "text_segment": null,
+        "image_id": 166
+    },
+    {
+        "image_path": "./test_input_images/TEST_617.jpg",
+        "text_segment": null,
+        "image_id": 167
+    },
+    {
+        "image_path": "./test_input_images/TEST_385.jpg",
+        "text_segment": null,
+        "image_id": 168
+    },
+    {
+        "image_path": "./test_input_images/TEST_596.jpg",
+        "text_segment": null,
+        "image_id": 169
+    },
+    {
+        "image_path": "./test_input_images/TEST_764.jpg",
+        "text_segment": null,
+        "image_id": 170
+    },
+    {
+        "image_path": "./test_input_images/TEST_678.jpg",
+        "text_segment": null,
+        "image_id": 171
+    },
+    {
+        "image_path": "./test_input_images/TEST_319.jpg",
+        "text_segment": null,
+        "image_id": 172
+    },
+    {
+        "image_path": "./test_input_images/TEST_234.jpg",
+        "text_segment": null,
+        "image_id": 173
+    },
+    {
+        "image_path": "./test_input_images/TEST_415.jpg",
+        "text_segment": null,
+        "image_id": 174
+    },
+    {
+        "image_path": "./test_input_images/TEST_032.jpg",
+        "text_segment": null,
+        "image_id": 175
+    },
+    {
+        "image_path": "./test_input_images/TEST_005.jpg",
+        "text_segment": null,
+        "image_id": 176
+    },
+    {
+        "image_path": "./test_input_images/TEST_022.jpg",
+        "text_segment": null,
+        "image_id": 177
+    },
+    {
+        "image_path": "./test_input_images/TEST_060.jpg",
+        "text_segment": null,
+        "image_id": 178
+    },
+    {
+        "image_path": "./test_input_images/TEST_713.jpg",
+        "text_segment": null,
+        "image_id": 179
+    },
+    {
+        "image_path": "./test_input_images/TEST_110.jpg",
+        "text_segment": null,
+        "image_id": 180
+    },
+    {
+        "image_path": "./test_input_images/TEST_129.jpg",
+        "text_segment": null,
+        "image_id": 181
+    },
+    {
+        "image_path": "./test_input_images/TEST_462.jpg",
+        "text_segment": null,
+        "image_id": 182
+    },
+    {
+        "image_path": "./test_input_images/TEST_226.jpg",
+        "text_segment": null,
+        "image_id": 183
+    },
+    {
+        "image_path": "./test_input_images/TEST_723.jpg",
+        "text_segment": null,
+        "image_id": 184
+    },
+    {
+        "image_path": "./test_input_images/TEST_639.jpg",
+        "text_segment": null,
+        "image_id": 185
+    },
+    {
+        "image_path": "./test_input_images/TEST_773.jpg",
+        "text_segment": null,
+        "image_id": 186
+    },
+    {
+        "image_path": "./test_input_images/TEST_313.jpg",
+        "text_segment": null,
+        "image_id": 187
+    },
+    {
+        "image_path": "./test_input_images/TEST_578.jpg",
+        "text_segment": null,
+        "image_id": 188
+    },
+    {
+        "image_path": "./test_input_images/TEST_009.jpg",
+        "text_segment": null,
+        "image_id": 189
+    },
+    {
+        "image_path": "./test_input_images/TEST_523.jpg",
+        "text_segment": null,
+        "image_id": 190
+    },
+    {
+        "image_path": "./test_input_images/TEST_391.jpg",
+        "text_segment": null,
+        "image_id": 191
+    },
+    {
+        "image_path": "./test_input_images/TEST_406.jpg",
+        "text_segment": null,
+        "image_id": 192
+    },
+    {
+        "image_path": "./test_input_images/TEST_700.jpg",
+        "text_segment": null,
+        "image_id": 193
+    },
+    {
+        "image_path": "./test_input_images/TEST_493.jpg",
+        "text_segment": null,
+        "image_id": 194
+    },
+    {
+        "image_path": "./test_input_images/TEST_182.jpg",
+        "text_segment": null,
+        "image_id": 195
+    },
+    {
+        "image_path": "./test_input_images/TEST_738.jpg",
+        "text_segment": null,
+        "image_id": 196
+    },
+    {
+        "image_path": "./test_input_images/TEST_825.jpg",
+        "text_segment": null,
+        "image_id": 197
+    },
+    {
+        "image_path": "./test_input_images/TEST_043.jpg",
+        "text_segment": null,
+        "image_id": 198
+    },
+    {
+        "image_path": "./test_input_images/TEST_283.jpg",
+        "text_segment": null,
+        "image_id": 199
+    },
+    {
+        "image_path": "./test_input_images/TEST_827.jpg",
+        "text_segment": null,
+        "image_id": 200
+    },
+    {
+        "image_path": "./test_input_images/TEST_334.jpg",
+        "text_segment": null,
+        "image_id": 201
+    },
+    {
+        "image_path": "./test_input_images/TEST_180.jpg",
+        "text_segment": null,
+        "image_id": 202
+    },
+    {
+        "image_path": "./test_input_images/TEST_712.jpg",
+        "text_segment": null,
+        "image_id": 203
+    },
+    {
+        "image_path": "./test_input_images/TEST_779.jpg",
+        "text_segment": null,
+        "image_id": 204
+    },
+    {
+        "image_path": "./test_input_images/TEST_389.jpg",
+        "text_segment": null,
+        "image_id": 205
+    },
+    {
+        "image_path": "./test_input_images/TEST_497.jpg",
+        "text_segment": null,
+        "image_id": 206
+    },
+    {
+        "image_path": "./test_input_images/TEST_689.jpg",
+        "text_segment": null,
+        "image_id": 207
+    },
+    {
+        "image_path": "./test_input_images/TEST_301.jpg",
+        "text_segment": null,
+        "image_id": 208
+    },
+    {
+        "image_path": "./test_input_images/TEST_107.jpg",
+        "text_segment": null,
+        "image_id": 209
+    },
+    {
+        "image_path": "./test_input_images/TEST_521.jpg",
+        "text_segment": null,
+        "image_id": 210
+    },
+    {
+        "image_path": "./test_input_images/TEST_366.jpg",
+        "text_segment": null,
+        "image_id": 211
+    },
+    {
+        "image_path": "./test_input_images/TEST_815.jpg",
+        "text_segment": null,
+        "image_id": 212
+    },
+    {
+        "image_path": "./test_input_images/TEST_155.jpg",
+        "text_segment": null,
+        "image_id": 213
+    },
+    {
+        "image_path": "./test_input_images/TEST_206.jpg",
+        "text_segment": null,
+        "image_id": 214
+    },
+    {
+        "image_path": "./test_input_images/TEST_014.jpg",
+        "text_segment": null,
+        "image_id": 215
+    },
+    {
+        "image_path": "./test_input_images/TEST_820.jpg",
+        "text_segment": null,
+        "image_id": 216
+    },
+    {
+        "image_path": "./test_input_images/TEST_575.jpg",
+        "text_segment": null,
+        "image_id": 217
+    },
+    {
+        "image_path": "./test_input_images/TEST_337.jpg",
+        "text_segment": null,
+        "image_id": 218
+    },
+    {
+        "image_path": "./test_input_images/TEST_331.jpg",
+        "text_segment": null,
+        "image_id": 219
+    },
+    {
+        "image_path": "./test_input_images/TEST_589.jpg",
+        "text_segment": null,
+        "image_id": 220
+    },
+    {
+        "image_path": "./test_input_images/TEST_341.jpg",
+        "text_segment": null,
+        "image_id": 221
+    },
+    {
+        "image_path": "./test_input_images/TEST_453.jpg",
+        "text_segment": null,
+        "image_id": 222
+    },
+    {
+        "image_path": "./test_input_images/TEST_236.jpg",
+        "text_segment": null,
+        "image_id": 223
+    },
+    {
+        "image_path": "./test_input_images/TEST_156.jpg",
+        "text_segment": null,
+        "image_id": 224
+    },
+    {
+        "image_path": "./test_input_images/TEST_243.jpg",
+        "text_segment": null,
+        "image_id": 225
+    },
+    {
+        "image_path": "./test_input_images/TEST_117.jpg",
+        "text_segment": null,
+        "image_id": 226
+    },
+    {
+        "image_path": "./test_input_images/TEST_846.jpg",
+        "text_segment": null,
+        "image_id": 227
+    },
+    {
+        "image_path": "./test_input_images/TEST_228.jpg",
+        "text_segment": null,
+        "image_id": 228
+    },
+    {
+        "image_path": "./test_input_images/TEST_480.jpg",
+        "text_segment": null,
+        "image_id": 229
+    },
+    {
+        "image_path": "./test_input_images/TEST_577.jpg",
+        "text_segment": null,
+        "image_id": 230
+    },
+    {
+        "image_path": "./test_input_images/TEST_708.jpg",
+        "text_segment": null,
+        "image_id": 231
+    },
+    {
+        "image_path": "./test_input_images/TEST_174.jpg",
+        "text_segment": null,
+        "image_id": 232
+    },
+    {
+        "image_path": "./test_input_images/TEST_610.jpg",
+        "text_segment": null,
+        "image_id": 233
+    },
+    {
+        "image_path": "./test_input_images/TEST_036.jpg",
+        "text_segment": null,
+        "image_id": 234
+    },
+    {
+        "image_path": "./test_input_images/TEST_333.jpg",
+        "text_segment": null,
+        "image_id": 235
+    },
+    {
+        "image_path": "./test_input_images/TEST_811.jpg",
+        "text_segment": null,
+        "image_id": 236
+    },
+    {
+        "image_path": "./test_input_images/TEST_195.jpg",
+        "text_segment": null,
+        "image_id": 237
+    },
+    {
+        "image_path": "./test_input_images/TEST_824.jpg",
+        "text_segment": null,
+        "image_id": 238
+    },
+    {
+        "image_path": "./test_input_images/TEST_705.jpg",
+        "text_segment": null,
+        "image_id": 239
+    },
+    {
+        "image_path": "./test_input_images/TEST_260.jpg",
+        "text_segment": null,
+        "image_id": 240
+    },
+    {
+        "image_path": "./test_input_images/TEST_125.jpg",
+        "text_segment": null,
+        "image_id": 241
+    },
+    {
+        "image_path": "./test_input_images/TEST_804.jpg",
+        "text_segment": null,
+        "image_id": 242
+    },
+    {
+        "image_path": "./test_input_images/TEST_015.jpg",
+        "text_segment": null,
+        "image_id": 243
+    },
+    {
+        "image_path": "./test_input_images/TEST_275.jpg",
+        "text_segment": null,
+        "image_id": 244
+    },
+    {
+        "image_path": "./test_input_images/TEST_229.jpg",
+        "text_segment": null,
+        "image_id": 245
+    },
+    {
+        "image_path": "./test_input_images/TEST_328.jpg",
+        "text_segment": null,
+        "image_id": 246
+    },
+    {
+        "image_path": "./test_input_images/TEST_381.jpg",
+        "text_segment": null,
+        "image_id": 247
+    },
+    {
+        "image_path": "./test_input_images/TEST_530.jpg",
+        "text_segment": null,
+        "image_id": 248
+    },
+    {
+        "image_path": "./test_input_images/TEST_354.jpg",
+        "text_segment": null,
+        "image_id": 249
+    },
+    {
+        "image_path": "./test_input_images/TEST_576.jpg",
+        "text_segment": null,
+        "image_id": 250
+    },
+    {
+        "image_path": "./test_input_images/TEST_344.jpg",
+        "text_segment": null,
+        "image_id": 251
+    },
+    {
+        "image_path": "./test_input_images/TEST_491.jpg",
+        "text_segment": null,
+        "image_id": 252
+    },
+    {
+        "image_path": "./test_input_images/TEST_326.jpg",
+        "text_segment": null,
+        "image_id": 253
+    },
+    {
+        "image_path": "./test_input_images/TEST_802.jpg",
+        "text_segment": null,
+        "image_id": 254
+    },
+    {
+        "image_path": "./test_input_images/TEST_160.jpg",
+        "text_segment": null,
+        "image_id": 255
+    },
+    {
+        "image_path": "./test_input_images/TEST_695.jpg",
+        "text_segment": null,
+        "image_id": 256
+    },
+    {
+        "image_path": "./test_input_images/TEST_398.jpg",
+        "text_segment": null,
+        "image_id": 257
+    },
+    {
+        "image_path": "./test_input_images/TEST_620.jpg",
+        "text_segment": null,
+        "image_id": 258
+    },
+    {
+        "image_path": "./test_input_images/TEST_818.jpg",
+        "text_segment": null,
+        "image_id": 259
+    },
+    {
+        "image_path": "./test_input_images/TEST_255.jpg",
+        "text_segment": null,
+        "image_id": 260
+    },
+    {
+        "image_path": "./test_input_images/TEST_057.jpg",
+        "text_segment": null,
+        "image_id": 261
+    },
+    {
+        "image_path": "./test_input_images/TEST_401.jpg",
+        "text_segment": null,
+        "image_id": 262
+    },
+    {
+        "image_path": "./test_input_images/TEST_248.jpg",
+        "text_segment": null,
+        "image_id": 263
+    },
+    {
+        "image_path": "./test_input_images/TEST_707.jpg",
+        "text_segment": null,
+        "image_id": 264
+    },
+    {
+        "image_path": "./test_input_images/TEST_136.jpg",
+        "text_segment": null,
+        "image_id": 265
+    },
+    {
+        "image_path": "./test_input_images/TEST_286.jpg",
+        "text_segment": null,
+        "image_id": 266
+    },
+    {
+        "image_path": "./test_input_images/TEST_157.jpg",
+        "text_segment": null,
+        "image_id": 267
+    },
+    {
+        "image_path": "./test_input_images/TEST_642.jpg",
+        "text_segment": null,
+        "image_id": 268
+    },
+    {
+        "image_path": "./test_input_images/TEST_040.jpg",
+        "text_segment": null,
+        "image_id": 269
+    },
+    {
+        "image_path": "./test_input_images/TEST_321.jpg",
+        "text_segment": null,
+        "image_id": 270
+    },
+    {
+        "image_path": "./test_input_images/TEST_277.jpg",
+        "text_segment": null,
+        "image_id": 271
+    },
+    {
+        "image_path": "./test_input_images/TEST_647.jpg",
+        "text_segment": null,
+        "image_id": 272
+    },
+    {
+        "image_path": "./test_input_images/TEST_033.jpg",
+        "text_segment": null,
+        "image_id": 273
+    },
+    {
+        "image_path": "./test_input_images/TEST_013.jpg",
+        "text_segment": null,
+        "image_id": 274
+    },
+    {
+        "image_path": "./test_input_images/TEST_668.jpg",
+        "text_segment": null,
+        "image_id": 275
+    },
+    {
+        "image_path": "./test_input_images/TEST_314.jpg",
+        "text_segment": null,
+        "image_id": 276
+    },
+    {
+        "image_path": "./test_input_images/TEST_384.jpg",
+        "text_segment": null,
+        "image_id": 277
+    },
+    {
+        "image_path": "./test_input_images/TEST_683.jpg",
+        "text_segment": null,
+        "image_id": 278
+    },
+    {
+        "image_path": "./test_input_images/TEST_682.jpg",
+        "text_segment": null,
+        "image_id": 279
+    },
+    {
+        "image_path": "./test_input_images/TEST_070.jpg",
+        "text_segment": null,
+        "image_id": 280
+    },
+    {
+        "image_path": "./test_input_images/TEST_076.jpg",
+        "text_segment": null,
+        "image_id": 281
+    },
+    {
+        "image_path": "./test_input_images/TEST_606.jpg",
+        "text_segment": null,
+        "image_id": 282
+    },
+    {
+        "image_path": "./test_input_images/TEST_142.jpg",
+        "text_segment": null,
+        "image_id": 283
+    },
+    {
+        "image_path": "./test_input_images/TEST_320.jpg",
+        "text_segment": null,
+        "image_id": 284
+    },
+    {
+        "image_path": "./test_input_images/TEST_740.jpg",
+        "text_segment": null,
+        "image_id": 285
+    },
+    {
+        "image_path": "./test_input_images/TEST_793.jpg",
+        "text_segment": null,
+        "image_id": 286
+    },
+    {
+        "image_path": "./test_input_images/TEST_534.jpg",
+        "text_segment": null,
+        "image_id": 287
+    },
+    {
+        "image_path": "./test_input_images/TEST_219.jpg",
+        "text_segment": null,
+        "image_id": 288
+    },
+    {
+        "image_path": "./test_input_images/TEST_080.jpg",
+        "text_segment": null,
+        "image_id": 289
+    },
+    {
+        "image_path": "./test_input_images/TEST_595.jpg",
+        "text_segment": null,
+        "image_id": 290
+    },
+    {
+        "image_path": "./test_input_images/TEST_342.jpg",
+        "text_segment": null,
+        "image_id": 291
+    },
+    {
+        "image_path": "./test_input_images/TEST_247.jpg",
+        "text_segment": null,
+        "image_id": 292
+    },
+    {
+        "image_path": "./test_input_images/TEST_414.jpg",
+        "text_segment": null,
+        "image_id": 293
+    },
+    {
+        "image_path": "./test_input_images/TEST_798.jpg",
+        "text_segment": null,
+        "image_id": 294
+    },
+    {
+        "image_path": "./test_input_images/TEST_477.jpg",
+        "text_segment": null,
+        "image_id": 295
+    },
+    {
+        "image_path": "./test_input_images/TEST_233.jpg",
+        "text_segment": null,
+        "image_id": 296
+    },
+    {
+        "image_path": "./test_input_images/TEST_017.jpg",
+        "text_segment": null,
+        "image_id": 297
+    },
+    {
+        "image_path": "./test_input_images/TEST_752.jpg",
+        "text_segment": null,
+        "image_id": 298
+    },
+    {
+        "image_path": "./test_input_images/TEST_262.jpg",
+        "text_segment": null,
+        "image_id": 299
+    },
+    {
+        "image_path": "./test_input_images/TEST_643.jpg",
+        "text_segment": null,
+        "image_id": 300
+    },
+    {
+        "image_path": "./test_input_images/TEST_072.jpg",
+        "text_segment": null,
+        "image_id": 301
+    },
+    {
+        "image_path": "./test_input_images/TEST_274.jpg",
+        "text_segment": null,
+        "image_id": 302
+    },
+    {
+        "image_path": "./test_input_images/TEST_426.jpg",
+        "text_segment": null,
+        "image_id": 303
+    },
+    {
+        "image_path": "./test_input_images/TEST_715.jpg",
+        "text_segment": null,
+        "image_id": 304
+    },
+    {
+        "image_path": "./test_input_images/TEST_778.jpg",
+        "text_segment": null,
+        "image_id": 305
+    },
+    {
+        "image_path": "./test_input_images/TEST_020.jpg",
+        "text_segment": null,
+        "image_id": 306
+    },
+    {
+        "image_path": "./test_input_images/TEST_304.jpg",
+        "text_segment": null,
+        "image_id": 307
+    },
+    {
+        "image_path": "./test_input_images/TEST_496.jpg",
+        "text_segment": null,
+        "image_id": 308
+    },
+    {
+        "image_path": "./test_input_images/TEST_666.jpg",
+        "text_segment": null,
+        "image_id": 309
+    },
+    {
+        "image_path": "./test_input_images/TEST_173.jpg",
+        "text_segment": null,
+        "image_id": 310
+    },
+    {
+        "image_path": "./test_input_images/TEST_844.jpg",
+        "text_segment": null,
+        "image_id": 311
+    },
+    {
+        "image_path": "./test_input_images/TEST_835.jpg",
+        "text_segment": null,
+        "image_id": 312
+    },
+    {
+        "image_path": "./test_input_images/TEST_741.jpg",
+        "text_segment": null,
+        "image_id": 313
+    },
+    {
+        "image_path": "./test_input_images/TEST_701.jpg",
+        "text_segment": null,
+        "image_id": 314
+    },
+    {
+        "image_path": "./test_input_images/TEST_618.jpg",
+        "text_segment": null,
+        "image_id": 315
+    },
+    {
+        "image_path": "./test_input_images/TEST_278.jpg",
+        "text_segment": null,
+        "image_id": 316
+    },
+    {
+        "image_path": "./test_input_images/TEST_007.jpg",
+        "text_segment": null,
+        "image_id": 317
+    },
+    {
+        "image_path": "./test_input_images/TEST_551.jpg",
+        "text_segment": null,
+        "image_id": 318
+    },
+    {
+        "image_path": "./test_input_images/TEST_077.jpg",
+        "text_segment": null,
+        "image_id": 319
+    },
+    {
+        "image_path": "./test_input_images/TEST_114.jpg",
+        "text_segment": null,
+        "image_id": 320
+    },
+    {
+        "image_path": "./test_input_images/TEST_598.jpg",
+        "text_segment": null,
+        "image_id": 321
+    },
+    {
+        "image_path": "./test_input_images/TEST_312.jpg",
+        "text_segment": null,
+        "image_id": 322
+    },
+    {
+        "image_path": "./test_input_images/TEST_311.jpg",
+        "text_segment": null,
+        "image_id": 323
+    },
+    {
+        "image_path": "./test_input_images/TEST_074.jpg",
+        "text_segment": null,
+        "image_id": 324
+    },
+    {
+        "image_path": "./test_input_images/TEST_101.jpg",
+        "text_segment": null,
+        "image_id": 325
+    },
+    {
+        "image_path": "./test_input_images/TEST_130.jpg",
+        "text_segment": null,
+        "image_id": 326
+    },
+    {
+        "image_path": "./test_input_images/TEST_500.jpg",
+        "text_segment": null,
+        "image_id": 327
+    },
+    {
+        "image_path": "./test_input_images/TEST_466.jpg",
+        "text_segment": null,
+        "image_id": 328
+    },
+    {
+        "image_path": "./test_input_images/TEST_633.jpg",
+        "text_segment": null,
+        "image_id": 329
+    },
+    {
+        "image_path": "./test_input_images/TEST_760.jpg",
+        "text_segment": null,
+        "image_id": 330
+    },
+    {
+        "image_path": "./test_input_images/TEST_665.jpg",
+        "text_segment": null,
+        "image_id": 331
+    },
+    {
+        "image_path": "./test_input_images/TEST_517.jpg",
+        "text_segment": null,
+        "image_id": 332
+    },
+    {
+        "image_path": "./test_input_images/TEST_349.jpg",
+        "text_segment": null,
+        "image_id": 333
+    },
+    {
+        "image_path": "./test_input_images/TEST_451.jpg",
+        "text_segment": null,
+        "image_id": 334
+    },
+    {
+        "image_path": "./test_input_images/TEST_836.jpg",
+        "text_segment": null,
+        "image_id": 335
+    },
+    {
+        "image_path": "./test_input_images/TEST_239.jpg",
+        "text_segment": null,
+        "image_id": 336
+    },
+    {
+        "image_path": "./test_input_images/TEST_471.jpg",
+        "text_segment": null,
+        "image_id": 337
+    },
+    {
+        "image_path": "./test_input_images/TEST_536.jpg",
+        "text_segment": null,
+        "image_id": 338
+    },
+    {
+        "image_path": "./test_input_images/TEST_663.jpg",
+        "text_segment": null,
+        "image_id": 339
+    },
+    {
+        "image_path": "./test_input_images/TEST_084.jpg",
+        "text_segment": null,
+        "image_id": 340
+    },
+    {
+        "image_path": "./test_input_images/TEST_570.jpg",
+        "text_segment": null,
+        "image_id": 341
+    },
+    {
+        "image_path": "./test_input_images/TEST_340.jpg",
+        "text_segment": null,
+        "image_id": 342
+    },
+    {
+        "image_path": "./test_input_images/TEST_222.jpg",
+        "text_segment": null,
+        "image_id": 343
+    },
+    {
+        "image_path": "./test_input_images/TEST_735.jpg",
+        "text_segment": null,
+        "image_id": 344
+    },
+    {
+        "image_path": "./test_input_images/TEST_058.jpg",
+        "text_segment": null,
+        "image_id": 345
+    },
+    {
+        "image_path": "./test_input_images/TEST_803.jpg",
+        "text_segment": null,
+        "image_id": 346
+    },
+    {
+        "image_path": "./test_input_images/TEST_800.jpg",
+        "text_segment": null,
+        "image_id": 347
+    },
+    {
+        "image_path": "./test_input_images/TEST_162.jpg",
+        "text_segment": null,
+        "image_id": 348
+    },
+    {
+        "image_path": "./test_input_images/TEST_091.jpg",
+        "text_segment": null,
+        "image_id": 349
+    },
+    {
+        "image_path": "./test_input_images/TEST_132.jpg",
+        "text_segment": null,
+        "image_id": 350
+    },
+    {
+        "image_path": "./test_input_images/TEST_806.jpg",
+        "text_segment": null,
+        "image_id": 351
+    },
+    {
+        "image_path": "./test_input_images/TEST_367.jpg",
+        "text_segment": null,
+        "image_id": 352
+    },
+    {
+        "image_path": "./test_input_images/TEST_636.jpg",
+        "text_segment": null,
+        "image_id": 353
+    },
+    {
+        "image_path": "./test_input_images/TEST_525.jpg",
+        "text_segment": null,
+        "image_id": 354
+    },
+    {
+        "image_path": "./test_input_images/TEST_271.jpg",
+        "text_segment": null,
+        "image_id": 355
+    },
+    {
+        "image_path": "./test_input_images/TEST_687.jpg",
+        "text_segment": null,
+        "image_id": 356
+    },
+    {
+        "image_path": "./test_input_images/TEST_044.jpg",
+        "text_segment": null,
+        "image_id": 357
+    },
+    {
+        "image_path": "./test_input_images/TEST_048.jpg",
+        "text_segment": null,
+        "image_id": 358
+    },
+    {
+        "image_path": "./test_input_images/TEST_789.jpg",
+        "text_segment": null,
+        "image_id": 359
+    },
+    {
+        "image_path": "./test_input_images/TEST_000.jpg",
+        "text_segment": null,
+        "image_id": 360
+    },
+    {
+        "image_path": "./test_input_images/TEST_217.jpg",
+        "text_segment": null,
+        "image_id": 361
+    },
+    {
+        "image_path": "./test_input_images/TEST_640.jpg",
+        "text_segment": null,
+        "image_id": 362
+    },
+    {
+        "image_path": "./test_input_images/TEST_050.jpg",
+        "text_segment": null,
+        "image_id": 363
+    },
+    {
+        "image_path": "./test_input_images/TEST_249.jpg",
+        "text_segment": null,
+        "image_id": 364
+    },
+    {
+        "image_path": "./test_input_images/TEST_681.jpg",
+        "text_segment": null,
+        "image_id": 365
+    },
+    {
+        "image_path": "./test_input_images/TEST_192.jpg",
+        "text_segment": null,
+        "image_id": 366
+    },
+    {
+        "image_path": "./test_input_images/TEST_605.jpg",
+        "text_segment": null,
+        "image_id": 367
+    },
+    {
+        "image_path": "./test_input_images/TEST_474.jpg",
+        "text_segment": null,
+        "image_id": 368
+    },
+    {
+        "image_path": "./test_input_images/TEST_407.jpg",
+        "text_segment": null,
+        "image_id": 369
+    },
+    {
+        "image_path": "./test_input_images/TEST_543.jpg",
+        "text_segment": null,
+        "image_id": 370
+    },
+    {
+        "image_path": "./test_input_images/TEST_613.jpg",
+        "text_segment": null,
+        "image_id": 371
+    },
+    {
+        "image_path": "./test_input_images/TEST_510.jpg",
+        "text_segment": null,
+        "image_id": 372
+    },
+    {
+        "image_path": "./test_input_images/TEST_177.jpg",
+        "text_segment": null,
+        "image_id": 373
+    },
+    {
+        "image_path": "./test_input_images/TEST_833.jpg",
+        "text_segment": null,
+        "image_id": 374
+    },
+    {
+        "image_path": "./test_input_images/TEST_187.jpg",
+        "text_segment": null,
+        "image_id": 375
+    },
+    {
+        "image_path": "./test_input_images/TEST_461.jpg",
+        "text_segment": null,
+        "image_id": 376
+    },
+    {
+        "image_path": "./test_input_images/TEST_470.jpg",
+        "text_segment": null,
+        "image_id": 377
+    },
+    {
+        "image_path": "./test_input_images/TEST_071.jpg",
+        "text_segment": null,
+        "image_id": 378
+    },
+    {
+        "image_path": "./test_input_images/TEST_629.jpg",
+        "text_segment": null,
+        "image_id": 379
+    },
+    {
+        "image_path": "./test_input_images/TEST_748.jpg",
+        "text_segment": null,
+        "image_id": 380
+    },
+    {
+        "image_path": "./test_input_images/TEST_151.jpg",
+        "text_segment": null,
+        "image_id": 381
+    },
+    {
+        "image_path": "./test_input_images/TEST_781.jpg",
+        "text_segment": null,
+        "image_id": 382
+    },
+    {
+        "image_path": "./test_input_images/TEST_492.jpg",
+        "text_segment": null,
+        "image_id": 383
+    },
+    {
+        "image_path": "./test_input_images/TEST_287.jpg",
+        "text_segment": null,
+        "image_id": 384
+    },
+    {
+        "image_path": "./test_input_images/TEST_335.jpg",
+        "text_segment": null,
+        "image_id": 385
+    },
+    {
+        "image_path": "./test_input_images/TEST_377.jpg",
+        "text_segment": null,
+        "image_id": 386
+    },
+    {
+        "image_path": "./test_input_images/TEST_547.jpg",
+        "text_segment": null,
+        "image_id": 387
+    },
+    {
+        "image_path": "./test_input_images/TEST_175.jpg",
+        "text_segment": null,
+        "image_id": 388
+    },
+    {
+        "image_path": "./test_input_images/TEST_291.jpg",
+        "text_segment": null,
+        "image_id": 389
+    },
+    {
+        "image_path": "./test_input_images/TEST_370.jpg",
+        "text_segment": null,
+        "image_id": 390
+    },
+    {
+        "image_path": "./test_input_images/TEST_163.jpg",
+        "text_segment": null,
+        "image_id": 391
+    },
+    {
+        "image_path": "./test_input_images/TEST_122.jpg",
+        "text_segment": null,
+        "image_id": 392
+    },
+    {
+        "image_path": "./test_input_images/TEST_028.jpg",
+        "text_segment": null,
+        "image_id": 393
+    },
+    {
+        "image_path": "./test_input_images/TEST_066.jpg",
+        "text_segment": null,
+        "image_id": 394
+    },
+    {
+        "image_path": "./test_input_images/TEST_485.jpg",
+        "text_segment": null,
+        "image_id": 395
+    },
+    {
+        "image_path": "./test_input_images/TEST_392.jpg",
+        "text_segment": null,
+        "image_id": 396
+    },
+    {
+        "image_path": "./test_input_images/TEST_725.jpg",
+        "text_segment": null,
+        "image_id": 397
+    },
+    {
+        "image_path": "./test_input_images/TEST_729.jpg",
+        "text_segment": null,
+        "image_id": 398
+    },
+    {
+        "image_path": "./test_input_images/TEST_653.jpg",
+        "text_segment": null,
+        "image_id": 399
+    },
+    {
+        "image_path": "./test_input_images/TEST_290.jpg",
+        "text_segment": null,
+        "image_id": 400
+    },
+    {
+        "image_path": "./test_input_images/TEST_428.jpg",
+        "text_segment": null,
+        "image_id": 401
+    },
+    {
+        "image_path": "./test_input_images/TEST_134.jpg",
+        "text_segment": null,
+        "image_id": 402
+    },
+    {
+        "image_path": "./test_input_images/TEST_850.jpg",
+        "text_segment": null,
+        "image_id": 403
+    },
+    {
+        "image_path": "./test_input_images/TEST_088.jpg",
+        "text_segment": null,
+        "image_id": 404
+    },
+    {
+        "image_path": "./test_input_images/TEST_743.jpg",
+        "text_segment": null,
+        "image_id": 405
+    },
+    {
+        "image_path": "./test_input_images/TEST_774.jpg",
+        "text_segment": null,
+        "image_id": 406
+    },
+    {
+        "image_path": "./test_input_images/TEST_025.jpg",
+        "text_segment": null,
+        "image_id": 407
+    },
+    {
+        "image_path": "./test_input_images/TEST_218.jpg",
+        "text_segment": null,
+        "image_id": 408
+    },
+    {
+        "image_path": "./test_input_images/TEST_604.jpg",
+        "text_segment": null,
+        "image_id": 409
+    },
+    {
+        "image_path": "./test_input_images/TEST_807.jpg",
+        "text_segment": null,
+        "image_id": 410
+    },
+    {
+        "image_path": "./test_input_images/TEST_305.jpg",
+        "text_segment": null,
+        "image_id": 411
+    },
+    {
+        "image_path": "./test_input_images/TEST_822.jpg",
+        "text_segment": null,
+        "image_id": 412
+    },
+    {
+        "image_path": "./test_input_images/TEST_382.jpg",
+        "text_segment": null,
+        "image_id": 413
+    },
+    {
+        "image_path": "./test_input_images/TEST_373.jpg",
+        "text_segment": null,
+        "image_id": 414
+    },
+    {
+        "image_path": "./test_input_images/TEST_442.jpg",
+        "text_segment": null,
+        "image_id": 415
+    },
+    {
+        "image_path": "./test_input_images/TEST_393.jpg",
+        "text_segment": null,
+        "image_id": 416
+    },
+    {
+        "image_path": "./test_input_images/TEST_801.jpg",
+        "text_segment": null,
+        "image_id": 417
+    },
+    {
+        "image_path": "./test_input_images/TEST_478.jpg",
+        "text_segment": null,
+        "image_id": 418
+    },
+    {
+        "image_path": "./test_input_images/TEST_339.jpg",
+        "text_segment": null,
+        "image_id": 419
+    },
+    {
+        "image_path": "./test_input_images/TEST_104.jpg",
+        "text_segment": null,
+        "image_id": 420
+    },
+    {
+        "image_path": "./test_input_images/TEST_209.jpg",
+        "text_segment": null,
+        "image_id": 421
+    },
+    {
+        "image_path": "./test_input_images/TEST_186.jpg",
+        "text_segment": null,
+        "image_id": 422
+    },
+    {
+        "image_path": "./test_input_images/TEST_191.jpg",
+        "text_segment": null,
+        "image_id": 423
+    },
+    {
+        "image_path": "./test_input_images/TEST_770.jpg",
+        "text_segment": null,
+        "image_id": 424
+    },
+    {
+        "image_path": "./test_input_images/TEST_360.jpg",
+        "text_segment": null,
+        "image_id": 425
+    },
+    {
+        "image_path": "./test_input_images/TEST_512.jpg",
+        "text_segment": null,
+        "image_id": 426
+    },
+    {
+        "image_path": "./test_input_images/TEST_303.jpg",
+        "text_segment": null,
+        "image_id": 427
+    },
+    {
+        "image_path": "./test_input_images/TEST_559.jpg",
+        "text_segment": null,
+        "image_id": 428
+    },
+    {
+        "image_path": "./test_input_images/TEST_410.jpg",
+        "text_segment": null,
+        "image_id": 429
+    },
+    {
+        "image_path": "./test_input_images/TEST_744.jpg",
+        "text_segment": null,
+        "image_id": 430
+    },
+    {
+        "image_path": "./test_input_images/TEST_295.jpg",
+        "text_segment": null,
+        "image_id": 431
+    },
+    {
+        "image_path": "./test_input_images/TEST_144.jpg",
+        "text_segment": null,
+        "image_id": 432
+    },
+    {
+        "image_path": "./test_input_images/TEST_522.jpg",
+        "text_segment": null,
+        "image_id": 433
+    },
+    {
+        "image_path": "./test_input_images/TEST_565.jpg",
+        "text_segment": null,
+        "image_id": 434
+    },
+    {
+        "image_path": "./test_input_images/TEST_677.jpg",
+        "text_segment": null,
+        "image_id": 435
+    },
+    {
+        "image_path": "./test_input_images/TEST_119.jpg",
+        "text_segment": null,
+        "image_id": 436
+    },
+    {
+        "image_path": "./test_input_images/TEST_684.jpg",
+        "text_segment": null,
+        "image_id": 437
+    },
+    {
+        "image_path": "./test_input_images/TEST_674.jpg",
+        "text_segment": null,
+        "image_id": 438
+    },
+    {
+        "image_path": "./test_input_images/TEST_362.jpg",
+        "text_segment": null,
+        "image_id": 439
+    },
+    {
+        "image_path": "./test_input_images/TEST_139.jpg",
+        "text_segment": null,
+        "image_id": 440
+    },
+    {
+        "image_path": "./test_input_images/TEST_403.jpg",
+        "text_segment": null,
+        "image_id": 441
+    },
+    {
+        "image_path": "./test_input_images/TEST_365.jpg",
+        "text_segment": null,
+        "image_id": 442
+    },
+    {
+        "image_path": "./test_input_images/TEST_178.jpg",
+        "text_segment": null,
+        "image_id": 443
+    },
+    {
+        "image_path": "./test_input_images/TEST_731.jpg",
+        "text_segment": null,
+        "image_id": 444
+    },
+    {
+        "image_path": "./test_input_images/TEST_138.jpg",
+        "text_segment": null,
+        "image_id": 445
+    },
+    {
+        "image_path": "./test_input_images/TEST_608.jpg",
+        "text_segment": null,
+        "image_id": 446
+    },
+    {
+        "image_path": "./test_input_images/TEST_498.jpg",
+        "text_segment": null,
+        "image_id": 447
+    },
+    {
+        "image_path": "./test_input_images/TEST_059.jpg",
+        "text_segment": null,
+        "image_id": 448
+    },
+    {
+        "image_path": "./test_input_images/TEST_555.jpg",
+        "text_segment": null,
+        "image_id": 449
+    },
+    {
+        "image_path": "./test_input_images/TEST_390.jpg",
+        "text_segment": null,
+        "image_id": 450
+    },
+    {
+        "image_path": "./test_input_images/TEST_830.jpg",
+        "text_segment": null,
+        "image_id": 451
+    },
+    {
+        "image_path": "./test_input_images/TEST_574.jpg",
+        "text_segment": null,
+        "image_id": 452
+    },
+    {
+        "image_path": "./test_input_images/TEST_829.jpg",
+        "text_segment": null,
+        "image_id": 453
+    },
+    {
+        "image_path": "./test_input_images/TEST_446.jpg",
+        "text_segment": null,
+        "image_id": 454
+    },
+    {
+        "image_path": "./test_input_images/TEST_423.jpg",
+        "text_segment": null,
+        "image_id": 455
+    },
+    {
+        "image_path": "./test_input_images/TEST_310.jpg",
+        "text_segment": null,
+        "image_id": 456
+    },
+    {
+        "image_path": "./test_input_images/TEST_581.jpg",
+        "text_segment": null,
+        "image_id": 457
+    },
+    {
+        "image_path": "./test_input_images/TEST_343.jpg",
+        "text_segment": null,
+        "image_id": 458
+    },
+    {
+        "image_path": "./test_input_images/TEST_623.jpg",
+        "text_segment": null,
+        "image_id": 459
+    },
+    {
+        "image_path": "./test_input_images/TEST_413.jpg",
+        "text_segment": null,
+        "image_id": 460
+    },
+    {
+        "image_path": "./test_input_images/TEST_207.jpg",
+        "text_segment": null,
+        "image_id": 461
+    },
+    {
+        "image_path": "./test_input_images/TEST_796.jpg",
+        "text_segment": null,
+        "image_id": 462
+    },
+    {
+        "image_path": "./test_input_images/TEST_361.jpg",
+        "text_segment": null,
+        "image_id": 463
+    },
+    {
+        "image_path": "./test_input_images/TEST_037.jpg",
+        "text_segment": null,
+        "image_id": 464
+    },
+    {
+        "image_path": "./test_input_images/TEST_717.jpg",
+        "text_segment": null,
+        "image_id": 465
+    },
+    {
+        "image_path": "./test_input_images/TEST_737.jpg",
+        "text_segment": null,
+        "image_id": 466
+    },
+    {
+        "image_path": "./test_input_images/TEST_212.jpg",
+        "text_segment": null,
+        "image_id": 467
+    },
+    {
+        "image_path": "./test_input_images/TEST_456.jpg",
+        "text_segment": null,
+        "image_id": 468
+    },
+    {
+        "image_path": "./test_input_images/TEST_170.jpg",
+        "text_segment": null,
+        "image_id": 469
+    },
+    {
+        "image_path": "./test_input_images/TEST_358.jpg",
+        "text_segment": null,
+        "image_id": 470
+    },
+    {
+        "image_path": "./test_input_images/TEST_838.jpg",
+        "text_segment": null,
+        "image_id": 471
+    },
+    {
+        "image_path": "./test_input_images/TEST_252.jpg",
+        "text_segment": null,
+        "image_id": 472
+    },
+    {
+        "image_path": "./test_input_images/TEST_766.jpg",
+        "text_segment": null,
+        "image_id": 473
+    },
+    {
+        "image_path": "./test_input_images/TEST_808.jpg",
+        "text_segment": null,
+        "image_id": 474
+    },
+    {
+        "image_path": "./test_input_images/TEST_788.jpg",
+        "text_segment": null,
+        "image_id": 475
+    },
+    {
+        "image_path": "./test_input_images/TEST_285.jpg",
+        "text_segment": null,
+        "image_id": 476
+    },
+    {
+        "image_path": "./test_input_images/TEST_106.jpg",
+        "text_segment": null,
+        "image_id": 477
+    },
+    {
+        "image_path": "./test_input_images/TEST_380.jpg",
+        "text_segment": null,
+        "image_id": 478
+    },
+    {
+        "image_path": "./test_input_images/TEST_167.jpg",
+        "text_segment": null,
+        "image_id": 479
+    },
+    {
+        "image_path": "./test_input_images/TEST_016.jpg",
+        "text_segment": null,
+        "image_id": 480
+    },
+    {
+        "image_path": "./test_input_images/TEST_624.jpg",
+        "text_segment": null,
+        "image_id": 481
+    },
+    {
+        "image_path": "./test_input_images/TEST_387.jpg",
+        "text_segment": null,
+        "image_id": 482
+    },
+    {
+        "image_path": "./test_input_images/TEST_317.jpg",
+        "text_segment": null,
+        "image_id": 483
+    },
+    {
+        "image_path": "./test_input_images/TEST_261.jpg",
+        "text_segment": null,
+        "image_id": 484
+    },
+    {
+        "image_path": "./test_input_images/TEST_506.jpg",
+        "text_segment": null,
+        "image_id": 485
+    },
+    {
+        "image_path": "./test_input_images/TEST_494.jpg",
+        "text_segment": null,
+        "image_id": 486
+    },
+    {
+        "image_path": "./test_input_images/TEST_368.jpg",
+        "text_segment": null,
+        "image_id": 487
+    },
+    {
+        "image_path": "./test_input_images/TEST_075.jpg",
+        "text_segment": null,
+        "image_id": 488
+    },
+    {
+        "image_path": "./test_input_images/TEST_433.jpg",
+        "text_segment": null,
+        "image_id": 489
+    },
+    {
+        "image_path": "./test_input_images/TEST_514.jpg",
+        "text_segment": null,
+        "image_id": 490
+    },
+    {
+        "image_path": "./test_input_images/TEST_105.jpg",
+        "text_segment": null,
+        "image_id": 491
+    },
+    {
+        "image_path": "./test_input_images/TEST_632.jpg",
+        "text_segment": null,
+        "image_id": 492
+    },
+    {
+        "image_path": "./test_input_images/TEST_348.jpg",
+        "text_segment": null,
+        "image_id": 493
+    },
+    {
+        "image_path": "./test_input_images/TEST_309.jpg",
+        "text_segment": null,
+        "image_id": 494
+    },
+    {
+        "image_path": "./test_input_images/TEST_257.jpg",
+        "text_segment": null,
+        "image_id": 495
+    },
+    {
+        "image_path": "./test_input_images/TEST_476.jpg",
+        "text_segment": null,
+        "image_id": 496
+    },
+    {
+        "image_path": "./test_input_images/TEST_166.jpg",
+        "text_segment": null,
+        "image_id": 497
+    },
+    {
+        "image_path": "./test_input_images/TEST_654.jpg",
+        "text_segment": null,
+        "image_id": 498
+    },
+    {
+        "image_path": "./test_input_images/TEST_529.jpg",
+        "text_segment": null,
+        "image_id": 499
+    },
+    {
+        "image_path": "./test_input_images/TEST_412.jpg",
+        "text_segment": null,
+        "image_id": 500
+    },
+    {
+        "image_path": "./test_input_images/TEST_205.jpg",
+        "text_segment": null,
+        "image_id": 501
+    },
+    {
+        "image_path": "./test_input_images/TEST_730.jpg",
+        "text_segment": null,
+        "image_id": 502
+    },
+    {
+        "image_path": "./test_input_images/TEST_742.jpg",
+        "text_segment": null,
+        "image_id": 503
+    },
+    {
+        "image_path": "./test_input_images/TEST_711.jpg",
+        "text_segment": null,
+        "image_id": 504
+    },
+    {
+        "image_path": "./test_input_images/TEST_458.jpg",
+        "text_segment": null,
+        "image_id": 505
+    },
+    {
+        "image_path": "./test_input_images/TEST_664.jpg",
+        "text_segment": null,
+        "image_id": 506
+    },
+    {
+        "image_path": "./test_input_images/TEST_593.jpg",
+        "text_segment": null,
+        "image_id": 507
+    },
+    {
+        "image_path": "./test_input_images/TEST_254.jpg",
+        "text_segment": null,
+        "image_id": 508
+    },
+    {
+        "image_path": "./test_input_images/TEST_202.jpg",
+        "text_segment": null,
+        "image_id": 509
+    },
+    {
+        "image_path": "./test_input_images/TEST_188.jpg",
+        "text_segment": null,
+        "image_id": 510
+    },
+    {
+        "image_path": "./test_input_images/TEST_848.jpg",
+        "text_segment": null,
+        "image_id": 511
+    },
+    {
+        "image_path": "./test_input_images/TEST_064.jpg",
+        "text_segment": null,
+        "image_id": 512
+    },
+    {
+        "image_path": "./test_input_images/TEST_549.jpg",
+        "text_segment": null,
+        "image_id": 513
+    },
+    {
+        "image_path": "./test_input_images/TEST_102.jpg",
+        "text_segment": null,
+        "image_id": 514
+    },
+    {
+        "image_path": "./test_input_images/TEST_330.jpg",
+        "text_segment": null,
+        "image_id": 515
+    },
+    {
+        "image_path": "./test_input_images/TEST_696.jpg",
+        "text_segment": null,
+        "image_id": 516
+    },
+    {
+        "image_path": "./test_input_images/TEST_452.jpg",
+        "text_segment": null,
+        "image_id": 517
+    },
+    {
+        "image_path": "./test_input_images/TEST_614.jpg",
+        "text_segment": null,
+        "image_id": 518
+    },
+    {
+        "image_path": "./test_input_images/TEST_719.jpg",
+        "text_segment": null,
+        "image_id": 519
+    },
+    {
+        "image_path": "./test_input_images/TEST_660.jpg",
+        "text_segment": null,
+        "image_id": 520
+    },
+    {
+        "image_path": "./test_input_images/TEST_322.jpg",
+        "text_segment": null,
+        "image_id": 521
+    },
+    {
+        "image_path": "./test_input_images/TEST_431.jpg",
+        "text_segment": null,
+        "image_id": 522
+    },
+    {
+        "image_path": "./test_input_images/TEST_599.jpg",
+        "text_segment": null,
+        "image_id": 523
+    },
+    {
+        "image_path": "./test_input_images/TEST_378.jpg",
+        "text_segment": null,
+        "image_id": 524
+    },
+    {
+        "image_path": "./test_input_images/TEST_490.jpg",
+        "text_segment": null,
+        "image_id": 525
+    },
+    {
+        "image_path": "./test_input_images/TEST_486.jpg",
+        "text_segment": null,
+        "image_id": 526
+    },
+    {
+        "image_path": "./test_input_images/TEST_508.jpg",
+        "text_segment": null,
+        "image_id": 527
+    },
+    {
+        "image_path": "./test_input_images/TEST_544.jpg",
+        "text_segment": null,
+        "image_id": 528
+    },
+    {
+        "image_path": "./test_input_images/TEST_697.jpg",
+        "text_segment": null,
+        "image_id": 529
+    },
+    {
+        "image_path": "./test_input_images/TEST_355.jpg",
+        "text_segment": null,
+        "image_id": 530
+    },
+    {
+        "image_path": "./test_input_images/TEST_785.jpg",
+        "text_segment": null,
+        "image_id": 531
+    },
+    {
+        "image_path": "./test_input_images/TEST_507.jpg",
+        "text_segment": null,
+        "image_id": 532
+    },
+    {
+        "image_path": "./test_input_images/TEST_094.jpg",
+        "text_segment": null,
+        "image_id": 533
+    },
+    {
+        "image_path": "./test_input_images/TEST_427.jpg",
+        "text_segment": null,
+        "image_id": 534
+    },
+    {
+        "image_path": "./test_input_images/TEST_296.jpg",
+        "text_segment": null,
+        "image_id": 535
+    },
+    {
+        "image_path": "./test_input_images/TEST_560.jpg",
+        "text_segment": null,
+        "image_id": 536
+    },
+    {
+        "image_path": "./test_input_images/TEST_673.jpg",
+        "text_segment": null,
+        "image_id": 537
+    },
+    {
+        "image_path": "./test_input_images/TEST_210.jpg",
+        "text_segment": null,
+        "image_id": 538
+    },
+    {
+        "image_path": "./test_input_images/TEST_095.jpg",
+        "text_segment": null,
+        "image_id": 539
+    },
+    {
+        "image_path": "./test_input_images/TEST_002.jpg",
+        "text_segment": null,
+        "image_id": 540
+    },
+    {
+        "image_path": "./test_input_images/TEST_651.jpg",
+        "text_segment": null,
+        "image_id": 541
+    },
+    {
+        "image_path": "./test_input_images/TEST_120.jpg",
+        "text_segment": null,
+        "image_id": 542
+    },
+    {
+        "image_path": "./test_input_images/TEST_325.jpg",
+        "text_segment": null,
+        "image_id": 543
+    },
+    {
+        "image_path": "./test_input_images/TEST_704.jpg",
+        "text_segment": null,
+        "image_id": 544
+    },
+    {
+        "image_path": "./test_input_images/TEST_223.jpg",
+        "text_segment": null,
+        "image_id": 545
+    },
+    {
+        "image_path": "./test_input_images/TEST_006.jpg",
+        "text_segment": null,
+        "image_id": 546
+    },
+    {
+        "image_path": "./test_input_images/TEST_727.jpg",
+        "text_segment": null,
+        "image_id": 547
+    },
+    {
+        "image_path": "./test_input_images/TEST_159.jpg",
+        "text_segment": null,
+        "image_id": 548
+    },
+    {
+        "image_path": "./test_input_images/TEST_839.jpg",
+        "text_segment": null,
+        "image_id": 549
+    },
+    {
+        "image_path": "./test_input_images/TEST_086.jpg",
+        "text_segment": null,
+        "image_id": 550
+    },
+    {
+        "image_path": "./test_input_images/TEST_739.jpg",
+        "text_segment": null,
+        "image_id": 551
+    },
+    {
+        "image_path": "./test_input_images/TEST_397.jpg",
+        "text_segment": null,
+        "image_id": 552
+    },
+    {
+        "image_path": "./test_input_images/TEST_258.jpg",
+        "text_segment": null,
+        "image_id": 553
+    },
+    {
+        "image_path": "./test_input_images/TEST_685.jpg",
+        "text_segment": null,
+        "image_id": 554
+    },
+    {
+        "image_path": "./test_input_images/TEST_842.jpg",
+        "text_segment": null,
+        "image_id": 555
+    },
+    {
+        "image_path": "./test_input_images/TEST_657.jpg",
+        "text_segment": null,
+        "image_id": 556
+    },
+    {
+        "image_path": "./test_input_images/TEST_141.jpg",
+        "text_segment": null,
+        "image_id": 557
+    },
+    {
+        "image_path": "./test_input_images/TEST_090.jpg",
+        "text_segment": null,
+        "image_id": 558
+    },
+    {
+        "image_path": "./test_input_images/TEST_121.jpg",
+        "text_segment": null,
+        "image_id": 559
+    },
+    {
+        "image_path": "./test_input_images/TEST_782.jpg",
+        "text_segment": null,
+        "image_id": 560
+    },
+    {
+        "image_path": "./test_input_images/TEST_472.jpg",
+        "text_segment": null,
+        "image_id": 561
+    },
+    {
+        "image_path": "./test_input_images/TEST_299.jpg",
+        "text_segment": null,
+        "image_id": 562
+    },
+    {
+        "image_path": "./test_input_images/TEST_046.jpg",
+        "text_segment": null,
+        "image_id": 563
+    },
+    {
+        "image_path": "./test_input_images/TEST_734.jpg",
+        "text_segment": null,
+        "image_id": 564
+    },
+    {
+        "image_path": "./test_input_images/TEST_148.jpg",
+        "text_segment": null,
+        "image_id": 565
+    },
+    {
+        "image_path": "./test_input_images/TEST_603.jpg",
+        "text_segment": null,
+        "image_id": 566
+    },
+    {
+        "image_path": "./test_input_images/TEST_374.jpg",
+        "text_segment": null,
+        "image_id": 567
+    },
+    {
+        "image_path": "./test_input_images/TEST_591.jpg",
+        "text_segment": null,
+        "image_id": 568
+    },
+    {
+        "image_path": "./test_input_images/TEST_096.jpg",
+        "text_segment": null,
+        "image_id": 569
+    },
+    {
+        "image_path": "./test_input_images/TEST_197.jpg",
+        "text_segment": null,
+        "image_id": 570
+    },
+    {
+        "image_path": "./test_input_images/TEST_720.jpg",
+        "text_segment": null,
+        "image_id": 571
+    },
+    {
+        "image_path": "./test_input_images/TEST_602.jpg",
+        "text_segment": null,
+        "image_id": 572
+    },
+    {
+        "image_path": "./test_input_images/TEST_124.jpg",
+        "text_segment": null,
+        "image_id": 573
+    },
+    {
+        "image_path": "./test_input_images/TEST_063.jpg",
+        "text_segment": null,
+        "image_id": 574
+    },
+    {
+        "image_path": "./test_input_images/TEST_042.jpg",
+        "text_segment": null,
+        "image_id": 575
+    },
+    {
+        "image_path": "./test_input_images/TEST_003.jpg",
+        "text_segment": null,
+        "image_id": 576
+    },
+    {
+        "image_path": "./test_input_images/TEST_545.jpg",
+        "text_segment": null,
+        "image_id": 577
+    },
+    {
+        "image_path": "./test_input_images/TEST_213.jpg",
+        "text_segment": null,
+        "image_id": 578
+    },
+    {
+        "image_path": "./test_input_images/TEST_465.jpg",
+        "text_segment": null,
+        "image_id": 579
+    },
+    {
+        "image_path": "./test_input_images/TEST_590.jpg",
+        "text_segment": null,
+        "image_id": 580
+    },
+    {
+        "image_path": "./test_input_images/TEST_372.jpg",
+        "text_segment": null,
+        "image_id": 581
+    },
+    {
+        "image_path": "./test_input_images/TEST_520.jpg",
+        "text_segment": null,
+        "image_id": 582
+    },
+    {
+        "image_path": "./test_input_images/TEST_279.jpg",
+        "text_segment": null,
+        "image_id": 583
+    },
+    {
+        "image_path": "./test_input_images/TEST_584.jpg",
+        "text_segment": null,
+        "image_id": 584
+    },
+    {
+        "image_path": "./test_input_images/TEST_561.jpg",
+        "text_segment": null,
+        "image_id": 585
+    },
+    {
+        "image_path": "./test_input_images/TEST_572.jpg",
+        "text_segment": null,
+        "image_id": 586
+    },
+    {
+        "image_path": "./test_input_images/TEST_609.jpg",
+        "text_segment": null,
+        "image_id": 587
+    },
+    {
+        "image_path": "./test_input_images/TEST_051.jpg",
+        "text_segment": null,
+        "image_id": 588
+    },
+    {
+        "image_path": "./test_input_images/TEST_792.jpg",
+        "text_segment": null,
+        "image_id": 589
+    },
+    {
+        "image_path": "./test_input_images/TEST_573.jpg",
+        "text_segment": null,
+        "image_id": 590
+    },
+    {
+        "image_path": "./test_input_images/TEST_851.jpg",
+        "text_segment": null,
+        "image_id": 591
+    },
+    {
+        "image_path": "./test_input_images/TEST_242.jpg",
+        "text_segment": null,
+        "image_id": 592
+    },
+    {
+        "image_path": "./test_input_images/TEST_679.jpg",
+        "text_segment": null,
+        "image_id": 593
+    },
+    {
+        "image_path": "./test_input_images/TEST_268.jpg",
+        "text_segment": null,
+        "image_id": 594
+    },
+    {
+        "image_path": "./test_input_images/TEST_123.jpg",
+        "text_segment": null,
+        "image_id": 595
+    },
+    {
+        "image_path": "./test_input_images/TEST_670.jpg",
+        "text_segment": null,
+        "image_id": 596
+    },
+    {
+        "image_path": "./test_input_images/TEST_379.jpg",
+        "text_segment": null,
+        "image_id": 597
+    },
+    {
+        "image_path": "./test_input_images/TEST_153.jpg",
+        "text_segment": null,
+        "image_id": 598
+    },
+    {
+        "image_path": "./test_input_images/TEST_703.jpg",
+        "text_segment": null,
+        "image_id": 599
+    },
+    {
+        "image_path": "./test_input_images/TEST_671.jpg",
+        "text_segment": null,
+        "image_id": 600
+    },
+    {
+        "image_path": "./test_input_images/TEST_531.jpg",
+        "text_segment": null,
+        "image_id": 601
+    },
+    {
+        "image_path": "./test_input_images/TEST_816.jpg",
+        "text_segment": null,
+        "image_id": 602
+    },
+    {
+        "image_path": "./test_input_images/TEST_240.jpg",
+        "text_segment": null,
+        "image_id": 603
+    },
+    {
+        "image_path": "./test_input_images/TEST_127.jpg",
+        "text_segment": null,
+        "image_id": 604
+    },
+    {
+        "image_path": "./test_input_images/TEST_227.jpg",
+        "text_segment": null,
+        "image_id": 605
+    },
+    {
+        "image_path": "./test_input_images/TEST_479.jpg",
+        "text_segment": null,
+        "image_id": 606
+    },
+    {
+        "image_path": "./test_input_images/TEST_190.jpg",
+        "text_segment": null,
+        "image_id": 607
+    },
+    {
+        "image_path": "./test_input_images/TEST_813.jpg",
+        "text_segment": null,
+        "image_id": 608
+    },
+    {
+        "image_path": "./test_input_images/TEST_196.jpg",
+        "text_segment": null,
+        "image_id": 609
+    },
+    {
+        "image_path": "./test_input_images/TEST_276.jpg",
+        "text_segment": null,
+        "image_id": 610
+    },
+    {
+        "image_path": "./test_input_images/TEST_098.jpg",
+        "text_segment": null,
+        "image_id": 611
+    },
+    {
+        "image_path": "./test_input_images/TEST_307.jpg",
+        "text_segment": null,
+        "image_id": 612
+    },
+    {
+        "image_path": "./test_input_images/TEST_535.jpg",
+        "text_segment": null,
+        "image_id": 613
+    },
+    {
+        "image_path": "./test_input_images/TEST_702.jpg",
+        "text_segment": null,
+        "image_id": 614
+    },
+    {
+        "image_path": "./test_input_images/TEST_068.jpg",
+        "text_segment": null,
+        "image_id": 615
+    },
+    {
+        "image_path": "./test_input_images/TEST_383.jpg",
+        "text_segment": null,
+        "image_id": 616
+    },
+    {
+        "image_path": "./test_input_images/TEST_115.jpg",
+        "text_segment": null,
+        "image_id": 617
+    },
+    {
+        "image_path": "./test_input_images/TEST_021.jpg",
+        "text_segment": null,
+        "image_id": 618
+    },
+    {
+        "image_path": "./test_input_images/TEST_445.jpg",
+        "text_segment": null,
+        "image_id": 619
+    },
+    {
+        "image_path": "./test_input_images/TEST_109.jpg",
+        "text_segment": null,
+        "image_id": 620
+    },
+    {
+        "image_path": "./test_input_images/TEST_468.jpg",
+        "text_segment": null,
+        "image_id": 621
+    },
+    {
+        "image_path": "./test_input_images/TEST_411.jpg",
+        "text_segment": null,
+        "image_id": 622
+    },
+    {
+        "image_path": "./test_input_images/TEST_085.jpg",
+        "text_segment": null,
+        "image_id": 623
+    },
+    {
+        "image_path": "./test_input_images/TEST_447.jpg",
+        "text_segment": null,
+        "image_id": 624
+    },
+    {
+        "image_path": "./test_input_images/TEST_488.jpg",
+        "text_segment": null,
+        "image_id": 625
+    },
+    {
+        "image_path": "./test_input_images/TEST_509.jpg",
+        "text_segment": null,
+        "image_id": 626
+    },
+    {
+        "image_path": "./test_input_images/TEST_484.jpg",
+        "text_segment": null,
+        "image_id": 627
+    },
+    {
+        "image_path": "./test_input_images/TEST_315.jpg",
+        "text_segment": null,
+        "image_id": 628
+    },
+    {
+        "image_path": "./test_input_images/TEST_716.jpg",
+        "text_segment": null,
+        "image_id": 629
+    },
+    {
+        "image_path": "./test_input_images/TEST_597.jpg",
+        "text_segment": null,
+        "image_id": 630
+    },
+    {
+        "image_path": "./test_input_images/TEST_244.jpg",
+        "text_segment": null,
+        "image_id": 631
+    },
+    {
+        "image_path": "./test_input_images/TEST_495.jpg",
+        "text_segment": null,
+        "image_id": 632
+    },
+    {
+        "image_path": "./test_input_images/TEST_722.jpg",
+        "text_segment": null,
+        "image_id": 633
+    },
+    {
+        "image_path": "./test_input_images/TEST_352.jpg",
+        "text_segment": null,
+        "image_id": 634
+    },
+    {
+        "image_path": "./test_input_images/TEST_396.jpg",
+        "text_segment": null,
+        "image_id": 635
+    },
+    {
+        "image_path": "./test_input_images/TEST_164.jpg",
+        "text_segment": null,
+        "image_id": 636
+    },
+    {
+        "image_path": "./test_input_images/TEST_201.jpg",
+        "text_segment": null,
+        "image_id": 637
+    },
+    {
+        "image_path": "./test_input_images/TEST_184.jpg",
+        "text_segment": null,
+        "image_id": 638
+    },
+    {
+        "image_path": "./test_input_images/TEST_001.jpg",
+        "text_segment": null,
+        "image_id": 639
+    },
+    {
+        "image_path": "./test_input_images/TEST_418.jpg",
+        "text_segment": null,
+        "image_id": 640
+    },
+    {
+        "image_path": "./test_input_images/TEST_550.jpg",
+        "text_segment": null,
+        "image_id": 641
+    },
+    {
+        "image_path": "./test_input_images/TEST_053.jpg",
+        "text_segment": null,
+        "image_id": 642
+    },
+    {
+        "image_path": "./test_input_images/TEST_241.jpg",
+        "text_segment": null,
+        "image_id": 643
+    },
+    {
+        "image_path": "./test_input_images/TEST_669.jpg",
+        "text_segment": null,
+        "image_id": 644
+    },
+    {
+        "image_path": "./test_input_images/TEST_039.jpg",
+        "text_segment": null,
+        "image_id": 645
+    },
+    {
+        "image_path": "./test_input_images/TEST_819.jpg",
+        "text_segment": null,
+        "image_id": 646
+    },
+    {
+        "image_path": "./test_input_images/TEST_439.jpg",
+        "text_segment": null,
+        "image_id": 647
+    },
+    {
+        "image_path": "./test_input_images/TEST_422.jpg",
+        "text_segment": null,
+        "image_id": 648
+    },
+    {
+        "image_path": "./test_input_images/TEST_805.jpg",
+        "text_segment": null,
+        "image_id": 649
+    },
+    {
+        "image_path": "./test_input_images/TEST_769.jpg",
+        "text_segment": null,
+        "image_id": 650
+    },
+    {
+        "image_path": "./test_input_images/TEST_672.jpg",
+        "text_segment": null,
+        "image_id": 651
+    },
+    {
+        "image_path": "./test_input_images/TEST_607.jpg",
+        "text_segment": null,
+        "image_id": 652
+    },
+    {
+        "image_path": "./test_input_images/TEST_817.jpg",
+        "text_segment": null,
+        "image_id": 653
+    },
+    {
+        "image_path": "./test_input_images/TEST_675.jpg",
+        "text_segment": null,
+        "image_id": 654
+    },
+    {
+        "image_path": "./test_input_images/TEST_732.jpg",
+        "text_segment": null,
+        "image_id": 655
+    },
+    {
+        "image_path": "./test_input_images/TEST_416.jpg",
+        "text_segment": null,
+        "image_id": 656
+    },
+    {
+        "image_path": "./test_input_images/TEST_812.jpg",
+        "text_segment": null,
+        "image_id": 657
+    },
+    {
+        "image_path": "./test_input_images/TEST_154.jpg",
+        "text_segment": null,
+        "image_id": 658
+    },
+    {
+        "image_path": "./test_input_images/TEST_437.jpg",
+        "text_segment": null,
+        "image_id": 659
+    },
+    {
+        "image_path": "./test_input_images/TEST_541.jpg",
+        "text_segment": null,
+        "image_id": 660
+    },
+    {
+        "image_path": "./test_input_images/TEST_795.jpg",
+        "text_segment": null,
+        "image_id": 661
+    },
+    {
+        "image_path": "./test_input_images/TEST_263.jpg",
+        "text_segment": null,
+        "image_id": 662
+    },
+    {
+        "image_path": "./test_input_images/TEST_828.jpg",
+        "text_segment": null,
+        "image_id": 663
+    },
+    {
+        "image_path": "./test_input_images/TEST_253.jpg",
+        "text_segment": null,
+        "image_id": 664
+    },
+    {
+        "image_path": "./test_input_images/TEST_552.jpg",
+        "text_segment": null,
+        "image_id": 665
+    },
+    {
+        "image_path": "./test_input_images/TEST_499.jpg",
+        "text_segment": null,
+        "image_id": 666
+    },
+    {
+        "image_path": "./test_input_images/TEST_350.jpg",
+        "text_segment": null,
+        "image_id": 667
+    },
+    {
+        "image_path": "./test_input_images/TEST_582.jpg",
+        "text_segment": null,
+        "image_id": 668
+    },
+    {
+        "image_path": "./test_input_images/TEST_449.jpg",
+        "text_segment": null,
+        "image_id": 669
+    },
+    {
+        "image_path": "./test_input_images/TEST_503.jpg",
+        "text_segment": null,
+        "image_id": 670
+    },
+    {
+        "image_path": "./test_input_images/TEST_011.jpg",
+        "text_segment": null,
+        "image_id": 671
+    },
+    {
+        "image_path": "./test_input_images/TEST_626.jpg",
+        "text_segment": null,
+        "image_id": 672
+    },
+    {
+        "image_path": "./test_input_images/TEST_457.jpg",
+        "text_segment": null,
+        "image_id": 673
+    },
+    {
+        "image_path": "./test_input_images/TEST_087.jpg",
+        "text_segment": null,
+        "image_id": 674
+    },
+    {
+        "image_path": "./test_input_images/TEST_012.jpg",
+        "text_segment": null,
+        "image_id": 675
+    },
+    {
+        "image_path": "./test_input_images/TEST_776.jpg",
+        "text_segment": null,
+        "image_id": 676
+    },
+    {
+        "image_path": "./test_input_images/TEST_149.jpg",
+        "text_segment": null,
+        "image_id": 677
+    },
+    {
+        "image_path": "./test_input_images/TEST_345.jpg",
+        "text_segment": null,
+        "image_id": 678
+    },
+    {
+        "image_path": "./test_input_images/TEST_216.jpg",
+        "text_segment": null,
+        "image_id": 679
+    },
+    {
+        "image_path": "./test_input_images/TEST_448.jpg",
+        "text_segment": null,
+        "image_id": 680
+    },
+    {
+        "image_path": "./test_input_images/TEST_034.jpg",
+        "text_segment": null,
+        "image_id": 681
+    },
+    {
+        "image_path": "./test_input_images/TEST_369.jpg",
+        "text_segment": null,
+        "image_id": 682
+    },
+    {
+        "image_path": "./test_input_images/TEST_193.jpg",
+        "text_segment": null,
+        "image_id": 683
+    },
+    {
+        "image_path": "./test_input_images/TEST_564.jpg",
+        "text_segment": null,
+        "image_id": 684
+    },
+    {
+        "image_path": "./test_input_images/TEST_267.jpg",
+        "text_segment": null,
+        "image_id": 685
+    },
+    {
+        "image_path": "./test_input_images/TEST_579.jpg",
+        "text_segment": null,
+        "image_id": 686
+    },
+    {
+        "image_path": "./test_input_images/TEST_300.jpg",
+        "text_segment": null,
+        "image_id": 687
+    },
+    {
+        "image_path": "./test_input_images/TEST_586.jpg",
+        "text_segment": null,
+        "image_id": 688
+    },
+    {
+        "image_path": "./test_input_images/TEST_569.jpg",
+        "text_segment": null,
+        "image_id": 689
+    },
+    {
+        "image_path": "./test_input_images/TEST_460.jpg",
+        "text_segment": null,
+        "image_id": 690
+    },
+    {
+        "image_path": "./test_input_images/TEST_238.jpg",
+        "text_segment": null,
+        "image_id": 691
+    },
+    {
+        "image_path": "./test_input_images/TEST_204.jpg",
+        "text_segment": null,
+        "image_id": 692
+    },
+    {
+        "image_path": "./test_input_images/TEST_558.jpg",
+        "text_segment": null,
+        "image_id": 693
+    },
+    {
+        "image_path": "./test_input_images/TEST_147.jpg",
+        "text_segment": null,
+        "image_id": 694
+    },
+    {
+        "image_path": "./test_input_images/TEST_092.jpg",
+        "text_segment": null,
+        "image_id": 695
+    },
+    {
+        "image_path": "./test_input_images/TEST_135.jpg",
+        "text_segment": null,
+        "image_id": 696
+    },
+    {
+        "image_path": "./test_input_images/TEST_417.jpg",
+        "text_segment": null,
+        "image_id": 697
+    },
+    {
+        "image_path": "./test_input_images/TEST_052.jpg",
+        "text_segment": null,
+        "image_id": 698
+    },
+    {
+        "image_path": "./test_input_images/TEST_467.jpg",
+        "text_segment": null,
+        "image_id": 699
+    },
+    {
+        "image_path": "./test_input_images/TEST_532.jpg",
+        "text_segment": null,
+        "image_id": 700
+    },
+    {
+        "image_path": "./test_input_images/TEST_294.jpg",
+        "text_segment": null,
+        "image_id": 701
+    },
+    {
+        "image_path": "./test_input_images/TEST_592.jpg",
+        "text_segment": null,
+        "image_id": 702
+    },
+    {
+        "image_path": "./test_input_images/TEST_298.jpg",
+        "text_segment": null,
+        "image_id": 703
+    },
+    {
+        "image_path": "./test_input_images/TEST_645.jpg",
+        "text_segment": null,
+        "image_id": 704
+    },
+    {
+        "image_path": "./test_input_images/TEST_768.jpg",
+        "text_segment": null,
+        "image_id": 705
+    },
+    {
+        "image_path": "./test_input_images/TEST_371.jpg",
+        "text_segment": null,
+        "image_id": 706
+    },
+    {
+        "image_path": "./test_input_images/TEST_181.jpg",
+        "text_segment": null,
+        "image_id": 707
+    },
+    {
+        "image_path": "./test_input_images/TEST_797.jpg",
+        "text_segment": null,
+        "image_id": 708
+    },
+    {
+        "image_path": "./test_input_images/TEST_786.jpg",
+        "text_segment": null,
+        "image_id": 709
+    },
+    {
+        "image_path": "./test_input_images/TEST_171.jpg",
+        "text_segment": null,
+        "image_id": 710
+    },
+    {
+        "image_path": "./test_input_images/TEST_644.jpg",
+        "text_segment": null,
+        "image_id": 711
+    },
+    {
+        "image_path": "./test_input_images/TEST_270.jpg",
+        "text_segment": null,
+        "image_id": 712
+    },
+    {
+        "image_path": "./test_input_images/TEST_108.jpg",
+        "text_segment": null,
+        "image_id": 713
+    },
+    {
+        "image_path": "./test_input_images/TEST_736.jpg",
+        "text_segment": null,
+        "image_id": 714
+    },
+    {
+        "image_path": "./test_input_images/TEST_652.jpg",
+        "text_segment": null,
+        "image_id": 715
+    },
+    {
+        "image_path": "./test_input_images/TEST_165.jpg",
+        "text_segment": null,
+        "image_id": 716
+    },
+    {
+        "image_path": "./test_input_images/TEST_450.jpg",
+        "text_segment": null,
+        "image_id": 717
+    },
+    {
+        "image_path": "./test_input_images/TEST_459.jpg",
+        "text_segment": null,
+        "image_id": 718
+    },
+    {
+        "image_path": "./test_input_images/TEST_580.jpg",
+        "text_segment": null,
+        "image_id": 719
+    },
+    {
+        "image_path": "./test_input_images/TEST_721.jpg",
+        "text_segment": null,
+        "image_id": 720
+    },
+    {
+        "image_path": "./test_input_images/TEST_024.jpg",
+        "text_segment": null,
+        "image_id": 721
+    },
+    {
+        "image_path": "./test_input_images/TEST_814.jpg",
+        "text_segment": null,
+        "image_id": 722
+    },
+    {
+        "image_path": "./test_input_images/TEST_035.jpg",
+        "text_segment": null,
+        "image_id": 723
+    },
+    {
+        "image_path": "./test_input_images/TEST_699.jpg",
+        "text_segment": null,
+        "image_id": 724
+    },
+    {
+        "image_path": "./test_input_images/TEST_404.jpg",
+        "text_segment": null,
+        "image_id": 725
+    },
+    {
+        "image_path": "./test_input_images/TEST_030.jpg",
+        "text_segment": null,
+        "image_id": 726
+    },
+    {
+        "image_path": "./test_input_images/TEST_775.jpg",
+        "text_segment": null,
+        "image_id": 727
+    },
+    {
+        "image_path": "./test_input_images/TEST_709.jpg",
+        "text_segment": null,
+        "image_id": 728
+    },
+    {
+        "image_path": "./test_input_images/TEST_540.jpg",
+        "text_segment": null,
+        "image_id": 729
+    },
+    {
+        "image_path": "./test_input_images/TEST_571.jpg",
+        "text_segment": null,
+        "image_id": 730
+    },
+    {
+        "image_path": "./test_input_images/TEST_008.jpg",
+        "text_segment": null,
+        "image_id": 731
+    },
+    {
+        "image_path": "./test_input_images/TEST_755.jpg",
+        "text_segment": null,
+        "image_id": 732
+    },
+    {
+        "image_path": "./test_input_images/TEST_256.jpg",
+        "text_segment": null,
+        "image_id": 733
+    },
+    {
+        "image_path": "./test_input_images/TEST_628.jpg",
+        "text_segment": null,
+        "image_id": 734
+    },
+    {
+        "image_path": "./test_input_images/TEST_638.jpg",
+        "text_segment": null,
+        "image_id": 735
+    },
+    {
+        "image_path": "./test_input_images/TEST_611.jpg",
+        "text_segment": null,
+        "image_id": 736
+    },
+    {
+        "image_path": "./test_input_images/TEST_637.jpg",
+        "text_segment": null,
+        "image_id": 737
+    },
+    {
+        "image_path": "./test_input_images/TEST_281.jpg",
+        "text_segment": null,
+        "image_id": 738
+    },
+    {
+        "image_path": "./test_input_images/TEST_502.jpg",
+        "text_segment": null,
+        "image_id": 739
+    },
+    {
+        "image_path": "./test_input_images/TEST_463.jpg",
+        "text_segment": null,
+        "image_id": 740
+    },
+    {
+        "image_path": "./test_input_images/TEST_662.jpg",
+        "text_segment": null,
+        "image_id": 741
+    },
+    {
+        "image_path": "./test_input_images/TEST_215.jpg",
+        "text_segment": null,
+        "image_id": 742
+    },
+    {
+        "image_path": "./test_input_images/TEST_158.jpg",
+        "text_segment": null,
+        "image_id": 743
+    },
+    {
+        "image_path": "./test_input_images/TEST_019.jpg",
+        "text_segment": null,
+        "image_id": 744
+    },
+    {
+        "image_path": "./test_input_images/TEST_594.jpg",
+        "text_segment": null,
+        "image_id": 745
+    },
+    {
+        "image_path": "./test_input_images/TEST_402.jpg",
+        "text_segment": null,
+        "image_id": 746
+    },
+    {
+        "image_path": "./test_input_images/TEST_621.jpg",
+        "text_segment": null,
+        "image_id": 747
+    },
+    {
+        "image_path": "./test_input_images/TEST_023.jpg",
+        "text_segment": null,
+        "image_id": 748
+    },
+    {
+        "image_path": "./test_input_images/TEST_346.jpg",
+        "text_segment": null,
+        "image_id": 749
+    },
+    {
+        "image_path": "./test_input_images/TEST_079.jpg",
+        "text_segment": null,
+        "image_id": 750
+    },
+    {
+        "image_path": "./test_input_images/TEST_837.jpg",
+        "text_segment": null,
+        "image_id": 751
+    },
+    {
+        "image_path": "./test_input_images/TEST_432.jpg",
+        "text_segment": null,
+        "image_id": 752
+    },
+    {
+        "image_path": "./test_input_images/TEST_676.jpg",
+        "text_segment": null,
+        "image_id": 753
+    },
+    {
+        "image_path": "./test_input_images/TEST_111.jpg",
+        "text_segment": null,
+        "image_id": 754
+    },
+    {
+        "image_path": "./test_input_images/TEST_749.jpg",
+        "text_segment": null,
+        "image_id": 755
+    },
+    {
+        "image_path": "./test_input_images/TEST_625.jpg",
+        "text_segment": null,
+        "image_id": 756
+    },
+    {
+        "image_path": "./test_input_images/TEST_840.jpg",
+        "text_segment": null,
+        "image_id": 757
+    },
+    {
+        "image_path": "./test_input_images/TEST_527.jpg",
+        "text_segment": null,
+        "image_id": 758
+    },
+    {
+        "image_path": "./test_input_images/TEST_405.jpg",
+        "text_segment": null,
+        "image_id": 759
+    },
+    {
+        "image_path": "./test_input_images/TEST_103.jpg",
+        "text_segment": null,
+        "image_id": 760
+    },
+    {
+        "image_path": "./test_input_images/TEST_232.jpg",
+        "text_segment": null,
+        "image_id": 761
+    },
+    {
+        "image_path": "./test_input_images/TEST_324.jpg",
+        "text_segment": null,
+        "image_id": 762
+    },
+    {
+        "image_path": "./test_input_images/TEST_026.jpg",
+        "text_segment": null,
+        "image_id": 763
+    },
+    {
+        "image_path": "./test_input_images/TEST_821.jpg",
+        "text_segment": null,
+        "image_id": 764
+    },
+    {
+        "image_path": "./test_input_images/TEST_754.jpg",
+        "text_segment": null,
+        "image_id": 765
+    },
+    {
+        "image_path": "./test_input_images/TEST_146.jpg",
+        "text_segment": null,
+        "image_id": 766
+    },
+    {
+        "image_path": "./test_input_images/TEST_761.jpg",
+        "text_segment": null,
+        "image_id": 767
+    },
+    {
+        "image_path": "./test_input_images/TEST_273.jpg",
+        "text_segment": null,
+        "image_id": 768
+    },
+    {
+        "image_path": "./test_input_images/TEST_756.jpg",
+        "text_segment": null,
+        "image_id": 769
+    },
+    {
+        "image_path": "./test_input_images/TEST_518.jpg",
+        "text_segment": null,
+        "image_id": 770
+    },
+    {
+        "image_path": "./test_input_images/TEST_376.jpg",
+        "text_segment": null,
+        "image_id": 771
+    },
+    {
+        "image_path": "./test_input_images/TEST_524.jpg",
+        "text_segment": null,
+        "image_id": 772
+    },
+    {
+        "image_path": "./test_input_images/TEST_429.jpg",
+        "text_segment": null,
+        "image_id": 773
+    },
+    {
+        "image_path": "./test_input_images/TEST_454.jpg",
+        "text_segment": null,
+        "image_id": 774
+    },
+    {
+        "image_path": "./test_input_images/TEST_061.jpg",
+        "text_segment": null,
+        "image_id": 775
+    },
+    {
+        "image_path": "./test_input_images/TEST_612.jpg",
+        "text_segment": null,
+        "image_id": 776
+    },
+    {
+        "image_path": "./test_input_images/TEST_421.jpg",
+        "text_segment": null,
+        "image_id": 777
+    },
+    {
+        "image_path": "./test_input_images/TEST_336.jpg",
+        "text_segment": null,
+        "image_id": 778
+    },
+    {
+        "image_path": "./test_input_images/TEST_516.jpg",
+        "text_segment": null,
+        "image_id": 779
+    },
+    {
+        "image_path": "./test_input_images/TEST_515.jpg",
+        "text_segment": null,
+        "image_id": 780
+    },
+    {
+        "image_path": "./test_input_images/TEST_787.jpg",
+        "text_segment": null,
+        "image_id": 781
+    },
+    {
+        "image_path": "./test_input_images/TEST_055.jpg",
+        "text_segment": null,
+        "image_id": 782
+    },
+    {
+        "image_path": "./test_input_images/TEST_116.jpg",
+        "text_segment": null,
+        "image_id": 783
+    },
+    {
+        "image_path": "./test_input_images/TEST_690.jpg",
+        "text_segment": null,
+        "image_id": 784
+    },
+    {
+        "image_path": "./test_input_images/TEST_646.jpg",
+        "text_segment": null,
+        "image_id": 785
+    },
+    {
+        "image_path": "./test_input_images/TEST_082.jpg",
+        "text_segment": null,
+        "image_id": 786
+    },
+    {
+        "image_path": "./test_input_images/TEST_767.jpg",
+        "text_segment": null,
+        "image_id": 787
+    },
+    {
+        "image_path": "./test_input_images/TEST_849.jpg",
+        "text_segment": null,
+        "image_id": 788
+    },
+    {
+        "image_path": "./test_input_images/TEST_150.jpg",
+        "text_segment": null,
+        "image_id": 789
+    },
+    {
+        "image_path": "./test_input_images/TEST_394.jpg",
+        "text_segment": null,
+        "image_id": 790
+    },
+    {
+        "image_path": "./test_input_images/TEST_667.jpg",
+        "text_segment": null,
+        "image_id": 791
+    },
+    {
+        "image_path": "./test_input_images/TEST_225.jpg",
+        "text_segment": null,
+        "image_id": 792
+    },
+    {
+        "image_path": "./test_input_images/TEST_791.jpg",
+        "text_segment": null,
+        "image_id": 793
+    },
+    {
+        "image_path": "./test_input_images/TEST_441.jpg",
+        "text_segment": null,
+        "image_id": 794
+    },
+    {
+        "image_path": "./test_input_images/TEST_435.jpg",
+        "text_segment": null,
+        "image_id": 795
+    },
+    {
+        "image_path": "./test_input_images/TEST_179.jpg",
+        "text_segment": null,
+        "image_id": 796
+    },
+    {
+        "image_path": "./test_input_images/TEST_073.jpg",
+        "text_segment": null,
+        "image_id": 797
+    },
+    {
+        "image_path": "./test_input_images/TEST_513.jpg",
+        "text_segment": null,
+        "image_id": 798
+    },
+    {
+        "image_path": "./test_input_images/TEST_176.jpg",
+        "text_segment": null,
+        "image_id": 799
+    },
+    {
+        "image_path": "./test_input_images/TEST_306.jpg",
+        "text_segment": null,
+        "image_id": 800
+    },
+    {
+        "image_path": "./test_input_images/TEST_482.jpg",
+        "text_segment": null,
+        "image_id": 801
+    },
+    {
+        "image_path": "./test_input_images/TEST_327.jpg",
+        "text_segment": null,
+        "image_id": 802
+    },
+    {
+        "image_path": "./test_input_images/TEST_601.jpg",
+        "text_segment": null,
+        "image_id": 803
+    },
+    {
+        "image_path": "./test_input_images/TEST_081.jpg",
+        "text_segment": null,
+        "image_id": 804
+    },
+    {
+        "image_path": "./test_input_images/TEST_487.jpg",
+        "text_segment": null,
+        "image_id": 805
+    },
+    {
+        "image_path": "./test_input_images/TEST_284.jpg",
+        "text_segment": null,
+        "image_id": 806
+    },
+    {
+        "image_path": "./test_input_images/TEST_650.jpg",
+        "text_segment": null,
+        "image_id": 807
+    },
+    {
+        "image_path": "./test_input_images/TEST_568.jpg",
+        "text_segment": null,
+        "image_id": 808
+    },
+    {
+        "image_path": "./test_input_images/TEST_338.jpg",
+        "text_segment": null,
+        "image_id": 809
+    },
+    {
+        "image_path": "./test_input_images/TEST_505.jpg",
+        "text_segment": null,
+        "image_id": 810
+    },
+    {
+        "image_path": "./test_input_images/TEST_097.jpg",
+        "text_segment": null,
+        "image_id": 811
+    },
+    {
+        "image_path": "./test_input_images/TEST_634.jpg",
+        "text_segment": null,
+        "image_id": 812
+    },
+    {
+        "image_path": "./test_input_images/TEST_100.jpg",
+        "text_segment": null,
+        "image_id": 813
+    },
+    {
+        "image_path": "./test_input_images/TEST_118.jpg",
+        "text_segment": null,
+        "image_id": 814
+    },
+    {
+        "image_path": "./test_input_images/TEST_289.jpg",
+        "text_segment": null,
+        "image_id": 815
+    },
+    {
+        "image_path": "./test_input_images/TEST_619.jpg",
+        "text_segment": null,
+        "image_id": 816
+    },
+    {
+        "image_path": "./test_input_images/TEST_183.jpg",
+        "text_segment": null,
+        "image_id": 817
+    },
+    {
+        "image_path": "./test_input_images/TEST_359.jpg",
+        "text_segment": null,
+        "image_id": 818
+    },
+    {
+        "image_path": "./test_input_images/TEST_548.jpg",
+        "text_segment": null,
+        "image_id": 819
+    },
+    {
+        "image_path": "./test_input_images/TEST_356.jpg",
+        "text_segment": null,
+        "image_id": 820
+    },
+    {
+        "image_path": "./test_input_images/TEST_031.jpg",
+        "text_segment": null,
+        "image_id": 821
+    },
+    {
+        "image_path": "./test_input_images/TEST_395.jpg",
+        "text_segment": null,
+        "image_id": 822
+    },
+    {
+        "image_path": "./test_input_images/TEST_332.jpg",
+        "text_segment": null,
+        "image_id": 823
+    },
+    {
+        "image_path": "./test_input_images/TEST_758.jpg",
+        "text_segment": null,
+        "image_id": 824
+    },
+    {
+        "image_path": "./test_input_images/TEST_172.jpg",
+        "text_segment": null,
+        "image_id": 825
+    },
+    {
+        "image_path": "./test_input_images/TEST_501.jpg",
+        "text_segment": null,
+        "image_id": 826
+    },
+    {
+        "image_path": "./test_input_images/TEST_408.jpg",
+        "text_segment": null,
+        "image_id": 827
+    },
+    {
+        "image_path": "./test_input_images/TEST_353.jpg",
+        "text_segment": null,
+        "image_id": 828
+    },
+    {
+        "image_path": "./test_input_images/TEST_843.jpg",
+        "text_segment": null,
+        "image_id": 829
+    },
+    {
+        "image_path": "./test_input_images/TEST_143.jpg",
+        "text_segment": null,
+        "image_id": 830
+    },
+    {
+        "image_path": "./test_input_images/TEST_661.jpg",
+        "text_segment": null,
+        "image_id": 831
+    },
+    {
+        "image_path": "./test_input_images/TEST_169.jpg",
+        "text_segment": null,
+        "image_id": 832
+    },
+    {
+        "image_path": "./test_input_images/TEST_563.jpg",
+        "text_segment": null,
+        "image_id": 833
+    },
+    {
+        "image_path": "./test_input_images/TEST_834.jpg",
+        "text_segment": null,
+        "image_id": 834
+    },
+    {
+        "image_path": "./test_input_images/TEST_221.jpg",
+        "text_segment": null,
+        "image_id": 835
+    },
+    {
+        "image_path": "./test_input_images/TEST_083.jpg",
+        "text_segment": null,
+        "image_id": 836
+    },
+    {
+        "image_path": "./test_input_images/TEST_762.jpg",
+        "text_segment": null,
+        "image_id": 837
+    },
+    {
+        "image_path": "./test_input_images/TEST_481.jpg",
+        "text_segment": null,
+        "image_id": 838
+    },
+    {
+        "image_path": "./test_input_images/TEST_566.jpg",
+        "text_segment": null,
+        "image_id": 839
+    },
+    {
+        "image_path": "./test_input_images/TEST_546.jpg",
+        "text_segment": null,
+        "image_id": 840
+    },
+    {
+        "image_path": "./test_input_images/TEST_237.jpg",
+        "text_segment": null,
+        "image_id": 841
+    },
+    {
+        "image_path": "./test_input_images/TEST_220.jpg",
+        "text_segment": null,
+        "image_id": 842
+    },
+    {
+        "image_path": "./test_input_images/TEST_323.jpg",
+        "text_segment": null,
+        "image_id": 843
+    },
+    {
+        "image_path": "./test_input_images/TEST_847.jpg",
+        "text_segment": null,
+        "image_id": 844
+    },
+    {
+        "image_path": "./test_input_images/TEST_004.jpg",
+        "text_segment": null,
+        "image_id": 845
+    },
+    {
+        "image_path": "./test_input_images/TEST_444.jpg",
+        "text_segment": null,
+        "image_id": 846
+    },
+    {
+        "image_path": "./test_input_images/TEST_635.jpg",
+        "text_segment": null,
+        "image_id": 847
+    },
+    {
+        "image_path": "./test_input_images/TEST_710.jpg",
+        "text_segment": null,
+        "image_id": 848
+    },
+    {
+        "image_path": "./test_input_images/TEST_112.jpg",
+        "text_segment": null,
+        "image_id": 849
+    },
+    {
+        "image_path": "./test_input_images/TEST_399.jpg",
+        "text_segment": null,
+        "image_id": 850
+    },
+    {
+        "image_path": "./test_input_images/TEST_269.jpg",
+        "text_segment": null,
+        "image_id": 851
+    },
+    {
+        "image_path": "./test_input_images/TEST_078.jpg",
+        "text_segment": null,
+        "image_id": 852
+    },
+    {
+        "image_path": "./test_input_images/TEST_029.jpg",
+        "text_segment": null,
+        "image_id": 853
+    },
+    {
+        "image_path": "./test_input_images/TEST_780.jpg",
+        "text_segment": null,
+        "image_id": 854
+    },
+    {
+        "image_path": "./test_input_images/TEST_631.jpg",
+        "text_segment": null,
+        "image_id": 855
+    },
+    {
+        "image_path": "./test_input_images/TEST_627.jpg",
+        "text_segment": null,
+        "image_id": 856
+    },
+    {
+        "image_path": "./test_input_images/TEST_728.jpg",
+        "text_segment": null,
+        "image_id": 857
+    },
+    {
+        "image_path": "./test_input_images/TEST_168.jpg",
+        "text_segment": null,
+        "image_id": 858
+    },
+    {
+        "image_path": "./test_input_images/TEST_615.jpg",
+        "text_segment": null,
+        "image_id": 859
+    },
+    {
+        "image_path": "./test_input_images/TEST_199.jpg",
+        "text_segment": null,
+        "image_id": 860
+    },
+    {
+        "image_path": "./test_input_images/TEST_733.jpg",
+        "text_segment": null,
+        "image_id": 861
+    },
+    {
+        "image_path": "./test_input_images/TEST_203.jpg",
+        "text_segment": null,
+        "image_id": 862
+    },
+    {
+        "image_path": "./test_input_images/TEST_137.jpg",
+        "text_segment": null,
+        "image_id": 863
+    },
+    {
+        "image_path": "./test_input_images/TEST_211.jpg",
+        "text_segment": null,
+        "image_id": 864
+    },
+    {
+        "image_path": "./test_input_images/TEST_069.jpg",
+        "text_segment": null,
+        "image_id": 865
+    },
+    {
+        "image_path": "./test_input_images/TEST_845.jpg",
+        "text_segment": null,
+        "image_id": 866
+    },
+    {
+        "image_path": "./test_input_images/TEST_706.jpg",
+        "text_segment": null,
+        "image_id": 867
+    },
+    {
+        "image_path": "./test_input_images/TEST_194.jpg",
+        "text_segment": null,
+        "image_id": 868
+    },
+    {
+        "image_path": "./test_input_images/TEST_145.jpg",
+        "text_segment": null,
+        "image_id": 869
+    },
+    {
+        "image_path": "./test_input_images/TEST_152.jpg",
+        "text_segment": null,
+        "image_id": 870
+    },
+    {
+        "image_path": "./test_input_images/TEST_751.jpg",
+        "text_segment": null,
+        "image_id": 871
+    },
+    {
+        "image_path": "./test_input_images/TEST_587.jpg",
+        "text_segment": null,
+        "image_id": 872
+    },
+    {
+        "image_path": "./test_input_images/TEST_054.jpg",
+        "text_segment": null,
+        "image_id": 873
+    },
+    {
+        "image_path": "./test_input_images/TEST_585.jpg",
+        "text_segment": null,
+        "image_id": 874
+    },
+    {
+        "image_path": "./test_input_images/TEST_230.jpg",
+        "text_segment": null,
+        "image_id": 875
+    },
+    {
+        "image_path": "./test_input_images/TEST_047.jpg",
+        "text_segment": null,
+        "image_id": 876
+    },
+    {
+        "image_path": "./test_input_images/TEST_292.jpg",
+        "text_segment": null,
+        "image_id": 877
+    },
+    {
+        "image_path": "./test_input_images/TEST_443.jpg",
+        "text_segment": null,
+        "image_id": 878
+    },
+    {
+        "image_path": "./test_input_images/TEST_293.jpg",
+        "text_segment": null,
+        "image_id": 879
+    },
+    {
+        "image_path": "./test_input_images/TEST_464.jpg",
+        "text_segment": null,
+        "image_id": 880
+    },
+    {
+        "image_path": "./test_input_images/TEST_409.jpg",
+        "text_segment": null,
+        "image_id": 881
+    },
+    {
+        "image_path": "./test_input_images/TEST_347.jpg",
+        "text_segment": null,
+        "image_id": 882
+    },
+    {
+        "image_path": "./test_input_images/TEST_483.jpg",
+        "text_segment": null,
+        "image_id": 883
+    },
+    {
+        "image_path": "./test_input_images/TEST_364.jpg",
+        "text_segment": null,
+        "image_id": 884
+    },
+    {
+        "image_path": "./test_input_images/TEST_688.jpg",
+        "text_segment": null,
+        "image_id": 885
+    },
+    {
+        "image_path": "./test_input_images/TEST_200.jpg",
+        "text_segment": null,
+        "image_id": 886
+    },
+    {
+        "image_path": "./test_input_images/TEST_375.jpg",
+        "text_segment": null,
+        "image_id": 887
+    },
+    {
+        "image_path": "./test_input_images/TEST_718.jpg",
+        "text_segment": null,
+        "image_id": 888
+    },
+    {
+        "image_path": "./test_input_images/TEST_659.jpg",
+        "text_segment": null,
+        "image_id": 889
+    },
+    {
+        "image_path": "./test_input_images/TEST_065.jpg",
+        "text_segment": null,
+        "image_id": 890
+    },
+    {
+        "image_path": "./test_input_images/TEST_799.jpg",
+        "text_segment": null,
+        "image_id": 891
+    },
+    {
+        "image_path": "./test_input_images/TEST_049.jpg",
+        "text_segment": null,
+        "image_id": 892
+    },
+    {
+        "image_path": "./test_input_images/TEST_351.jpg",
+        "text_segment": null,
+        "image_id": 893
+    },
+    {
+        "image_path": "./test_input_images/TEST_288.jpg",
+        "text_segment": null,
+        "image_id": 894
+    },
+    {
+        "image_path": "./test_input_images/TEST_686.jpg",
+        "text_segment": null,
+        "image_id": 895
+    },
+    {
+        "image_path": "./test_input_images/TEST_161.jpg",
+        "text_segment": null,
+        "image_id": 896
+    },
+    {
+        "image_path": "./test_input_images/TEST_693.jpg",
+        "text_segment": null,
+        "image_id": 897
+    },
+    {
+        "image_path": "./test_input_images/TEST_526.jpg",
+        "text_segment": null,
+        "image_id": 898
+    },
+    {
+        "image_path": "./test_input_images/TEST_473.jpg",
+        "text_segment": null,
+        "image_id": 899
+    },
+    {
+        "image_path": "./test_input_images/TEST_128.jpg",
+        "text_segment": null,
+        "image_id": 900
+    },
+    {
+        "image_path": "./test_input_images/TEST_539.jpg",
+        "text_segment": null,
+        "image_id": 901
+    },
+    {
+        "image_path": "./test_input_images/TEST_583.jpg",
+        "text_segment": null,
+        "image_id": 902
+    },
+    {
+        "image_path": "./test_input_images/TEST_694.jpg",
+        "text_segment": null,
+        "image_id": 903
+    },
+    {
+        "image_path": "./test_input_images/TEST_783.jpg",
+        "text_segment": null,
+        "image_id": 904
+    },
+    {
+        "image_path": "./test_input_images/TEST_714.jpg",
+        "text_segment": null,
+        "image_id": 905
+    },
+    {
+        "image_path": "./test_input_images/TEST_010.jpg",
+        "text_segment": null,
+        "image_id": 906
+    },
+    {
+        "image_path": "./test_input_images/TEST_246.jpg",
+        "text_segment": null,
+        "image_id": 907
+    },
+    {
+        "image_path": "./test_input_images/TEST_388.jpg",
+        "text_segment": null,
+        "image_id": 908
+    },
+    {
+        "image_path": "./test_input_images/TEST_763.jpg",
+        "text_segment": null,
+        "image_id": 909
+    },
+    {
+        "image_path": "./test_input_images/TEST_272.jpg",
+        "text_segment": null,
+        "image_id": 910
+    },
+    {
+        "image_path": "./test_input_images/TEST_440.jpg",
+        "text_segment": null,
+        "image_id": 911
+    }
+]

@@ -1,0 +1,23 @@
+torchrun --nproc_per_node=1 run_beit3_finetuning.py \
+    --model beit3_large_patch16_480 \
+    --input_size 480 \
+    --task vqav2 \
+    --nb_classes 2 \
+    --batch_size 4 \
+    --layer_decay 1.0 \
+    --lr 5e-6 \
+    --update_freq 1 \
+    --epochs 30 \
+    --warmup_epochs 1 \
+    --drop_path 0.15 \
+    --sentencepiece_model /data/2_data_server/cv-07/dice/2025_samsung_challenge/beit3_finetuning/beit3/beit3.spm \
+    --finetune /data/2_data_server/cv-07/dice/2025_samsung_challenge/unilm/beit3/beit3_large_indomain_patch16_224.pth \
+    --data_path /data/2_data_server/cv-07/dice/2025_samsung_challenge/beit3_finetuning/beit3/data_vqaformat_yesno \
+    --output_dir /data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3/output_YESNO/ \
+    --log_dir /data/2_data_server/cv-07/dice/2025_samsung_challenge/finetuning/unilm/beit3_yesno/log/ \
+    --weight_decay 0.01 \
+    --seed 42 \
+    --save_ckpt_freq 5 \
+    --task_head_lr_weight 20 \
+    --opt_betas 0.9 0.98 \
+    --clip_grad 1.0

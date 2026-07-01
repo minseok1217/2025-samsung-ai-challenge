@@ -1,0 +1,17 @@
+python train.py \
+  --user-dir ./ofa_module
+  --task vqa_gen \
+  --arch ofa_huge \
+  --restore-file checkpoints/ofa_huge.pt \
+  --train-data train.tsv \
+  --valid-data val.tsv \
+  --bpe-dir utils/BPE \
+  --image-dir /data/2_data_server/cv-07/dice/2025_samsung_challenge/dataset/VQA_v2/images/train2014 \
+  --max-src-length 80 --max-tgt-length 20 \
+  --batch-size 4 --update-freq 8 \
+  --save-dir checkpoints/ofa_huge_vqa_finetuned \
+  --lr 1e-4 --warmup-updates 500 --total-num-update 20000 \
+  --criterion label_smoothed_cross_entropy \
+  --dropout 0.1 --attention-dropout 0.1 \
+  --log-format simple --log-interval 10 \
+  --seed 42 --fp16
